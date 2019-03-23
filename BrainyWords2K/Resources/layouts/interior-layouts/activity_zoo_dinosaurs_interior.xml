@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_house_interior"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.gisela.worldworld.Interior"
+    android:weightSum="1">
+
+    <RelativeLayout android:layout_height="300dp"
+        android:layout_width="80dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:background="@drawable/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/interiors"
+            android:layout_alignLeft="@+id/interiors"
+            android:layout_alignStart="@+id/interiors"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/home"
+            android:layout_width="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/back"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+        <Button
+            android:id="@+id/fact"
+            android:onClick="playSound"
+            android:tag="Animals/zoo/zoo_interiors/07_dinosaur.mp3"
+            android:background="@drawable/fact"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/back"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="300dp"
+        android:layout_width="350dp">
+
+    <ImageView
+        android:background="@drawable/dinosaur"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="300dp"
+        android:layout_width="350dp" />
+
+        <Button
+            android:id="@+id/triceratops"
+            android:layout_width="100dp"
+            android:layout_height="112dp"
+            android:layout_alignTop="@+id/pterodactyl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:background="@null"
+            android:onClick="playSound"
+            android:tag="Animals/zoo/voices/triceratops.mp3" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/trex.mp3"
+            android:id="@+id/trex"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="12dp"
+            android:layout_alignTop="@+id/triceratops"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="200dp"
+            android:layout_width="90dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/pterodactyl.mp3"
+            android:id="@+id/pterodactyl"
+            android:layout_marginTop="22dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/stegosaurus"
+            android:layout_alignEnd="@+id/stegosaurus" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/stegasaurus.mp3"
+            android:id="@+id/stegosaurus"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/triceratop_1.mp3"
+            android:id="@+id/triceratops_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/pterodactyl"
+            android:layout_toRightOf="@+id/trex"
+            android:layout_toEndOf="@+id/trex"
+            android:layout_marginTop="25dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/triceratop_2.mp3"
+            android:id="@+id/triceratops_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignTop="@+id/triceratops_1"
+            android:layout_toRightOf="@+id/triceratops_1"
+            android:layout_toEndOf="@+id/triceratops_1" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/triceratop_3.mp3"
+            android:id="@+id/triceratops_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_alignTop="@+id/triceratops_2"
+            android:layout_toRightOf="@+id/triceratops_2"
+            android:layout_toEndOf="@+id/triceratops_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/trex_1.mp3"
+            android:id="@+id/trex_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/pterodactyl"
+            android:layout_alignBottom="@+id/pterodactyl"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/trex_2.mp3"
+            android:id="@+id/trex_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="11dp"
+            android:layout_alignTop="@+id/trex_1"
+            android:layout_toRightOf="@+id/trex_1"
+            android:layout_toEndOf="@+id/trex_1"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/trex_3.mp3"
+            android:id="@+id/trex_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBaseline="@+id/pterodactyl"
+            android:layout_alignBottom="@+id/pterodactyl"
+            android:layout_toRightOf="@+id/trex_2"
+            android:layout_toEndOf="@+id/trex_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/pterodactyl_1.mp3"
+            android:id="@+id/pterodactyl_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/pterodactyl"
+            android:layout_toRightOf="@+id/triceratops"
+            android:layout_toEndOf="@+id/triceratops" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/pterodactyl_2.mp3"
+            android:id="@+id/pterodactyl_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/pterodactyl"
+            android:layout_toRightOf="@+id/pterodactyl_1"
+            android:layout_toEndOf="@+id/pterodactyl_1" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/pterodactyl_3.mp3"
+            android:id="@+id/pterodactyl_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/pterodactyl"
+            android:layout_toRightOf="@+id/pterodactyl_2"
+            android:layout_toEndOf="@+id/pterodactyl_2"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/stegasaurus_1.mp3"
+            android:id="@+id/stegosaurus_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/triceratops"
+            android:layout_toRightOf="@+id/triceratops"
+            android:layout_toEndOf="@+id/triceratops" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/stegasaurus_2.mp3"
+            android:id="@+id/stegosaurus_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/stegosaurus"
+            android:layout_alignLeft="@+id/pterodactyl_2"
+            android:layout_alignStart="@+id/pterodactyl_2"
+            android:layout_marginBottom="22dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/stegosaurus_3.mp3"
+            android:id="@+id/stegosaurus_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/stegosaurus"
+            android:layout_alignLeft="@+id/pterodactyl_3"
+            android:layout_alignStart="@+id/pterodactyl_3"
+            android:layout_marginBottom="23dp" />
+
+    </RelativeLayout>
+
+    </LinearLayout>

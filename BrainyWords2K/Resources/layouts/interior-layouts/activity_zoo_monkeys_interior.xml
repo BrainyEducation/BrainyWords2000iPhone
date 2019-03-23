@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_house_interior"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.gisela.worldworld.Interior"
+    android:weightSum="1">
+
+    <RelativeLayout android:layout_height="300dp"
+        android:layout_width="80dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:background="@drawable/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/interiors"
+            android:layout_alignLeft="@+id/interiors"
+            android:layout_alignStart="@+id/interiors"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/home"
+            android:layout_width="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/back"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+        <Button
+            android:id="@+id/fact"
+            android:onClick="playSound"
+            android:tag="Animals/zoo/zoo_interiors/06monkeys.mp3"
+            android:background="@drawable/fact"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/back"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="300dp"
+        android:layout_width="350dp">
+
+    <ImageView
+        android:background="@drawable/monkeys"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="300dp"
+        android:layout_width="350dp" />
+
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/chimp.mp3"
+            android:id="@+id/chimp"
+            android:layout_width="90dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_below="@+id/baboon"
+            android:layout_alignLeft="@+id/baboon"
+            android:layout_alignStart="@+id/baboon" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/monkey.mp3"
+            android:id="@+id/monkey"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@+id/chimp"
+            android:layout_toRightOf="@+id/chimp"
+            android:layout_toEndOf="@+id/chimp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/baboon.mp3"
+            android:id="@+id/baboon"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/gorilla.mp3"
+            android:id="@+id/gorilla"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_width="100dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/chimp_1.mp3"
+            android:id="@+id/chimp_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/monkey"
+            android:layout_alignBottom="@+id/monkey"
+            android:layout_alignLeft="@+id/baboon"
+            android:layout_alignStart="@+id/baboon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/chimp_2.mp3"
+            android:id="@+id/chimp_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/chimp_1"
+            android:layout_alignLeft="@+id/chimp_1"
+            android:layout_alignStart="@+id/chimp_1"
+            android:layout_marginTop="19dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/chimp_3.mp3"
+            android:id="@+id/chimp_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/chimp_2"
+            android:layout_alignLeft="@+id/chimp_2"
+            android:layout_alignStart="@+id/chimp_2"
+            android:layout_marginTop="19dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/monkey_1.mp3"
+            android:id="@+id/monkey_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_alignBaseline="@+id/monkey"
+            android:layout_alignBottom="@+id/monkey"
+            android:layout_toRightOf="@+id/monkey"
+            android:layout_toEndOf="@+id/monkey" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/monkey_2.mp3"
+            android:id="@+id/monkey_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/chimp_2"
+            android:layout_alignBottom="@+id/chimp_2"
+            android:layout_alignLeft="@+id/monkey_1"
+            android:layout_alignStart="@+id/monkey_1" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/monkey_3.mp3"
+            android:id="@+id/monkey_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/chimp_2"
+            android:layout_alignLeft="@+id/monkey_2"
+            android:layout_alignStart="@+id/monkey_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/baboon_1.mp3"
+            android:id="@+id/baboon_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/chimp_2"
+            android:layout_toStartOf="@+id/chimp_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/baboon_2.mp3"
+            android:id="@+id/baboon_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/gorilla"
+            android:layout_alignBottom="@+id/gorilla"
+            android:layout_alignLeft="@+id/baboon_1"
+            android:layout_alignStart="@+id/baboon_1" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/baboon_3.mp3"
+            android:id="@+id/baboon_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/baboon"
+            android:layout_alignLeft="@+id/baboon_2"
+            android:layout_alignStart="@+id/baboon_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/gorilla_1.mp3"
+            android:id="@+id/gorilla_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/baboon_2"
+            android:layout_alignLeft="@+id/monkey"
+            android:layout_alignStart="@+id/monkey" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/gorilla_2.mp3"
+            android:id="@+id/gorilla_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/baboon_3"
+            android:layout_alignLeft="@+id/gorilla_1"
+            android:layout_alignStart="@+id/gorilla_1" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/gorilla_3.mp3"
+            android:id="@+id/gorilla_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/gorilla"
+            android:layout_alignLeft="@+id/monkey"
+            android:layout_alignStart="@+id/monkey"
+            android:layout_marginBottom="5dp" />
+
+    </RelativeLayout>
+
+    </LinearLayout>

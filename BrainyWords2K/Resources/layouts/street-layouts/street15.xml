@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:background="@drawable/building14a"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/invisible/16_no_invisible_ghost_is_lurking_nearby.mp3"
+        android:background="@null"
+        android:id="@+id/butterfly16"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="434dp"
+        android:layout_marginStart="434dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/zoo/facts/sounds/panda_1.mp3"
+        android:background="@null"
+        android:id="@+id/panda"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="33dp"
+        android:layout_above="@+id/butterfly16"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/livingroom/sounds/11bench.mp3"
+        android:background="@null"
+        android:id="@+id/benchg"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/panda"
+        android:layout_toRightOf="@+id/panda"
+        android:layout_toEndOf="@+id/panda" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Mall/toys/riding/sounds/04unicycle.mp3"
+        android:background="@null"
+        android:id="@+id/unicycle"
+        android:layout_height="30dp"
+        android:layout_below="@+id/benchg"
+        android:layout_toRightOf="@+id/panda"
+        android:layout_toEndOf="@+id/panda"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_width="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Mall/toys/riding/sounds/03bicycle.mp3"
+        android:background="@null"
+        android:id="@+id/bicycle"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/benchg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/you_should_never_ride_a_bike_without_a_safety_helmet.mp3"
+        android:background="@null"
+        android:id="@+id/skater"
+        android:layout_below="@+id/benchg"
+        android:layout_toRightOf="@+id/bicycle"
+        android:layout_toEndOf="@+id/bicycle"
+        android:layout_width="30dp"
+        android:layout_height="70dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/fun/sounds/05motorcycle.mp3"
+        android:background="@null"
+        android:id="@+id/motocycle"
+        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_alignTop="@+id/bicycle"
+        android:layout_alignLeft="@+id/unicycle"
+        android:layout_alignStart="@+id/unicycle"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Mall/toys/riding/sounds/02tricycle.mp3"
+        android:background="@null"
+        android:id="@+id/tricycle"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/motocycle"
+        android:layout_alignBottom="@+id/motocycle"
+        android:layout_toRightOf="@+id/motocycle"
+        android:layout_toEndOf="@+id/motocycle"
+        android:layout_width="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/who_needs_a_nap.mp3"
+        android:background="@null"
+        android:id="@+id/puppy"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_alignTop="@+id/motocycle"
+        android:layout_toRightOf="@+id/tricycle"
+        android:layout_toEndOf="@+id/tricycle" />
+
+    <Button
+        android:id="@+id/shadow"
+        android:layout_width="36dp"
+        android:layout_height="137dp"
+        android:layout_alignTop="@+id/motocycle"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="63dp"
+        android:layout_toEndOf="@+id/tricycle"
+        android:layout_toRightOf="@+id/tricycle"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/shadow.mp3" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/pedestrian.mp3"
+        android:background="@null"
+        android:id="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/benchg"
+        android:layout_alignLeft="@+id/puppy"
+        android:layout_alignStart="@+id/puppy"
+        android:layout_width="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/pedestrian.mp3"
+        android:background="@null"
+        android:id="@+id/pedestrians1"
+        android:layout_height="60dp"
+        android:layout_width="30dp"
+        android:layout_alignLeft="@+id/puppy"
+        android:layout_alignStart="@+id/puppy"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/a_pedestrian_is_someone_who_walks.mp3"
+        android:background="@null"
+        android:id="@+id/pedestrians3"
+        android:layout_height="60dp"
+        android:layout_width="30dp"
+        android:layout_alignTop="@+id/panda"
+        android:layout_toLeftOf="@+id/pedestrians2"
+        android:layout_toStartOf="@+id/pedestrians2" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/stairway_to_boardwalk.mp3"
+        android:background="@null"
+        android:id="@+id/stairway"
+        android:layout_width="50dp"
+        android:layout_above="@+id/tricycle"
+        android:layout_toRightOf="@+id/pedestrians2"
+        android:layout_toEndOf="@+id/pedestrians2"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/fun/sounds/05motorcycle.mp3"
+        android:background="@null"
+        android:id="@+id/motorcycle"
+        android:layout_marginBottom="15dp"
+        android:layout_width="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/motocycle"
+        android:layout_alignEnd="@+id/motocycle"
+        android:layout_height="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/he_loves_to_smell_the_wonderful_salt_sea_air.mp3"
+        android:background="@null"
+        android:id="@+id/pedestrians6"
+        android:layout_width="40dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/pedestrians1"
+        android:layout_toRightOf="@+id/pedestrians4"
+        android:layout_toEndOf="@+id/pedestrians4" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/23_does_he_know_where_hes_walking.mp3"
+        android:background="@null"
+        android:id="@+id/pedestrians5"
+        android:layout_width="40dp"
+        android:layout_below="@+id/motocycle"
+        android:layout_toLeftOf="@+id/pedestrians6"
+        android:layout_toStartOf="@+id/pedestrians6"
+        android:layout_height="120dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/boardwalk.mp3"
+        android:background="@null"
+        android:id="@+id/boardwalk1"
+        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/pedestrians6"
+        android:layout_toRightOf="@+id/pedestrians5"
+        android:layout_toEndOf="@+id/pedestrians5" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/ocean_sign.mp3"
+        android:background="@null"
+        android:id="@+id/ocean_sign"
+        android:layout_toRightOf="@+id/pedestrians6"
+        android:layout_toEndOf="@+id/pedestrians6"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/27_are_you_going_to_eat_that_fish.mp3"
+        android:background="@null"
+        android:id="@+id/dolphin1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/butterfly16"
+        android:layout_toRightOf="@+id/butterfly16"
+        android:layout_toEndOf="@+id/butterfly16" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/ocean/sounds/10flying_fish.mp3"
+        android:background="@null"
+        android:id="@+id/flyingfish"
+        android:layout_alignBaseline="@+id/dolphin1"
+        android:layout_alignBottom="@+id/dolphin1"
+        android:layout_toRightOf="@+id/dolphin1"
+        android:layout_toEndOf="@+id/dolphin1"
+        android:layout_width="50dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/27_the_orca_whale_jumps_up.mp3"
+        android:background="@null"
+        android:id="@+id/orca"
+        android:layout_alignTop="@+id/pedestrians5"
+        android:layout_toRightOf="@+id/flyingfish"
+        android:layout_toEndOf="@+id/flyingfish"
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/01volcano_.mp3"
+        android:background="@null"
+        android:id="@+id/volcano"
+        android:layout_alignTop="@+id/ocean_sign"
+        android:layout_toRightOf="@+id/flyingfish"
+        android:layout_toEndOf="@+id/flyingfish"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_height="150dp"
+        android:layout_width="120dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/08_it_spreads_its_wings_so_it_can_fly.mp3"
+        android:background="@null"
+        android:id="@+id/eagle"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_alignTop="@+id/pedestrians1"
+        android:layout_toRightOf="@+id/volcano"
+        android:layout_toEndOf="@+id/volcano" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/02polar_bear.mp3"
+        android:background="@null"
+        android:id="@+id/polar_bearg"
+        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_below="@+id/boardwalk"
+        android:layout_toRightOf="@+id/volcano"
+        android:layout_toEndOf="@+id/volcano"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/03grizzly_bear.mp3"
+        android:background="@null"
+        android:id="@+id/grizzly_bear"
+        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_alignBottom="@+id/ocean_sign"
+        android:layout_alignRight="@+id/eagle"
+        android:layout_alignEnd="@+id/eagle"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/05elk_.mp3"
+        android:background="@null"
+        android:id="@+id/elk"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/boardwalk1"
+        android:layout_alignRight="@+id/polar_bearg"
+        android:layout_alignEnd="@+id/polar_bearg" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/pedestrian.mp3"
+        android:background="@null"
+        android:id="@+id/pedestrians2"
+        android:layout_height="60dp"
+        android:layout_width="30dp"
+        android:layout_alignBaseline="@+id/panda"
+        android:layout_alignBottom="@+id/panda"
+        android:layout_toLeftOf="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_toStartOf="@+id/a_pedestrian_is_someone_who_walks.mp3" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/boardwalk.mp3"
+        android:background="@null"
+        android:id="@+id/boardwalk"
+        android:layout_height="60dp"
+        android:layout_width="40dp"
+        android:layout_alignBaseline="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_alignBottom="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_toRightOf="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_toEndOf="@+id/a_pedestrian_is_someone_who_walks.mp3" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/he_loves_to_hear_the_ocean_waves.mp3"
+        android:background="@null"
+        android:id="@+id/pedestrians4"
+        android:layout_width="40dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_height="110dp"
+        android:layout_alignBaseline="@+id/unicycle"
+        android:layout_alignBottom="@+id/unicycle"
+        android:layout_toRightOf="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_toEndOf="@+id/a_pedestrian_is_someone_who_walks.mp3" />
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Outdoors/ocean"
+        android:background="@null"
+        android:id="@+id/sign27"
+        android:layout_alignBaseline="@+id/boardwalk1"
+        android:layout_alignBottom="@+id/boardwalk1"
+        android:layout_toRightOf="@+id/dolphin1"
+        android:layout_toEndOf="@+id/dolphin1"
+        android:layout_height="50dp"
+        android:layout_width="50dp" />
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Animals/wild"
+        android:background="@null"
+        android:id="@+id/sign28"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_alignBaseline="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_alignBottom="@+id/a_pedestrian_is_someone_who_walks.mp3"
+        android:layout_alignRight="@+id/polar_bearg"
+        android:layout_alignEnd="@+id/polar_bearg" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/waves.mp3"
+        android:background="@null"
+        android:id="@+id/waves"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_width="80dp"
+        android:layout_alignBaseline="@+id/unicycle"
+        android:layout_alignBottom="@+id/unicycle"
+        android:layout_alignLeft="@+id/dolphin1"
+        android:layout_alignStart="@+id/dolphin1"
+        android:layout_height="70dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/ocean.mp3"
+        android:background="@null"
+        android:id="@+id/ocean"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/flyingfish"
+        android:layout_toLeftOf="@+id/sign27"
+        android:layout_toStartOf="@+id/sign27" />
+
+    <Button
+        android:id="@+id/tree2"
+        android:layout_width="60dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/grizzly_bear"
+        android:layout_alignStart="@+id/grizzly_bear"
+        android:layout_below="@+id/stairway"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/plants/sounds/07tree.mp3" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/27rhinoceros_.mp3"
+        android:background="@null"
+        android:id="@+id/rhino1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/unicycle"
+        android:layout_toRightOf="@+id/grizzly_bear"
+        android:layout_toEndOf="@+id/grizzly_bear" />
+
+
+</RelativeLayout>

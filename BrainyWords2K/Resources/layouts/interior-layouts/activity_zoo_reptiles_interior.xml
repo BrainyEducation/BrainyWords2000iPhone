@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_house_interior"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.gisela.worldworld.Interior"
+    android:weightSum="1">
+
+    <RelativeLayout android:layout_height="300dp"
+        android:layout_width="80dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:background="@drawable/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/interiors"
+            android:layout_alignLeft="@+id/interiors"
+            android:layout_alignStart="@+id/interiors"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/home"
+            android:layout_width="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/back"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+        <Button
+            android:id="@+id/fact"
+            android:onClick="playSound"
+            android:tag="Animals/zoo/zoo_interiors/05_reptiles.mp3"
+            android:background="@drawable/fact"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/back"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_height="300dp"
+        android:layout_width="350dp">
+
+    <ImageView
+        android:background="@drawable/reptiles"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="300dp"
+        android:layout_width="350dp" />
+
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/rattlesnake.mp3"
+            android:id="@+id/rattlesnake"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/turtle"
+            android:layout_alignEnd="@+id/turtle"
+            android:layout_marginRight="13dp"
+            android:layout_marginEnd="140dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/iguana.mp3"
+            android:id="@+id/iguana"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/turtle"
+            android:layout_alignEnd="@+id/turtle"
+            android:layout_marginEnd="-10dp"
+            android:layout_height="170dp"
+            android:layout_width="150dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/turtle.mp3"
+            android:id="@+id/turtle"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_above="@+id/iguana"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="@null"
+            android:tag="Animals/zoo/voices/alligator.mp3"
+            android:id="@+id/alligator"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/rattlesnake"
+            android:layout_alignStart="@+id/rattlesnake" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/rattlesnake_1.mp3"
+            android:id="@+id/rattlesnake_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/alligator"
+            android:layout_alignLeft="@+id/rattlesnake"
+            android:layout_alignStart="@+id/rattlesnake"
+            android:layout_marginTop="17dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/rattlesnake_2.mp3"
+            android:id="@+id/rattlesnake_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@+id/rattlesnake"
+            android:layout_toRightOf="@+id/rattlesnake_1"
+            android:layout_toEndOf="@+id/rattlesnake_1"
+            android:layout_marginTop="-13dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/rattlesnake_3.mp3"
+            android:id="@+id/rattlesnake_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_alignTop="@+id/rattlesnake"
+            android:layout_toRightOf="@+id/rattlesnake_2"
+            android:layout_toEndOf="@+id/rattlesnake_2"
+            android:layout_marginTop="-12dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/iguana_2.mp3"
+            android:id="@+id/iguana_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_alignBaseline="@+id/rattlesnake_1"
+            android:layout_alignBottom="@+id/rattlesnake_1"
+            android:layout_alignLeft="@+id/turtle"
+            android:layout_alignStart="@+id/turtle" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/iguana_3.mp3"
+            android:id="@+id/iguana_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/rattlesnake_1"
+            android:layout_alignBottom="@+id/rattlesnake_1"
+            android:layout_toLeftOf="@+id/iguana"
+            android:layout_toStartOf="@+id/iguana" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/iguana_1.mp3"
+            android:id="@+id/iguana_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_alignBaseline="@+id/rattlesnake_1"
+            android:layout_alignBottom="@+id/rattlesnake_1"
+            android:layout_toRightOf="@+id/iguana_2"
+            android:layout_toEndOf="@+id/iguana_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/turtle_1.mp3"
+            android:id="@+id/turtle_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/iguana"
+            android:layout_toRightOf="@+id/iguana_1"
+            android:layout_toEndOf="@+id/iguana_1" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/turtle_2.mp3"
+            android:id="@+id/turtle_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/iguana"
+            android:layout_toRightOf="@+id/iguana_2"
+            android:layout_toEndOf="@+id/iguana_2" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/turtle_3.mp3"
+            android:id="@+id/turtle_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/iguana"
+            android:layout_alignLeft="@+id/iguana"
+            android:layout_alignStart="@+id/iguana" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#f7fdc3"
+            android:text="1"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/alligator_1.mp3"
+            android:id="@+id/alligator_1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/turtle"
+            android:layout_toRightOf="@+id/rattlesnake_2"
+            android:layout_toEndOf="@+id/rattlesnake_2"
+            android:layout_marginTop="-10dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#d1f1fd"
+            android:text="2"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/alligator_2.mp3"
+            android:id="@+id/alligator_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/turtle"
+            android:layout_toRightOf="@+id/rattlesnake_3"
+            android:layout_toEndOf="@+id/rattlesnake_3"
+            android:layout_marginTop="-10dp" />
+
+        <Button
+            android:onClick="playSound"
+            android:background="#ffda81"
+            android:text="3"
+            android:textColor="#000"
+            android:tag="Animals/zoo/facts/sounds/alligator_3.mp3"
+            android:id="@+id/alligator_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/alligator_2"
+            android:layout_toRightOf="@+id/alligator_2"
+            android:layout_toEndOf="@+id/alligator_2"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="-26dp" />
+
+    </RelativeLayout>
+
+    </LinearLayout>

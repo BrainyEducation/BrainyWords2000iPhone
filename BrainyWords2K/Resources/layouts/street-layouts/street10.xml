@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:background="@drawable/building9"
+    android:layout_width="300dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:onClick="openInterior"
+        android:tag="zoo"
+        android:background="@null"
+        android:id="@+id/zoo"
+        android:layout_width="110dp"
+        android:layout_marginTop="21dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/palm_tree.mp3"
+        android:background="@null"
+        android:id="@+id/palm_treef"
+        android:layout_width="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/zoo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/palm_tree.mp3"
+        android:background="@null"
+        android:id="@+id/palm_tree1f"
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/zoo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/invisible/11_can_you_smell_an_invisible_dirty_diaper_or_is_the_smell_insmellable_too.mp3"
+        android:background="@null"
+        android:id="@+id/butterfly11"
+        android:layout_width="20dp"
+        android:layout_alignBaseline="@+id/zoo"
+        android:layout_alignBottom="@+id/zoo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="50dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/invisible/12_is_there_an_invisible_monkey_around_here.mp3"
+        android:background="@null"
+        android:id="@+id/butterfly12"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/zoo"
+        android:layout_alignBottom="@+id/zoo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/29elephant.mp3"
+        android:background="@null"
+        android:id="@+id/elephant"
+        android:layout_width="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/palm_treef"
+        android:layout_toEndOf="@+id/palm_treef"
+        android:layout_height="70dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/29elephant.mp3"
+        android:background="@null"
+        android:id="@+id/elephant1"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/palm_tree1f"
+        android:layout_toStartOf="@+id/palm_tree1f" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/elephants_trunk_nose.mp3"
+        android:background="@null"
+        android:id="@+id/elephant_nose"
+        android:layout_width="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/elephant"
+        android:layout_toEndOf="@+id/elephant"
+        android:layout_height="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/elephants_trunk_nose.mp3"
+        android:background="@null"
+        android:id="@+id/elephant1_nose"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/elephant1"
+        android:layout_toStartOf="@+id/elephant1" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/15policeman_folding_a_balloon_dog.mp3"
+        android:background="@null"
+        android:id="@+id/policeman_balloon"
+        android:layout_width="30dp"
+        android:layout_below="@+id/elephant1"
+        android:layout_toRightOf="@+id/boy_sombrero"
+        android:layout_toEndOf="@+id/boy_sombrero"
+        android:layout_height="90dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/passenger/sounds/01sedan_car.mp3"
+        android:background="@null"
+        android:id="@+id/sedan_car"
+        android:layout_height="50dp"
+        android:layout_width="160dp"
+        android:layout_below="@+id/toddler"
+        android:layout_alignRight="@+id/twins"
+        android:layout_alignEnd="@+id/twins" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/fun/sounds/03dune_buggy.mp3"
+        android:background="@null"
+        android:id="@+id/dune_buggy"
+        android:layout_marginBottom="19dp"
+        android:layout_width="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/butterfly12"
+        android:layout_toEndOf="@+id/butterfly12"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/26_people_use_a_suitcase_when_they_go_away.mp3"
+        android:background="@null"
+        android:id="@+id/suite_case"
+        android:layout_height="30dp"
+        android:layout_width="50dp"
+        android:layout_above="@+id/dune_buggy"
+        android:layout_alignLeft="@+id/dune_buggy"
+        android:layout_alignStart="@+id/dune_buggy" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/fun/sounds/02golfcart.mp3"
+        android:background="@null"
+        android:id="@+id/golf_cart"
+        android:layout_alignBottom="@+id/dune_buggy"
+        android:layout_alignRight="@+id/policeman_balloon"
+        android:layout_alignEnd="@+id/policeman_balloon"
+        android:layout_height="100dp"
+        android:layout_width="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/18_the_boxer_dog_is_big.mp3"
+        android:background="@null"
+        android:id="@+id/boxer"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/suite_case"
+        android:layout_alignBottom="@+id/suite_case"
+        android:layout_toRightOf="@+id/sedan_car"
+        android:layout_toEndOf="@+id/sedan_car" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/05boy_wearing_a_sombrero.mp3"
+        android:background="@null"
+        android:id="@+id/boy_sombrero"
+        android:layout_width="30dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/zoo"
+        android:layout_toRightOf="@+id/zoo"
+        android:layout_toEndOf="@+id/zoo" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/darling_twins.mp3"
+        android:background="@null"
+        android:id="@+id/twins"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/policeman_balloon"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/the_toddler_will_share_his_bottle.mp3"
+        android:background="@null"
+        android:id="@+id/toddler"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:layout_alignBottom="@+id/boy_sombrero"
+        android:layout_alignLeft="@+id/sedan_car"
+        android:layout_alignStart="@+id/sedan_car" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="People/job/performers/sounds/11sumo_wrestler_.mp3"
+        android:background="@null"
+        android:id="@+id/sumo"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/elephant"
+        android:layout_toRightOf="@+id/palm_treef"
+        android:layout_toEndOf="@+id/palm_treef" />
+
+
+</RelativeLayout>

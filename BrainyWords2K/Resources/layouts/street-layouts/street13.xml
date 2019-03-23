@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:background="@drawable/building12"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Clothing/shoes"
+        android:background="@null"
+        android:id="@+id/store_shoes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="19dp"
+        android:layout_height="80dp"
+        android:layout_width="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/hes_my_best_friend.mp3"
+        android:background="@null"
+        android:id="@+id/zebra1"
+        android:layout_alignBaseline="@+id/store_shoes"
+        android:layout_alignBottom="@+id/store_shoes"
+        android:layout_alignRight="@+id/store_shoes"
+        android:layout_alignEnd="@+id/store_shoes"
+        android:layout_marginEnd="60dp"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/he_wonders_if_he_asks_politely.mp3"
+        android:background="@null"
+        android:id="@+id/walking_man"
+        android:layout_marginTop="37dp"
+        android:layout_height="70dp"
+        android:layout_width="50dp"
+        android:layout_alignTop="@+id/zebra1"
+        android:layout_alignLeft="@+id/zebra1"
+        android:layout_alignStart="@+id/zebra1" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/passenger/sounds/06VW_bug.mp3"
+        android:background="@null"
+        android:id="@+id/vw_bug"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/store_shoes"
+        android:layout_alignLeft="@+id/store_shoes"
+        android:layout_alignStart="@+id/store_shoes" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/23_does_he_know_where_hes_walking.mp3"
+        android:background="@null"
+        android:id="@+id/camel"
+        android:layout_below="@+id/vw_bug"
+        android:layout_alignRight="@+id/store_shoes"
+        android:layout_alignEnd="@+id/store_shoes"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_height="120dp"
+        android:layout_width="100dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Clothing/shoes/sounds/15ballet_slippers.mp3"
+        android:background="@null"
+        android:id="@+id/ballet_slippers1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/zebra1"
+        android:layout_alignRight="@+id/vw_bug"
+        android:layout_alignEnd="@+id/vw_bug" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Clothing/shoes/sounds/09moccasins.mp3"
+        android:background="@null"
+        android:id="@+id/moccasins"
+        android:layout_width="40dp"
+        android:layout_above="@+id/ballet_slippers1"
+        android:layout_alignLeft="@+id/ballet_slippers1"
+        android:layout_alignStart="@+id/ballet_slippers1"
+        android:layout_height="45dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Clothing/shoes/sounds/13high_heels.mp3"
+        android:background="@null"
+        android:id="@+id/high_heels"
+        android:layout_width="40dp"
+        android:layout_alignTop="@+id/store_shoes"
+        android:layout_toRightOf="@+id/ballet_slippers1"
+        android:layout_toEndOf="@+id/ballet_slippers1"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/03_these_slippers_are_not_real_bunnies.mp3"
+        android:background="@null"
+        android:id="@+id/slippers"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/high_heels"
+        android:layout_alignBottom="@+id/high_heels"
+        android:layout_toRightOf="@+id/high_heels"
+        android:layout_toEndOf="@+id/high_heels" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Clothing/shoes/sounds/06hiking_shoes_.mp3"
+        android:background="@null"
+        android:id="@+id/hiking_shoes"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/slippers"
+        android:layout_alignBottom="@+id/slippers"
+        android:layout_toRightOf="@+id/slippers"
+        android:layout_toEndOf="@+id/slippers" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Clothing/shoes/sounds/03boots.mp3"
+        android:background="@null"
+        android:id="@+id/boots"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/ballet_slippers1"
+        android:layout_alignBottom="@+id/ballet_slippers1"
+        android:layout_toRightOf="@+id/slippers"
+        android:layout_toEndOf="@+id/slippers" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/01.5_jack_in_the_box_says_look_at_me.mp3"
+        android:background="@null"
+        android:id="@+id/jack"
+        android:layout_height="30dp"
+        android:layout_below="@+id/hiking_shoes"
+        android:layout_toRightOf="@+id/vw_bug"
+        android:layout_toEndOf="@+id/vw_bug"
+        android:layout_width="50dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="People/people/specialkids/sounds/03built_a_birdhouse_.mp3"
+        android:background="@null"
+        android:id="@+id/girl_birdhouse"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="30dp"
+        android:layout_alignTop="@+id/walking_man"
+        android:layout_alignRight="@+id/high_heels"
+        android:layout_alignEnd="@+id/high_heels" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/08girl_carrying_a_canary_in_a_cage.mp3"
+        android:background="@null"
+        android:id="@+id/girl_canary"
+        android:layout_height="60dp"
+        android:layout_width="30dp"
+        android:layout_below="@+id/jack"
+        android:layout_alignRight="@+id/jack"
+        android:layout_alignEnd="@+id/jack" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/working/sounds/14van.mp3"
+        android:background="@null"
+        android:id="@+id/van"
+        android:layout_marginBottom="13dp"
+        android:layout_width="270dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ballet_slippers1"
+        android:layout_toEndOf="@+id/ballet_slippers1"
+        android:layout_height="180dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/24_i_am_hungry_lion_thinks.mp3"
+        android:background="@null"
+        android:id="@+id/lion"
+        android:layout_width="80dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignTop="@+id/van"
+        android:layout_toRightOf="@+id/boots"
+        android:layout_toEndOf="@+id/boots"
+        android:layout_height="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/housewares/sounds/03clock.mp3"
+        android:background="@null"
+        android:id="@+id/clock"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/boots"
+        android:layout_alignLeft="@+id/lion"
+        android:layout_alignStart="@+id/lion"
+        android:layout_width="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/housewares/sounds/05fan.mp3"
+        android:background="@null"
+        android:id="@+id/fan"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/clock"
+        android:layout_toRightOf="@+id/clock"
+        android:layout_toEndOf="@+id/clock" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/housewares/sounds/09basket.mp3"
+        android:background="@null"
+        android:id="@+id/basket"
+        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_alignBaseline="@+id/fan"
+        android:layout_alignBottom="@+id/fan"
+        android:layout_toRightOf="@+id/fan"
+        android:layout_toEndOf="@+id/fan" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/24_did_you_light_the_candle.mp3"
+        android:background="@null"
+        android:id="@+id/candle_stick"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/basket"
+        android:layout_alignBottom="@+id/basket"
+        android:layout_toRightOf="@+id/basket"
+        android:layout_toEndOf="@+id/basket"
+        android:layout_width="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/housewares/sounds/04alarm_clock.mp3"
+        android:background="@null"
+        android:id="@+id/alarm_clock"
+        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_alignBaseline="@+id/basket"
+        android:layout_alignBottom="@+id/basket"
+        android:layout_toRightOf="@+id/candle_stick"
+        android:layout_toEndOf="@+id/candle_stick"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/24_the_pumper_truck_helps_firemen_fight_fires.mp3"
+        android:background="@null"
+        android:id="@+id/pumper_fire_truck"
+        android:layout_width="100dp"
+        android:layout_below="@+id/ballet_slippers1"
+        android:layout_toLeftOf="@+id/candle_stick"
+        android:layout_toStartOf="@+id/candle_stick"
+        android:layout_height="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/zoo/facts/sounds/kangaroo_1.mp3"
+        android:background="@null"
+        android:id="@+id/kangaroo"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/camel"
+        android:layout_toLeftOf="@+id/alarm_clock"
+        android:layout_toStartOf="@+id/alarm_clock"
+        android:layout_width="50dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/24_no_bears_sat_on_the_chair.mp3"
+        android:background="@null"
+        android:id="@+id/rocking_chair"
+        android:layout_height="60dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_width="60dp"
+        android:layout_alignTop="@+id/pumper_fire_truck"
+        android:layout_alignLeft="@+id/alarm_clock"
+        android:layout_alignStart="@+id/alarm_clock" />
+
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/passenger.mp3"
+        android:background="@null"
+        android:id="@+id/passenger"
+        android:layout_alignBaseline="@+id/camel"
+        android:layout_alignBottom="@+id/camel"
+        android:layout_toRightOf="@+id/kangaroo"
+        android:layout_toEndOf="@+id/kangaroo"
+        android:layout_width="30dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/she_shopped_for_a_new_scarf.mp3"
+        android:background="@null"
+        android:id="@+id/business_woman"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/slippers"
+        android:layout_toRightOf="@+id/rocking_chair"
+        android:layout_toEndOf="@+id/rocking_chair" />
+
+    <Button
+        android:onClick="openStore"
+        android:tag="House/housewares"
+        android:background="@null"
+        android:id="@+id/store_house"
+        android:layout_height="40dp"
+        android:layout_above="@+id/business_woman"
+        android:layout_toRightOf="@+id/alarm_clock"
+        android:layout_toEndOf="@+id/alarm_clock"
+        android:layout_width="85dp" />
+
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/housewares/sounds/06broom.mp3"
+        android:background="@null"
+        android:id="@+id/broom"
+        android:layout_alignBaseline="@+id/store_house"
+        android:layout_alignBottom="@+id/store_house"
+        android:layout_toRightOf="@+id/store_house"
+        android:layout_toEndOf="@+id/store_house"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="House/housewares/sounds/07dust_pan.mp3"
+        android:background="@null"
+        android:id="@+id/dustpan"
+        android:layout_width="40dp"
+        android:layout_below="@+id/broom"
+        android:layout_toRightOf="@+id/store_house"
+        android:layout_toEndOf="@+id/store_house"
+        android:layout_height="25dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/public/sounds/03trolley_car.mp3"
+        android:background="@null"
+        android:id="@+id/trolley_car"
+        android:layout_below="@+id/vw_bug"
+        android:layout_alignLeft="@+id/rocking_chair"
+        android:layout_alignStart="@+id/rocking_chair"
+        android:layout_height="120dp"
+        android:layout_width="160dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/public/sounds/03trolley_car.mp3"
+        android:background="@null"
+        android:id="@+id/trolley_car1"
+        android:layout_height="120dp"
+        android:layout_width="160dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignBottom="@+id/trolley_car"
+        android:layout_toRightOf="@+id/trolley_car"
+        android:layout_toEndOf="@+id/trolley_car" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/the_street_cleaners_brush.mp3"
+        android:background="@null"
+        android:id="@+id/brush"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/van"
+        android:layout_alignBottom="@+id/van"
+        android:layout_toRightOf="@+id/dustpan"
+        android:layout_toEndOf="@+id/dustpan"
+        android:layout_width="70dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/tools/sounds/07lawnmower.mp3"
+        android:background="@null"
+        android:id="@+id/lawn_mower"
+        android:layout_height="40dp"
+        android:layout_above="@+id/rocking_chair"
+        android:layout_alignRight="@+id/brush"
+        android:layout_alignEnd="@+id/brush"
+        android:layout_width="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/plants/sounds/04flowers.mp3"
+        android:background="@null"
+        android:id="@+id/flowers"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_alignBaseline="@+id/broom"
+        android:layout_alignBottom="@+id/broom"
+        android:layout_alignLeft="@+id/lawn_mower"
+        android:layout_alignStart="@+id/lawn_mower" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/tools/sounds/05hedge_clippers.mp3"
+        android:background="@null"
+        android:id="@+id/hedge_clippers"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/basket"
+        android:layout_alignLeft="@+id/trolley_car1"
+        android:layout_alignStart="@+id/trolley_car1"
+        android:layout_width="20dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/plants/sounds/01cactus.mp3"
+        android:background="@null"
+        android:id="@+id/cactus"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/clock"
+        android:layout_toRightOf="@+id/hedge_clippers"
+        android:layout_toEndOf="@+id/hedge_clippers"
+        android:layout_width="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/tools/sounds/08wheelbarrow.mp3"
+        android:background="@null"
+        android:id="@+id/wheelbarrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/lawn_mower"
+        android:layout_toRightOf="@+id/cactus"
+        android:layout_toEndOf="@+id/cactus" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/public/sounds/07street_sweeper.mp3"
+        android:background="@null"
+        android:id="@+id/street_cleaner"
+        android:layout_width="190dp"
+        android:layout_below="@+id/fan"
+        android:layout_alignLeft="@+id/dustpan"
+        android:layout_alignStart="@+id/dustpan"
+        android:layout_height="70dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/25_i_do_arithmetic_with_my_calculator.mp3"
+        android:background="@null"
+        android:id="@+id/boy_walking_texting"
+        android:layout_height="70dp"
+        android:layout_width="30dp"
+        android:layout_below="@+id/wheelbarrow"
+        android:layout_toRightOf="@+id/street_cleaner"
+        android:layout_toEndOf="@+id/street_cleaner"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/12young_woman_carrying_groceries.mp3"
+        android:background="@null"
+        android:id="@+id/woman_groceries"
+        android:layout_height="70dp"
+        android:layout_width="30dp"
+        android:layout_below="@+id/high_heels"
+        android:layout_toRightOf="@+id/trolley_car1"
+        android:layout_toEndOf="@+id/trolley_car1" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/the_polar_bear_wonder_if_the_mobile_phone.mp3"
+        android:background="@null"
+        android:id="@+id/polar_bear"
+        android:layout_height="70dp"
+        android:layout_width="30dp"
+        android:layout_below="@+id/broom"
+        android:layout_toLeftOf="@+id/woman_groceries"
+        android:layout_toStartOf="@+id/woman_groceries" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/tools/sounds/03hose.mp3"
+        android:background="@null"
+        android:id="@+id/hose"
+        android:layout_alignTop="@+id/boots"
+        android:layout_toRightOf="@+id/woman_groceries"
+        android:layout_toEndOf="@+id/woman_groceries"
+        android:layout_height="40dp"
+        android:layout_width="20dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/will_the_hose_spray_get_his_pants_wet.mp3"
+        android:background="@null"
+        android:id="@+id/man_cowboy_hat"
+        android:layout_width="20dp"
+        android:layout_alignBaseline="@+id/hose"
+        android:layout_alignBottom="@+id/hose"
+        android:layout_toRightOf="@+id/hose"
+        android:layout_toEndOf="@+id/hose"
+        android:layout_height="70dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/robot_weird.mp3"
+        android:background="@null"
+        android:id="@+id/robot1"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/passenger"
+        android:layout_toRightOf="@+id/trolley_car1"
+        android:layout_toEndOf="@+id/trolley_car1"
+        android:layout_width="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/25_i_hope_the_robot_gets_off_here.mp3"
+        android:background="@null"
+        android:id="@+id/passenger1"
+        android:layout_height="70dp"
+        android:layout_width="30dp"
+        android:layout_alignBaseline="@+id/trolley_car1"
+        android:layout_alignBottom="@+id/trolley_car1"
+        android:layout_toRightOf="@+id/robot1"
+        android:layout_toEndOf="@+id/robot1" />
+
+    <Button
+        android:id="@+id/store_nursery"
+        android:layout_width="145dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/clock"
+        android:layout_alignBottom="@+id/clock"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="-49dp"
+        android:layout_marginRight="-49dp"
+        android:layout_toLeftOf="@+id/woman_groceries"
+        android:layout_toStartOf="@+id/woman_groceries"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="nursery" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Vehicles/public/sounds/05pumper_fire_truck.mp3"
+        android:background="@null"
+        android:id="@+id/fire_truck1"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/street_cleaner"
+        android:layout_alignBottom="@+id/street_cleaner"
+        android:layout_toLeftOf="@+id/clock"
+        android:layout_toStartOf="@+id/clock" />
+
+
+</RelativeLayout>

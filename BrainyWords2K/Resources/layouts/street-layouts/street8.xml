@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:layout_weight="1"
+    android:background="@drawable/building7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/butterfly8"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/invisible/08_if_you_could_draw_a_chalk_drawing.mp3" />
+
+    <Button
+        android:id="@+id/armadillo"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/09armadillo.mp3"
+        android:layout_below="@+id/butterfly8"
+        android:layout_toRightOf="@+id/butterfly8"
+        android:layout_toEndOf="@+id/butterfly8"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:id="@+id/beagle"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/13_this_is_not_an_invisible_dog.mp3"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/butterfly8"
+        android:layout_alignLeft="@+id/armadillo"
+        android:layout_alignStart="@+id/armadillo" />
+
+    <Button
+        android:id="@+id/clown_balloons1g"
+        android:layout_width="35dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/armadillo"
+        android:layout_toRightOf="@+id/armadillo"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/clown_with_balloons.mp3" />
+
+    <Button
+        android:id="@+id/purse"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Clothing/accessories/sounds/01purse.mp3"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/armadillo"
+        android:layout_alignLeft="@+id/armadillo"
+        android:layout_alignStart="@+id/armadillo" />
+
+    <Button
+        android:id="@+id/convertible1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/purse"
+        android:layout_toEndOf="@+id/purse"
+        android:layout_toRightOf="@+id/purse"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/passenger/sounds/02convertible.mp3" />
+
+    <Button
+        android:id="@+id/dog_walking_boy"
+        android:layout_width="55dp"
+        android:layout_height="90dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/06dog_walking_a_boy.mp3"
+        android:layout_alignTop="@+id/beagle"
+        android:layout_toRightOf="@+id/beagle"
+        android:layout_toEndOf="@+id/beagle" />
+
+    <Button
+        android:id="@+id/plumber"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/job/workers/sounds/19plumber.mp3"
+        android:layout_above="@+id/purse"
+        android:layout_toRightOf="@+id/dog_walking_boy"
+        android:layout_toEndOf="@+id/dog_walking_boy"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <Button
+        android:id="@+id/girl_jumping_rope"
+        android:layout_width="35dp"
+        android:layout_height="80dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/18girl_jumping_rope.mp3"
+        android:layout_alignBottom="@+id/plumber"
+        android:layout_alignRight="@+id/convertible1"
+        android:layout_alignEnd="@+id/convertible1" />
+
+    <Button
+        android:id="@+id/woman_holding_nose"
+        android:layout_width="30dp"
+        android:layout_height="80dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/23woman_holding_her_nose.mp3"
+        android:layout_alignBottom="@+id/dog_walking_boy"
+        android:layout_toRightOf="@+id/girl_jumping_rope"
+        android:layout_toEndOf="@+id/girl_jumping_rope" />
+
+    <Button
+        android:id="@+id/baby_bottle"
+        android:layout_width="25dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/13_but_i_ordered_chocolate.mp3"
+        android:layout_alignBaseline="@+id/armadillo"
+        android:layout_alignBottom="@+id/armadillo"
+        android:layout_toRightOf="@+id/woman_holding_nose"
+        android:layout_toEndOf="@+id/woman_holding_nose"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp" />
+
+    <Button
+        android:id="@+id/girl_cartwheel_fishbowl"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/11girl_doing_a_cartwheel_with_a_fishbowl.mp3"
+        android:layout_alignBaseline="@+id/plumber"
+        android:layout_alignBottom="@+id/plumber"
+        android:layout_toRightOf="@+id/baby_bottle"
+        android:layout_toEndOf="@+id/baby_bottle"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp" />
+
+    <Button
+        android:id="@+id/girl_rollerskating"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/09girl_skating.mp3"
+        android:layout_alignBottom="@+id/woman_holding_nose"
+        android:layout_toRightOf="@+id/girl_cartwheel_fishbowl"
+        android:layout_toEndOf="@+id/girl_cartwheel_fishbowl" />
+
+    <Button
+        android:id="@+id/cardinal"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/birds/sounds/09cardinal.mp3"
+        android:layout_above="@+id/convertible1"
+        android:layout_alignRight="@+id/girl_rollerskating"
+        android:layout_alignEnd="@+id/girl_rollerskating" />
+
+    <Button
+        android:id="@+id/buffalo"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/bluejay"
+        android:layout_alignStart="@+id/bluejay"
+        android:layout_below="@+id/cardinal"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/14_seeing_a_happy_face_makes_me_happy_too.mp3" />
+
+    <Button
+        android:id="@+id/runner_man"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/runner.mp3"
+        android:layout_alignBaseline="@+id/plumber"
+        android:layout_alignBottom="@+id/plumber"
+        android:layout_toRightOf="@+id/runner_woman"
+        android:layout_toEndOf="@+id/runner_woman" />
+
+    <Button
+        android:id="@+id/buffalo1"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/06buffalo_or_bison_.mp3"
+        android:layout_below="@+id/cardinal"
+        android:layout_toLeftOf="@+id/runner_woman"
+        android:layout_toStartOf="@+id/runner_woman" />
+
+    <Button
+        android:id="@+id/runningboy"
+        android:layout_width="25dp"
+        android:layout_height="80dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/04running_boy.mp3"
+        android:layout_alignBottom="@+id/baby_bottle"
+        android:layout_toRightOf="@+id/plumber"
+        android:layout_toEndOf="@+id/plumber" />
+
+    <Button
+        android:id="@+id/bluejay"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/birds/sounds/08bluejay.mp3"
+        android:layout_below="@+id/girl_rollerskating"
+        android:layout_toRightOf="@+id/cardinal"
+        android:layout_toEndOf="@+id/cardinal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp" />
+
+    <Button
+        android:id="@+id/runner_woman"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/05runner_woman.mp3"
+        android:layout_alignBaseline="@+id/plumber"
+        android:layout_alignBottom="@+id/plumber"
+        android:layout_toRightOf="@+id/girl_rollerskating"
+        android:layout_toEndOf="@+id/girl_rollerskating"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/windmillg"
+        android:layout_width="36dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/bluejay"
+        android:layout_alignRight="@+id/bluejay"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/16windmill.mp3" />
+
+    <Button
+        android:id="@+id/boy_on_a_stick"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/12boy_on_a_pogo_stick.mp3"
+        android:layout_above="@+id/bluejay"
+        android:layout_alignRight="@+id/bluejay"
+        android:layout_alignEnd="@+id/bluejay" />
+
+    <Button
+        android:id="@+id/clown_juggler"
+        android:layout_width="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/14_the_clown_is_a_juggler.mp3"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/plumber"
+        android:layout_toRightOf="@+id/windmillg"
+        android:layout_toEndOf="@+id/windmillg" />
+
+    <Button
+        android:id="@+id/dancing_woman1"
+        android:layout_width="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/16dancing_woman.mp3"
+        android:layout_height="80dp"
+        android:layout_above="@+id/bluejay"
+        android:layout_toRightOf="@+id/clown_juggler"
+        android:layout_toEndOf="@+id/clown_juggler" />
+
+    <Button
+        android:id="@+id/volleyball1"
+        android:layout_width="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/team/sounds/12volleyball.mp3"
+        android:layout_height="30dp"
+        android:layout_below="@+id/windmillg"
+        android:layout_toRightOf="@+id/buffalo"
+        android:layout_toEndOf="@+id/buffalo" />
+
+    <Button
+        android:id="@+id/bull"
+        android:layout_width="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/farm/animals/sounds/12bull.mp3"
+        android:layout_above="@+id/dancing_woman1"
+        android:layout_alignLeft="@+id/volleyball1"
+        android:layout_alignStart="@+id/volleyball1"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/calf"
+        android:layout_width="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/farm/babies/sounds/02calf.mp3"
+        android:layout_alignBaseline="@+id/clown_juggler"
+        android:layout_alignBottom="@+id/clown_juggler"
+        android:layout_toRightOf="@+id/bull"
+        android:layout_toEndOf="@+id/bull"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/cow1"
+        android:layout_width="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/cow.mp3"
+        android:layout_height="30dp"
+        android:layout_above="@+id/runner_man"
+        android:layout_toRightOf="@+id/bull"
+        android:layout_toEndOf="@+id/bull"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+    <Button
+        android:id="@+id/rocking_chair1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="House/livingroom/sounds/08rocking_chair.mp3"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/cardinal"
+        android:layout_toRightOf="@+id/volleyball1"
+        android:layout_toEndOf="@+id/volleyball1" />
+
+    <Button
+        android:id="@+id/traffic_light"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/traffic_light.mp3"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/calf"
+        android:layout_toRightOf="@+id/cow1"
+        android:layout_toEndOf="@+id/cow1" />
+
+    <Button
+        android:id="@+id/butterfly9"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/invisible/09_what_kind_of_person.mp3"
+        android:layout_width="40dp"
+        android:layout_above="@+id/girl_jumping_rope"
+        android:layout_toRightOf="@+id/traffic_light"
+        android:layout_toEndOf="@+id/traffic_light"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/stunk_family"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/skunk_family.mp3"
+        android:layout_width="40dp"
+        android:layout_alignBottom="@+id/buffalo"
+        android:layout_alignRight="@+id/calf"
+        android:layout_alignEnd="@+id/calf"
+        android:layout_height="90dp" />
+
+    <Button
+        android:id="@+id/crosswalk"
+        android:layout_width="11dp"
+        android:layout_height="91dp"
+        android:layout_alignBottom="@+id/buffalo"
+        android:layout_alignEnd="@+id/calf"
+        android:layout_alignRight="@+id/calf"
+        android:layout_marginEnd="-13dp"
+        android:layout_marginRight="-13dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/crosswalk.mp3" />
+
+    <Button
+        android:id="@+id/crosswalk1"
+        android:layout_width="16dp"
+        android:layout_height="91dp"
+        android:layout_alignBottom="@+id/buffalo"
+        android:layout_alignEnd="@+id/calf"
+        android:layout_alignRight="@+id/calf"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/crosswalk.mp3" />
+
+    <Button
+        android:id="@+id/crosswalk2"
+        android:layout_width="36dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/buffalo"
+        android:layout_alignEnd="@+id/calf"
+        android:layout_alignRight="@+id/calf"
+        android:layout_marginBottom="97dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/crosswalk.mp3" />
+
+    <Button
+        android:id="@+id/crossing_guard_stop"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/09_the_crossing_guard_tells_you_to_stop.mp3"
+        android:layout_width="40dp"
+        android:layout_alignTop="@+id/buffalo"
+        android:layout_toRightOf="@+id/cow1"
+        android:layout_toEndOf="@+id/cow1"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/zebra2"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/25zebra.mp3"
+        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_alignTop="@+id/armadillo"
+        android:layout_alignRight="@+id/butterfly9"
+        android:layout_alignEnd="@+id/butterfly9" />
+
+    <Button
+        android:id="@+id/kids_only1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/zoo/animals/sounds/13tiger.mp3"
+        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_above="@+id/stunk_family"
+        android:layout_toRightOf="@+id/crossing_guard_stop"
+        android:layout_toEndOf="@+id/crossing_guard_stop" />
+
+    <Button
+        android:id="@+id/tiger"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/kids_only.mp3"
+        android:layout_width="60dp"
+        android:layout_alignBaseline="@+id/clown_juggler"
+        android:layout_alignBottom="@+id/clown_juggler"
+        android:layout_toRightOf="@+id/kids_only1"
+        android:layout_toEndOf="@+id/kids_only1"
+        android:layout_height="90dp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/stop_sign.mp3"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/kids_only1"
+        android:layout_toEndOf="@+id/kids_only1"
+        android:layout_width="40dp" />
+
+    <Button
+        android:id="@+id/triceratops"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/zoo/facts/sounds/triceratop_2.mp3"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bluejay"
+        android:layout_toRightOf="@+id/stop"
+        android:layout_toEndOf="@+id/stop"
+        android:layout_width="80dp" />
+
+    <Button
+        android:id="@+id/frogs"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/creatures/sounds/10frogs.mp3"
+        android:layout_height="50dp"
+        android:layout_width="40dp"
+        android:layout_alignBaseline="@+id/zebra2"
+        android:layout_alignBottom="@+id/zebra2"
+        android:layout_toRightOf="@+id/tiger"
+        android:layout_toEndOf="@+id/tiger" />
+
+    <Button
+        android:id="@+id/fireplug1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Construction/sounds/11fireplug_or_hydrant.mp3"
+        android:layout_height="50dp"
+        android:layout_width="30dp"
+        android:layout_alignBaseline="@+id/beagle"
+        android:layout_alignBottom="@+id/beagle"
+        android:layout_alignRight="@+id/frogs"
+        android:layout_alignEnd="@+id/frogs" />
+
+    <Button
+        android:id="@+id/spray"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/will_the_hose_spray_get_his_pants_wet.mp3"
+        android:layout_height="50dp"
+        android:layout_width="30dp"
+        android:layout_alignBaseline="@+id/calf"
+        android:layout_alignBottom="@+id/calf"
+        android:layout_toLeftOf="@+id/fireplug1"
+        android:layout_toStartOf="@+id/fireplug1" />
+
+    <Button
+        android:id="@+id/fireman"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/job/helpers/sounds/10friendly_fireman.mp3"
+        android:layout_width="30dp"
+        android:layout_alignBaseline="@+id/fireplug1"
+        android:layout_alignBottom="@+id/fireplug1"
+        android:layout_toRightOf="@+id/fireplug1"
+        android:layout_toEndOf="@+id/fireplug1"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/tagger"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/14tagger.mp3"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/beagle"
+        android:layout_toRightOf="@+id/triceratops"
+        android:layout_toEndOf="@+id/triceratops" />
+
+    <Button
+        android:id="@+id/building7a"
+        android:layout_width="300dp"
+        android:layout_height="23dp"
+        android:layout_above="@+id/fireplug1"
+        android:layout_marginBottom="26dp"
+        android:layout_toLeftOf="@+id/runner_man"
+        android:layout_toStartOf="@+id/runner_man"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="building7" />
+
+    <Button
+        android:id="@+id/boy_skateboard1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/boy_with_a_cast_on_a_skateboard.mp3"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/girl_rollerskating"
+        android:layout_toRightOf="@+id/baby_bottle"
+        android:layout_toEndOf="@+id/baby_bottle" />
+
+    <Button
+        android:id="@+id/sign13"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/building7a"
+        android:layout_toStartOf="@+id/building7a"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="people" />
+
+    <Button
+        android:id="@+id/sign13people"
+        android:layout_width="300dp"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="-300dp"
+        android:layout_marginRight="-300dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/building7a"
+        android:layout_toStartOf="@+id/building7a"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="people" />
+
+    <Button
+        android:id="@+id/sign14"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/dancing_woman1"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginStart="-12dp"
+        android:layout_toEndOf="@+id/dancing_woman1"
+        android:layout_toRightOf="@+id/dancing_woman1"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="things" />
+
+    <Button
+        android:id="@+id/sign14sky"
+        android:layout_width="177dp"
+        android:layout_height="34dp"
+        android:layout_above="@+id/dancing_woman1"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginStart="-70dp"
+        android:layout_toEndOf="@+id/dancing_woman1"
+        android:layout_toRightOf="@+id/dancing_woman1"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="things" />
+
+    <Button
+        android:id="@+id/stop_sign"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/stop_sign.mp3"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/stunk_family"
+        android:layout_toRightOf="@+id/stunk_family"
+        android:layout_toEndOf="@+id/stunk_family" />
+
+    <Button
+        android:id="@+id/go_for_a_walk"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/zhis_mouth_said_i_want_to_go_for_a_walk.mp3"
+        android:layout_above="@+id/cardinal"
+        android:layout_toRightOf="@+id/armadillo"
+        android:layout_toEndOf="@+id/armadillo" />
+
+
+</RelativeLayout>

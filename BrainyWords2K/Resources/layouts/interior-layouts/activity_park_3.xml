@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_park_3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.gisela.worldworld.MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:id="@+id/horizontal_scroll">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/building4c"
+                android:layout_width="800dp">
+
+                <Button
+        android:id="@+id/clown_balloons1d"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/job/performers/sounds/05clown_with_balloons.mp3"
+        android:layout_below="@+id/picnic_tablee"
+        android:layout_alignRight="@+id/beagle1"
+        android:layout_alignEnd="@+id/beagle1"
+        android:layout_width="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="-25dp"
+        android:layout_height="45dp" />
+
+                <Button
+        android:id="@+id/dandelion1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:layout_height="30dp"
+        android:layout_width="25dp"
+        android:tag="Outdoors/park/landscape/sounds/08dandelion.mp3"
+        android:layout_above="@+id/clown_balloons1d"
+        android:layout_alignTop="@+id/slide"
+        android:layout_alignLeft="@+id/benchd"
+        android:layout_alignStart="@+id/benchd"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp" />
+
+                <Button
+        android:id="@+id/picnic_tablee"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/equipment/sounds/10picnic_table.mp3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/dandelion1"
+        android:layout_toEndOf="@+id/dandelion1" />
+
+                <Button
+        android:id="@+id/ladder"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/ladder.mp3"
+        android:layout_height="60dp"
+        android:layout_width="25dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+                    android:layout_alignTop="@+id/clown_balloons1d"
+                    android:layout_toRightOf="@+id/slide"
+                    android:layout_toEndOf="@+id/slide"
+                    android:layout_marginTop="31dp" />
+
+                <Button
+        android:id="@+id/caterpillar"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/14caterpillar.mp3"
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_below="@+id/grasshopper"
+                    android:layout_alignLeft="@+id/millipede"
+                    android:layout_alignStart="@+id/millipede" />
+
+                <Button
+        android:id="@+id/butterfly5"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/invisible/05_if_fairies_were_hiding_here.mp3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+                    android:layout_alignTop="@+id/hornet"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+        android:id="@+id/locust"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/19cicada.mp3"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+                    android:layout_above="@+id/benchd"
+                    android:layout_toRightOf="@+id/dragonfly"
+                    android:layout_toEndOf="@+id/dragonfly"
+                    android:layout_marginBottom="11dp" />
+
+                <Button
+        android:id="@+id/dandelion3"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/landscape/sounds/08dandelion.mp3"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/butterfly5"
+                    android:layout_toEndOf="@+id/butterfly5"
+                    android:layout_marginBottom="17dp" />
+
+                <Button
+                    android:id="@+id/man_jogging"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/runner.mp3"
+                    android:layout_height="70dp"
+                    android:layout_width="45dp"
+                    android:layout_marginRight="73dp"
+                    android:layout_marginEnd="73dp"
+                    android:layout_alignBottom="@+id/ladder"
+                    android:layout_toLeftOf="@+id/hornet"
+                    android:layout_toStartOf="@+id/hornet" />
+
+                <Button
+        android:id="@+id/wasp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/08wasp.mp3"
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignLeft="@+id/hornet"
+                    android:layout_alignStart="@+id/hornet" />
+
+                <Button
+                    android:id="@+id/house"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/HEADINGS/00house.mp3"
+                    android:layout_height="30dp"
+                    android:layout_width="55dp"
+                    android:layout_above="@+id/clown_balloons1d"
+                    android:layout_toRightOf="@+id/slide"
+                    android:layout_toEndOf="@+id/slide" />
+
+                <Button
+                    android:id="@+id/frog"
+                    android:layout_height="20dp"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/equipment/sounds/06frog_pads.mp3"
+                    android:layout_width="57dp"
+                    android:layout_alignTop="@+id/dandelion3"
+                    android:layout_alignRight="@+id/beagle1"
+                    android:layout_alignEnd="@+id/beagle1" />
+
+                <Button
+        android:id="@+id/beagle1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/02beagle.mp3"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/ladder"
+                    android:layout_toRightOf="@+id/sand1"
+                    android:layout_toEndOf="@+id/sand1" />
+
+                <Button
+        android:id="@+id/slide"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/things/play/sounds/10slide.mp3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+                    android:layout_above="@+id/beagle1"
+                    android:layout_toRightOf="@+id/clown_balloons1d"
+                    android:layout_toEndOf="@+id/clown_balloons1d"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginStart="11dp" />
+
+                <Button
+                    android:id="@+id/ants"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/bugs/sounds/13ants.mp3"
+                    android:layout_width="25dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_above="@+id/frog"
+                    android:layout_alignLeft="@+id/dandelion4"
+                    android:layout_alignStart="@+id/dandelion4" />
+
+                <Button
+        android:id="@+id/hornet"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/09hornet.mp3"
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+                    android:layout_alignBottom="@+id/ants"
+                    android:layout_alignRight="@+id/dandelion2"
+                    android:layout_alignEnd="@+id/dandelion2" />
+
+                <Button
+        android:id="@+id/monkey_bars"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/06parallel_bars.mp3"
+                    android:layout_width="35dp"
+        android:layout_height="35dp"
+                    android:layout_alignBottom="@+id/dragonfly"
+                    android:layout_alignLeft="@+id/slide"
+                    android:layout_alignStart="@+id/slide"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginStart="18dp" />
+
+                <Button
+        android:id="@+id/dandelion4"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/landscape/sounds/08dandelion.mp3"
+        android:layout_width="25dp"
+        android:layout_height="50dp"
+                    android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp"
+                    android:layout_above="@+id/ants"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+        android:id="@+id/centipede"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag=""
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_marginRight="29dp"
+                    android:layout_marginEnd="29dp"
+                    android:layout_above="@+id/millipede"
+                    android:layout_toLeftOf="@+id/grasshopper"
+                    android:layout_toStartOf="@+id/grasshopper" />
+
+                <Button
+                    android:id="@+id/grasshopper"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/bugs/sounds/11grasshopper.mp3"
+                    android:layout_height="20dp"
+                    android:layout_width="25dp"
+                    android:layout_alignBottom="@+id/dandelion4"
+                    android:layout_alignLeft="@+id/wasp"
+                    android:layout_alignStart="@+id/wasp" />
+
+                <Button
+        android:id="@+id/benchd"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="House/livingroom/sounds/11bench.mp3"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+                    android:layout_above="@+id/dandelion4"
+                    android:layout_toRightOf="@+id/butterfly5"
+                    android:layout_toEndOf="@+id/butterfly5" />
+
+                <Button
+        android:id="@+id/dragonfly"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/04dragonfly.mp3"
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_below="@+id/caterpillar"
+                    android:layout_toRightOf="@+id/caterpillar"
+                    android:layout_toEndOf="@+id/caterpillar" />
+
+                <Button
+                    android:id="@+id/sand1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/04_sandbox.mp3"
+                    android:layout_height="20dp"
+                    android:layout_width="60dp"
+                    android:layout_above="@+id/monkey_bars"
+                    android:layout_toRightOf="@+id/dandelion3"
+                    android:layout_toEndOf="@+id/dandelion3" />
+
+                <Button
+        android:id="@+id/millipede"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/16millipede.mp3"
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+                    android:layout_alignBottom="@+id/butterfly5"
+                    android:layout_toRightOf="@+id/hornet"
+                    android:layout_toEndOf="@+id/hornet" />
+
+                <Button
+                    android:id="@+id/housefly"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/bugs/sounds/01housefly.mp3"
+                    android:layout_height="20dp"
+                    android:layout_width="25dp"
+                    android:layout_below="@+id/caterpillar"
+                    android:layout_alignRight="@+id/centipede"
+                    android:layout_alignEnd="@+id/centipede"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp" />
+
+                <Button
+        android:id="@+id/dandelion2"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/landscape/sounds/08dandelion.mp3"
+        android:layout_marginRight="158dp"
+        android:layout_marginEnd="158dp"
+        android:layout_height="20dp"
+        android:layout_width="25dp"
+                    android:layout_alignBottom="@+id/dandelion3"
+                    android:layout_toLeftOf="@+id/ants"
+                    android:layout_toStartOf="@+id/ants" />
+
+                <Button
+        android:id="@+id/mosquito"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/bugs/sounds/10mosquito.mp3"
+        android:layout_width="25dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBaseline="@+id/hornet"
+                    android:layout_alignBottom="@+id/hornet"
+                    android:layout_toRightOf="@+id/locust"
+                    android:layout_toEndOf="@+id/locust" />
+
+                <Button
+                    android:id="@+id/girl_running"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/runner.mp3"
+                    android:layout_height="70dp"
+                    android:layout_width="30dp"
+                    android:layout_alignBottom="@+id/centipede"
+                    android:layout_alignRight="@+id/clown_balloons1d"
+                    android:layout_alignEnd="@+id/clown_balloons1d" />
+
+                <Button
+                    android:id="@+id/girl_cartwheel3"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/girls/sounds/11girl_doing_a_cartwheel_with_a_fishbowl.mp3"
+                    android:layout_height="70dp"
+                    android:layout_width="30dp"
+                    android:layout_alignBaseline="@+id/sand1"
+                    android:layout_alignBottom="@+id/sand1"
+                    android:layout_toRightOf="@+id/ladder"
+                    android:layout_toEndOf="@+id/ladder" />
+
+                <Button
+                    android:id="@+id/tree1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/landscape/sounds/01tree.mp3"
+                    android:layout_height="200dp"
+                    android:layout_width="80dp"
+                    android:layout_alignTop="@+id/man_jogging"
+                    android:layout_toLeftOf="@+id/man_jogging"
+                    android:layout_toStartOf="@+id/man_jogging" />
+
+                <Button
+                    android:id="@+id/centipede1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/bugs/sounds/15centipede.mp3"
+                    android:layout_height="20dp"
+                    android:layout_width="25dp"
+                    android:layout_alignBottom="@+id/dandelion4"
+                    android:layout_alignLeft="@+id/centipede"
+                    android:layout_alignStart="@+id/centipede"
+                    android:layout_below="@+id/wasp" />
+
+                <Button
+                    android:id="@+id/girl_with_doll1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/girls/sounds/13girl_with_a_doll.mp3"
+                    android:layout_width="25dp"
+                    android:layout_alignBaseline="@+id/centipede1"
+                    android:layout_alignBottom="@+id/centipede1"
+                    android:layout_toLeftOf="@+id/girl_running"
+                    android:layout_toStartOf="@+id/girl_running"
+                    android:layout_height="60dp" />
+
+                <Button
+                    android:id="@+id/boy_with_jack"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/jack-o-lantern_pumpkin.mp3"
+                    android:layout_width="25dp"
+                    android:layout_height="60dp"
+                    android:layout_alignBaseline="@+id/benchd"
+                    android:layout_alignBottom="@+id/benchd"
+                    android:layout_alignLeft="@+id/monkey_bars"
+                    android:layout_alignStart="@+id/monkey_bars" />
+
+                <Button
+                    android:id="@+id/path3"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/places/sounds/07path.mp3"
+                    android:layout_height="40dp"
+                    android:layout_above="@+id/boy_with_jack"
+                    android:layout_toLeftOf="@+id/beagle1"
+                    android:layout_toStartOf="@+id/beagle1"
+                    android:layout_width="60dp" />
+
+                <Button
+                    android:id="@+id/path4"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/places/sounds/07path.mp3"
+                    android:layout_width="40dp"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/sand1"
+                    android:layout_toRightOf="@+id/tree1"
+                    android:layout_toEndOf="@+id/tree1" />
+
+                <Button
+                    android:id="@+id/swings"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/equipment/sounds/02swings.mp3"
+                    android:layout_width="40dp"
+                    android:layout_height="100dp"
+                    android:layout_alignBottom="@+id/girl_with_doll1"
+                    android:layout_toLeftOf="@+id/tree1"
+                    android:layout_toStartOf="@+id/tree1"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginEnd="13dp" />
+
+                <Button
+                    android:id="@+id/swings1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/equipment/sounds/02swings.mp3"
+                    android:layout_height="80dp"
+                    android:layout_alignBottom="@+id/benchd"
+                    android:layout_alignRight="@+id/girl_cartwheel3"
+                    android:layout_alignEnd="@+id/girl_cartwheel3"
+                    android:layout_width="20dp" />
+
+                <Button
+                    android:id="@+id/monkey_bars1"
+                    android:layout_width="44dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/path3"
+                    android:layout_toEndOf="@+id/benchd"
+                    android:layout_toRightOf="@+id/benchd"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Outdoors/park/equipment/sounds/03monkey_bars.mp3" />
+
+                <Button
+                    android:id="@+id/father"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/family/sounds/03father.mp3"
+                    android:layout_width="40dp"
+                    android:layout_height="100dp"
+                    android:layout_alignTop="@+id/benchd"
+                    android:layout_toRightOf="@+id/girl_cartwheel3"
+                    android:layout_toEndOf="@+id/girl_cartwheel3" />
+
+                <Button
+                    android:id="@+id/daughter"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_above="@+id/swings"
+                    android:layout_toEndOf="@+id/swings1"
+                    android:layout_toRightOf="@+id/swings1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/family/sounds/05daughter.mp3" />
+
+
+            </RelativeLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_width="150dp">
+
+        <ImageButton
+            android:id="@+id/interiors"
+            android:onClick="openInterior"
+            android:tag="@string/interiors"
+            android:background="@drawable/list"
+            android:layout_margin="5dp"
+            android:layout_height="40dp"
+            android:layout_width="40dp" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/back"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/home"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    </RelativeLayout>

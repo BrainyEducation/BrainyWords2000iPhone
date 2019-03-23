@@ -1,0 +1,3512 @@
+[
+  {
+    "imageLink": "interior_toys.png",
+    "listInfoButton": [
+      {
+        "id": 2131297302,
+        "name": "toy_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Mall/toys/toy",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297301,
+        "name": "toy_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50.539745,
+        "percentStartY": 0,
+        "tag": "Mall/toys/riding",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297300,
+        "name": "toy_cat1",
+        "percentEndX": 50.24534,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Mall/toys/vehicle",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_bakery.png",
+    "listInfoButton": [
+      {
+        "id": 2131296322,
+        "name": "bakery_cat2",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Grocery/bakery/breads",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296321,
+        "name": "bakery_cat1",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Grocery/bakery/sweets",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_job.png",
+    "listInfoButton": [
+      {
+        "id": 2131296510,
+        "name": "clothes_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 49.83352,
+        "percentStartY": 50,
+        "tag": "People/job/workers",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296509,
+        "name": "clothes_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50.499447,
+        "percentStartY": 0,
+        "tag": "People/job/helpers",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296511,
+        "name": "clothes_cat4",
+        "percentEndX": 50.388454,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "People/job/military",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296508,
+        "name": "clothes_cat1",
+        "percentEndX": 49.944504,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "People/job/performers",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_vehicles.png",
+    "listInfoButton": [
+      {
+        "id": 2131297357,
+        "name": "vehicle_cat5",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50.16685,
+        "percentStartY": 50,
+        "tag": "Vehicles/public",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297356,
+        "name": "vehicle_cat4",
+        "percentEndX": 49.83315,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Vehicles/truck",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297355,
+        "name": "vehicle_cat3",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 66.40712,
+        "percentStartY": 0,
+        "tag": "Vehicles/working",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297354,
+        "name": "vehicle_cat2",
+        "percentEndX": 66.07342,
+        "percentEndY": 50,
+        "percentStartX": 34.03782,
+        "percentStartY": 0,
+        "tag": "Vehicles/fun",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297353,
+        "name": "vehicle_cat1",
+        "percentEndX": 34.03782,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Vehicles/passenger",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_sports.png",
+    "listInfoButton": [
+      {
+        "id": 2131297180,
+        "name": "sports_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50,
+        "percentStartY": 0,
+        "tag": "Mall/sports/individual",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297181,
+        "name": "sports_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Mall/sports/team",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297179,
+        "name": "sports_cat1",
+        "percentEndX": 50.222225,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Mall/sports/camping",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_clothing.png",
+    "listInfoButton": [
+      {
+        "id": 2131296510,
+        "name": "clothes_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50.444443,
+        "percentStartY": 50,
+        "tag": "Clothing/fashion",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296509,
+        "name": "clothes_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50.88889,
+        "percentStartY": 0,
+        "tag": "Clothing/accessories",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296511,
+        "name": "clothes_cat4",
+        "percentEndX": 49.77778,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Clothing/sewing",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296508,
+        "name": "clothes_cat1",
+        "percentEndX": 50.666664,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Clothing/clothes",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_groceries.png",
+    "listInfoButton": [
+      {
+        "id": 2131296743,
+        "name": "groceries_cat6",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 66.66667,
+        "percentStartY": 50,
+        "tag": "Grocery/tubers",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296742,
+        "name": "groceries_cat5",
+        "percentEndX": 66.66667,
+        "percentEndY": 100,
+        "percentStartX": 33.333336,
+        "percentStartY": 50,
+        "tag": "Grocery/vegetables",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296740,
+        "name": "groceries_cat3",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 66.66667,
+        "percentStartY": 0,
+        "tag": "Grocery/berries",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296739,
+        "name": "groceries_cat2",
+        "percentEndX": 66.66667,
+        "percentEndY": 50,
+        "percentStartX": 33.333336,
+        "percentStartY": 0,
+        "tag": "Grocery/nuts",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296741,
+        "name": "groceries_cat4",
+        "percentEndX": 33.333336,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Grocery/grains",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296738,
+        "name": "groceries_cat1",
+        "percentEndX": 33.333336,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Grocery/fruits",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_music.png",
+    "listInfoButton": [
+      {
+        "id": 2131296913,
+        "name": "music_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50.196083,
+        "percentStartY": 50,
+        "tag": "Mall/music/strings",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296912,
+        "name": "music_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50.196083,
+        "percentStartY": 0,
+        "tag": "Mall/music/percussion",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296914,
+        "name": "music_cat4",
+        "percentEndX": 49.80392,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Mall/music/brass",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296911,
+        "name": "music_cat1",
+        "percentEndX": 50.196083,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Mall/music/woodwind",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_hair_salon.png",
+    "listInfoButton": [
+      {
+        "id": 2131296747,
+        "name": "hair_cat1",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Mall/hair_salon/boys",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296748,
+        "name": "hair_cat2",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Mall/hair_salon/girls",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_tools.png",
+    "listInfoButton": [
+      {
+        "id": 2131297292,
+        "name": "tools_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50,
+        "percentStartY": 50,
+        "tag": "Mall/tools/woodworking",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297291,
+        "name": "tools_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50.39216,
+        "percentStartY": 0,
+        "tag": "Mall/tools/metal",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297293,
+        "name": "tools_cat4",
+        "percentEndX": 50.588238,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Mall/tools/rock_dirt",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297290,
+        "name": "tools_cat1",
+        "percentEndX": 49.80392,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Mall/tools/gear",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "birds.png",
+    "listInfoButton": [
+      {
+        "id": 2131296951,
+        "name": "owl_3",
+        "percentEndX": 27.333334,
+        "percentEndY": 54.87674,
+        "percentStartX": 20.333334,
+        "percentStartY": 43.622723,
+        "tag": "Animals/zoo/facts/sounds/owl_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296950,
+        "name": "owl_2",
+        "percentEndX": 17.533333,
+        "percentEndY": 54.87674,
+        "percentStartX": 10.533334,
+        "percentStartY": 43.622723,
+        "tag": "Animals/zoo/facts/sounds/owl_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296949,
+        "name": "owl_1",
+        "percentEndX": 7.733333,
+        "percentEndY": 54.87674,
+        "percentStartX": 0.7333333,
+        "percentStartY": 43.622723,
+        "tag": "Animals/zoo/facts/sounds/owl_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296665,
+        "name": "flamingo_3",
+        "percentEndX": 30.133333,
+        "percentEndY": 93.033226,
+        "percentStartX": 23.133333,
+        "percentStartY": 81.779205,
+        "tag": "Animals/zoo/facts/sounds/flamingo_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296664,
+        "name": "flamingo_2",
+        "percentEndX": 20.333334,
+        "percentEndY": 93.033226,
+        "percentStartX": 13.333334,
+        "percentStartY": 81.779205,
+        "tag": "Animals/zoo/facts/sounds/flamingo_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296663,
+        "name": "flamingo_1",
+        "percentEndX": 10.533334,
+        "percentEndY": 93.033226,
+        "percentStartX": 3.533333,
+        "percentStartY": 81.779205,
+        "tag": "Animals/zoo/facts/sounds/flamingo_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296976,
+        "name": "parrot_3",
+        "percentEndX": 96.46667,
+        "percentEndY": 15.648445,
+        "percentStartX": 89.46667,
+        "percentStartY": 4.3944263,
+        "tag": "Animals/zoo/facts/sounds/parrot_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296975,
+        "name": "parrot_2",
+        "percentEndX": 85.066666,
+        "percentEndY": 15.648445,
+        "percentStartX": 78.066666,
+        "percentStartY": 4.3944263,
+        "tag": "Animals/zoo/facts/sounds/parrot_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296974,
+        "name": "parrot_1",
+        "percentEndX": 73.66667,
+        "percentEndY": 15.648445,
+        "percentStartX": 66.66667,
+        "percentStartY": 4.3944263,
+        "tag": "Animals/zoo/facts/sounds/parrot_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296947,
+        "name": "ostrich_3",
+        "percentEndX": 64.33333,
+        "percentEndY": 88.53162,
+        "percentStartX": 57.333332,
+        "percentStartY": 77.2776,
+        "tag": "Animals/zoo/facts/sounds/ostrich_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296946,
+        "name": "ostrich_2",
+        "percentEndX": 54.533333,
+        "percentEndY": 88.53162,
+        "percentStartX": 47.533333,
+        "percentStartY": 77.2776,
+        "tag": "Animals/zoo/facts/sounds/ostrich_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296945,
+        "name": "ostrich_1",
+        "percentEndX": 44.733334,
+        "percentEndY": 88.53162,
+        "percentStartX": 37.733334,
+        "percentStartY": 77.2776,
+        "tag": "Animals/zoo/facts/sounds/ostrich_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296948,
+        "name": "owl",
+        "percentEndX": 21,
+        "percentEndY": 54.87674,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/owl.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296662,
+        "name": "flamingo",
+        "percentEndX": 35.266666,
+        "percentEndY": 93.033226,
+        "percentStartX": 14.266666,
+        "percentStartY": 38.156487,
+        "tag": "Animals/zoo/voices/flamingo.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296973,
+        "name": "parrot",
+        "percentEndX": 95.53333,
+        "percentEndY": 100,
+        "percentStartX": 71,
+        "percentStartY": 18.435154,
+        "tag": "Animals/zoo/voices/parrot.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296944,
+        "name": "ostrich",
+        "percentEndX": 62.266666,
+        "percentEndY": 79.528404,
+        "percentStartX": 37.733334,
+        "percentStartY": 20.471596,
+        "tag": "Animals/zoo/voices/ostrich.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/02_birds.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "water.png",
+    "listInfoButton": [
+      {
+        "id": 2131297124,
+        "name": "seal_3",
+        "percentEndX": 8.4,
+        "percentEndY": 91.31833,
+        "percentStartX": 1.4000001,
+        "percentStartY": 80.06431,
+        "tag": "Animals/zoo/facts/sounds/seal_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297123,
+        "name": "seal_2",
+        "percentEndX": 8.4,
+        "percentEndY": 75.562706,
+        "percentStartX": 1.4000001,
+        "percentStartY": 64.30868,
+        "tag": "Animals/zoo/facts/sounds/seal_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297122,
+        "name": "seal_1",
+        "percentEndX": 8.4,
+        "percentEndY": 59.807076,
+        "percentStartX": 1.4000001,
+        "percentStartY": 48.553055,
+        "tag": "Animals/zoo/facts/sounds/seal_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297205,
+        "name": "squid_3",
+        "percentEndX": 15.733333,
+        "percentEndY": 45.01608,
+        "percentStartX": 8.733334,
+        "percentStartY": 33.76206,
+        "tag": "Animals/zoo/facts/sounds/squid_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297204,
+        "name": "squid_2",
+        "percentEndX": 15.733333,
+        "percentEndY": 29.26045,
+        "percentStartX": 8.733334,
+        "percentStartY": 18.00643,
+        "tag": "Animals/zoo/facts/sounds/squid_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297203,
+        "name": "squid_1",
+        "percentEndX": 15.733333,
+        "percentEndY": 13.504823,
+        "percentStartX": 8.733334,
+        "percentStartY": 2.2508037,
+        "tag": "Animals/zoo/facts/sounds/squid_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297144,
+        "name": "shark_3",
+        "percentEndX": 99.066666,
+        "percentEndY": 87.99571,
+        "percentStartX": 92.066666,
+        "percentStartY": 76.7417,
+        "tag": "Animals/zoo/facts/sounds/shark_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297143,
+        "name": "shark_2",
+        "percentEndX": 85.73334,
+        "percentEndY": 87.99571,
+        "percentStartX": 78.73333,
+        "percentStartY": 76.7417,
+        "tag": "Animals/zoo/facts/sounds/shark_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297142,
+        "name": "shark_1",
+        "percentEndX": 70.86667,
+        "percentEndY": 87.99571,
+        "percentStartX": 63.86667,
+        "percentStartY": 76.7417,
+        "tag": "Animals/zoo/facts/sounds/shark_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296600,
+        "name": "dolphin_3",
+        "percentEndX": 87.13334,
+        "percentEndY": 34.619507,
+        "percentStartX": 80.13333,
+        "percentStartY": 23.365488,
+        "tag": "Animals/zoo/facts/sounds/dolphin_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296599,
+        "name": "dolphin_2",
+        "percentEndX": 75.933334,
+        "percentEndY": 34.619507,
+        "percentStartX": 68.933334,
+        "percentStartY": 23.365488,
+        "tag": "Animals/zoo/facts/sounds/dolphin_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296598,
+        "name": "dolphin_1",
+        "percentEndX": 64.73333,
+        "percentEndY": 34.619507,
+        "percentStartX": 57.733334,
+        "percentStartY": 23.365488,
+        "tag": "Animals/zoo/facts/sounds/dolphin_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297121,
+        "name": "seal",
+        "percentEndX": 63.86667,
+        "percentEndY": 100,
+        "percentStartX": 8.733334,
+        "percentStartY": 43.729904,
+        "tag": "Animals/zoo/voices/seal.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297202,
+        "name": "squid",
+        "percentEndX": 44.600002,
+        "percentEndY": 42.55091,
+        "percentStartX": 14.866667,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/squid.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297141,
+        "name": "shark",
+        "percentEndX": 98,
+        "percentEndY": 70.31082,
+        "percentStartX": 64.73333,
+        "percentStartY": 45.01608,
+        "tag": "Animals/zoo/voices/shark.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296596,
+        "name": "dolphin",
+        "percentEndX": 98,
+        "percentEndY": 23.365488,
+        "percentStartX": 46.533333,
+        "percentStartY": 2.5723472,
+        "tag": "Animals/zoo/voices/dolphin.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/03_water.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "dinosaur.png",
+    "listInfoButton": [
+      {
+        "id": 2131297226,
+        "name": "stegosaurus_3",
+        "percentEndX": 92.666664,
+        "percentEndY": 63.987137,
+        "percentStartX": 85.66667,
+        "percentStartY": 52.733116,
+        "tag": "Animals/zoo/facts/sounds/stegosaurus_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297225,
+        "name": "stegosaurus_2",
+        "percentEndX": 82.86667,
+        "percentEndY": 63.987137,
+        "percentStartX": 75.86667,
+        "percentStartY": 52.733116,
+        "tag": "Animals/zoo/facts/sounds/stegasaurus_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297224,
+        "name": "stegosaurus_1",
+        "percentEndX": 73.066666,
+        "percentEndY": 63.987137,
+        "percentStartX": 66.066666,
+        "percentStartY": 52.733116,
+        "tag": "Animals/zoo/facts/sounds/stegasaurus_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297044,
+        "name": "pterodactyl_3",
+        "percentEndX": 92.666664,
+        "percentEndY": 51.232582,
+        "percentStartX": 85.66667,
+        "percentStartY": 39.978565,
+        "tag": "Animals/zoo/facts/sounds/pterodactyl_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297043,
+        "name": "pterodactyl_2",
+        "percentEndX": 82.86667,
+        "percentEndY": 51.232582,
+        "percentStartX": 75.86667,
+        "percentStartY": 39.978565,
+        "tag": "Animals/zoo/facts/sounds/pterodactyl_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297042,
+        "name": "pterodactyl_1",
+        "percentEndX": 73.066666,
+        "percentEndY": 51.232582,
+        "percentStartX": 66.066666,
+        "percentStartY": 39.978565,
+        "tag": "Animals/zoo/facts/sounds/pterodactyl_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297345,
+        "name": "trex_3",
+        "percentEndX": 29.4,
+        "percentEndY": 21.436228,
+        "percentStartX": 22.400002,
+        "percentStartY": 10.182208,
+        "tag": "Animals/zoo/facts/sounds/trex_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297344,
+        "name": "trex_2",
+        "percentEndX": 19.6,
+        "percentEndY": 21.436228,
+        "percentStartX": 12.6,
+        "percentStartY": 10.182208,
+        "tag": "Animals/zoo/facts/sounds/trex_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297343,
+        "name": "trex_1",
+        "percentEndX": 9.8,
+        "percentEndY": 21.436228,
+        "percentStartX": 2.8000002,
+        "percentStartY": 10.182208,
+        "tag": "Animals/zoo/facts/sounds/trex_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297349,
+        "name": "triceratops_3",
+        "percentEndX": 59.399998,
+        "percentEndY": 21.436228,
+        "percentStartX": 52.399998,
+        "percentStartY": 10.182208,
+        "tag": "Animals/zoo/facts/sounds/triceratop_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297348,
+        "name": "triceratops_2",
+        "percentEndX": 49.6,
+        "percentEndY": 21.436228,
+        "percentStartX": 42.6,
+        "percentStartY": 10.182208,
+        "tag": "Animals/zoo/facts/sounds/triceratop_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297347,
+        "name": "triceratops_1",
+        "percentEndX": 39.8,
+        "percentEndY": 21.436228,
+        "percentStartX": 32.8,
+        "percentStartY": 10.182208,
+        "tag": "Animals/zoo/facts/sounds/triceratop_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297223,
+        "name": "stegosaurus",
+        "percentEndX": 97.2,
+        "percentEndY": 100,
+        "percentStartX": 44.666664,
+        "percentStartY": 66.237946,
+        "tag": "Animals/zoo/voices/stegasaurus.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297041,
+        "name": "pterodactyl",
+        "percentEndX": 97.2,
+        "percentEndY": 39.978565,
+        "percentStartX": 69.2,
+        "percentStartY": 6.216506,
+        "tag": "Animals/zoo/voices/pterodactyl.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297342,
+        "name": "trex",
+        "percentEndX": 28.400002,
+        "percentEndY": 97.7492,
+        "percentStartX": 2.1333332,
+        "percentStartY": 24.544481,
+        "tag": "Animals/zoo/voices/trex.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297346,
+        "name": "triceratops",
+        "percentEndX": 57.333332,
+        "percentEndY": 63.987137,
+        "percentStartX": 32.8,
+        "percentStartY": 24.544481,
+        "tag": "Animals/zoo/voices/triceratops.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/07_dinosaur.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "meat_.png",
+    "listInfoButton": [
+      {
+        "id": 2131296830,
+        "name": "jaguar_3",
+        "percentEndX": 72.13333,
+        "percentEndY": 39.442657,
+        "percentStartX": 65.13333,
+        "percentStartY": 28.18864,
+        "tag": "Animals/zoo/facts/sounds/jaguar_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296829,
+        "name": "jaguar_2",
+        "percentEndX": 60.933334,
+        "percentEndY": 39.442657,
+        "percentStartX": 53.933334,
+        "percentStartY": 28.18864,
+        "tag": "Animals/zoo/facts/sounds/jaguar_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296828,
+        "name": "jaguar_1",
+        "percentEndX": 49.733334,
+        "percentEndY": 39.442657,
+        "percentStartX": 42.733334,
+        "percentStartY": 28.18864,
+        "tag": "Animals/zoo/facts/sounds/jaguar_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296867,
+        "name": "lion_3",
+        "percentEndX": 33.6,
+        "percentEndY": 47.802788,
+        "percentStartX": 26.6,
+        "percentStartY": 36.548767,
+        "tag": "Animals/zoo/facts/sounds/lion_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296866,
+        "name": "lion_2",
+        "percentEndX": 22.400002,
+        "percentEndY": 47.802788,
+        "percentStartX": 15.4,
+        "percentStartY": 36.548767,
+        "tag": "Animals/zoo/facts/sounds/lion_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296865,
+        "name": "lion_1",
+        "percentEndX": 11.200001,
+        "percentEndY": 47.802788,
+        "percentStartX": 4.2,
+        "percentStartY": 36.548767,
+        "tag": "Animals/zoo/facts/sounds/lion_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297300,
+        "name": "tiger_3",
+        "percentEndX": 33.6,
+        "percentEndY": 100,
+        "percentStartX": 26.6,
+        "percentStartY": 88.74598,
+        "tag": "Animals/zoo/facts/sounds/tiger_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297299,
+        "name": "tiger_2",
+        "percentEndX": 22.400002,
+        "percentEndY": 100,
+        "percentStartX": 15.4,
+        "percentStartY": 88.74598,
+        "tag": "Animals/zoo/facts/sounds/tiger_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297298,
+        "name": "tiger_1",
+        "percentEndX": 11.200001,
+        "percentEndY": 100,
+        "percentStartX": 4.2,
+        "percentStartY": 88.74598,
+        "tag": "Animals/zoo/facts/sounds/tiger_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297408,
+        "name": "wolf_2",
+        "percentEndX": 73.799995,
+        "percentEndY": 51.875668,
+        "percentStartX": 66.799995,
+        "percentStartY": 40.62165,
+        "tag": "Animals/zoo/facts/sounds/wolf_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297407,
+        "name": "wolf_1",
+        "percentEndX": 62.6,
+        "percentEndY": 51.875668,
+        "percentStartX": 55.6,
+        "percentStartY": 40.62165,
+        "tag": "Animals/zoo/facts/sounds/wolf_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297409,
+        "name": "wolf_3",
+        "percentEndX": 85,
+        "percentEndY": 51.875668,
+        "percentStartX": 78,
+        "percentStartY": 40.62165,
+        "tag": "Animals/zoo/facts/sounds/wolf_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296827,
+        "name": "jaguar",
+        "percentEndX": 70.066666,
+        "percentEndY": 28.18864,
+        "percentStartX": 38.533333,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/jaguar.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296864,
+        "name": "lion",
+        "percentEndX": 33.266666,
+        "percentEndY": 36.548767,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/lion.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297297,
+        "name": "tiger",
+        "percentEndX": 38.533333,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 49.30332,
+        "tag": "Animals/zoo/voices/tiger.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297406,
+        "name": "wolf",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 66.73333,
+        "percentStartY": 43.729904,
+        "tag": "Animals/zoo/voices/wolf.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/04meat_.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "monkeys.png",
+    "listInfoButton": [
+      {
+        "id": 2131296739,
+        "name": "gorilla_3",
+        "percentEndX": 69.6,
+        "percentEndY": 45.01608,
+        "percentStartX": 62.6,
+        "percentStartY": 33.76206,
+        "tag": "Animals/zoo/facts/sounds/gorilla_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296738,
+        "name": "gorilla_2",
+        "percentEndX": 69.6,
+        "percentEndY": 29.26045,
+        "percentStartX": 62.6,
+        "percentStartY": 18.00643,
+        "tag": "Animals/zoo/facts/sounds/gorilla_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296737,
+        "name": "gorilla_1",
+        "percentEndX": 69.6,
+        "percentEndY": 13.504823,
+        "percentStartX": 62.6,
+        "percentStartY": 2.2508037,
+        "tag": "Animals/zoo/facts/sounds/gorilla_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296319,
+        "name": "baboon_3",
+        "percentEndX": 12,
+        "percentEndY": 45.01608,
+        "percentStartX": 5,
+        "percentStartY": 33.76206,
+        "tag": "Animals/zoo/facts/sounds/baboon_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296318,
+        "name": "baboon_2",
+        "percentEndX": 12,
+        "percentEndY": 29.26045,
+        "percentStartX": 5,
+        "percentStartY": 18.00643,
+        "tag": "Animals/zoo/facts/sounds/baboon_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296317,
+        "name": "baboon_1",
+        "percentEndX": 12,
+        "percentEndY": 13.504823,
+        "percentStartX": 5,
+        "percentStartY": 2.2508037,
+        "tag": "Animals/zoo/facts/sounds/baboon_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296905,
+        "name": "monkey_3",
+        "percentEndX": 88.666664,
+        "percentEndY": 91.21114,
+        "percentStartX": 81.666664,
+        "percentStartY": 79.95713,
+        "tag": "Animals/zoo/facts/sounds/monkey_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296904,
+        "name": "monkey_2",
+        "percentEndX": 88.666664,
+        "percentEndY": 75.45552,
+        "percentStartX": 81.666664,
+        "percentStartY": 64.2015,
+        "tag": "Animals/zoo/facts/sounds/monkey_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296903,
+        "name": "monkey_1",
+        "percentEndX": 88.666664,
+        "percentEndY": 59.699894,
+        "percentStartX": 81.666664,
+        "percentStartY": 48.445873,
+        "tag": "Animals/zoo/facts/sounds/monkey_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296500,
+        "name": "chimp_3",
+        "percentEndX": 21.066668,
+        "percentEndY": 99.35691,
+        "percentStartX": 14.066667,
+        "percentStartY": 88.1029,
+        "tag": "Animals/zoo/facts/sounds/chimp_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296499,
+        "name": "chimp_2",
+        "percentEndX": 21.066668,
+        "percentEndY": 83.60129,
+        "percentStartX": 14.066667,
+        "percentStartY": 72.34727,
+        "tag": "Animals/zoo/facts/sounds/chimp_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296498,
+        "name": "chimp_1",
+        "percentEndX": 21.066668,
+        "percentEndY": 67.84566,
+        "percentStartX": 14.066667,
+        "percentStartY": 56.59164,
+        "tag": "Animals/zoo/facts/sounds/chimp_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296736,
+        "name": "gorilla",
+        "percentEndX": 97.86667,
+        "percentEndY": 39.442657,
+        "percentStartX": 69.86667,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/gorilla.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296316,
+        "name": "baboon",
+        "percentEndX": 31.533333,
+        "percentEndY": 39.442657,
+        "percentStartX": 10.533334,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/baboon.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296902,
+        "name": "monkey",
+        "percentEndX": 78.86667,
+        "percentEndY": 87.245445,
+        "percentStartX": 54.333336,
+        "percentStartY": 39.442657,
+        "tag": "Animals/zoo/voices/monkey.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296497,
+        "name": "chimp",
+        "percentEndX": 49.066666,
+        "percentEndY": 100,
+        "percentStartX": 22.8,
+        "percentStartY": 39.442657,
+        "tag": "Animals/zoo/voices/chimp.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/06monkeys.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "reptiles.png",
+    "listInfoButton": [
+      {
+        "id": 2131296304,
+        "name": "alligator_3",
+        "percentEndX": 51.6,
+        "percentEndY": 14.898178,
+        "percentStartX": 44.600002,
+        "percentStartY": 3.6441586,
+        "tag": "Animals/zoo/facts/sounds/alligator_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296303,
+        "name": "alligator_2",
+        "percentEndX": 41.800003,
+        "percentEndY": 14.898178,
+        "percentStartX": 34.8,
+        "percentStartY": 3.6441586,
+        "tag": "Animals/zoo/facts/sounds/alligator_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296302,
+        "name": "alligator_1",
+        "percentEndX": 32,
+        "percentEndY": 14.898178,
+        "percentStartX": 25,
+        "percentStartY": 3.6441586,
+        "tag": "Animals/zoo/facts/sounds/alligator_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297362,
+        "name": "turtle_3",
+        "percentEndX": 81.8,
+        "percentEndY": 43.40836,
+        "percentStartX": 74.8,
+        "percentStartY": 32.15434,
+        "tag": "Animals/zoo/facts/sounds/turtle_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297361,
+        "name": "turtle_2",
+        "percentEndX": 72,
+        "percentEndY": 43.40836,
+        "percentStartX": 65,
+        "percentStartY": 32.15434,
+        "tag": "Animals/zoo/facts/sounds/turtle_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297360,
+        "name": "turtle_1",
+        "percentEndX": 62.199997,
+        "percentEndY": 43.40836,
+        "percentStartX": 55.199997,
+        "percentStartY": 32.15434,
+        "tag": "Animals/zoo/facts/sounds/turtle_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296806,
+        "name": "iguana_1",
+        "percentEndX": 57.6,
+        "percentEndY": 60.34298,
+        "percentStartX": 50.6,
+        "percentStartY": 49.088963,
+        "tag": "Animals/zoo/facts/sounds/iguana_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296808,
+        "name": "iguana_3",
+        "percentEndX": 77.200005,
+        "percentEndY": 60.34298,
+        "percentStartX": 70.200005,
+        "percentStartY": 49.088963,
+        "tag": "Animals/zoo/facts/sounds/iguana_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296807,
+        "name": "iguana_2",
+        "percentEndX": 67.4,
+        "percentEndY": 60.34298,
+        "percentStartX": 60.399998,
+        "percentStartY": 49.088963,
+        "tag": "Animals/zoo/facts/sounds/iguana_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297060,
+        "name": "rattlesnake_3",
+        "percentEndX": 28.466665,
+        "percentEndY": 60.34298,
+        "percentStartX": 21.466667,
+        "percentStartY": 49.088963,
+        "tag": "Animals/zoo/facts/sounds/rattlesnake_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297059,
+        "name": "rattlesnake_2",
+        "percentEndX": 18.666666,
+        "percentEndY": 60.34298,
+        "percentStartX": 11.666667,
+        "percentStartY": 49.088963,
+        "tag": "Animals/zoo/facts/sounds/rattlesnake_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297058,
+        "name": "rattlesnake_1",
+        "percentEndX": 8.866667,
+        "percentEndY": 60.34298,
+        "percentStartX": 1.8666666,
+        "percentStartY": 49.088963,
+        "tag": "Animals/zoo/facts/sounds/rattlesnake_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296301,
+        "name": "alligator",
+        "percentEndX": 43.86667,
+        "percentEndY": 46.40943,
+        "percentStartX": 1.8666666,
+        "percentStartY": 1.3933548,
+        "tag": "Animals/zoo/voices/alligator.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297358,
+        "name": "turtle",
+        "percentEndX": 97.2,
+        "percentEndY": 43.40836,
+        "percentStartX": 55.199997,
+        "percentStartY": 3.9657018,
+        "tag": "Animals/zoo/voices/turtle.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296802,
+        "name": "iguana",
+        "percentEndX": 98.86667,
+        "percentEndY": 100,
+        "percentStartX": 63.133335,
+        "percentStartY": 43.40836,
+        "tag": "Animals/zoo/voices/iguana.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297057,
+        "name": "rattlesnake",
+        "percentEndX": 52.600002,
+        "percentEndY": 100,
+        "percentStartX": 1.8666666,
+        "percentStartY": 63.45123,
+        "tag": "Animals/zoo/voices/rattlesnake.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/05_reptiles.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "plant.png",
+    "listInfoButton": [
+      {
+        "id": 2131296962,
+        "name": "panda_3",
+        "percentEndX": 79.66667,
+        "percentEndY": 45.551983,
+        "percentStartX": 72.66667,
+        "percentStartY": 34.297962,
+        "tag": "Animals/zoo/facts/sounds/panda_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296961,
+        "name": "panda_2",
+        "percentEndX": 79.66667,
+        "percentEndY": 29.796356,
+        "percentStartX": 72.66667,
+        "percentStartY": 18.542336,
+        "tag": "Animals/zoo/facts/sounds/panda_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296960,
+        "name": "panda_1",
+        "percentEndX": 79.66667,
+        "percentEndY": 14.0407295,
+        "percentStartX": 72.66667,
+        "percentStartY": 2.7867095,
+        "tag": "Animals/zoo/facts/sounds/panda_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296839,
+        "name": "kangaroo_3",
+        "percentEndX": 10.533334,
+        "percentEndY": 89.60343,
+        "percentStartX": 3.533333,
+        "percentStartY": 78.34941,
+        "tag": "Animals/zoo/facts/sounds/kangaroo_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296838,
+        "name": "kangaroo_2",
+        "percentEndX": 10.533334,
+        "percentEndY": 73.8478,
+        "percentStartX": 3.533333,
+        "percentStartY": 62.59378,
+        "tag": "Animals/zoo/facts/sounds/kangaroo_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296837,
+        "name": "kangaroo_1",
+        "percentEndX": 10.533334,
+        "percentEndY": 58.09218,
+        "percentStartX": 3.533333,
+        "percentStartY": 46.838154,
+        "tag": "Animals/zoo/facts/sounds/kangaroo_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296781,
+        "name": "hippo_3",
+        "percentEndX": 45.333336,
+        "percentEndY": 45.01608,
+        "percentStartX": 38.333332,
+        "percentStartY": 33.76206,
+        "tag": "Animals/zoo/facts/sounds/hippo_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296780,
+        "name": "hippo_2",
+        "percentEndX": 45.333336,
+        "percentEndY": 29.26045,
+        "percentStartX": 38.333332,
+        "percentStartY": 18.00643,
+        "tag": "Animals/zoo/facts/sounds/hippo_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296779,
+        "name": "hippo_1",
+        "percentEndX": 45.333336,
+        "percentEndY": 13.504823,
+        "percentStartX": 38.333332,
+        "percentStartY": 2.2508037,
+        "tag": "Animals/zoo/facts/sounds/hippo_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296692,
+        "name": "giraffe_3",
+        "percentEndX": 67.46667,
+        "percentEndY": 98.92819,
+        "percentStartX": 60.466663,
+        "percentStartY": 87.67417,
+        "tag": "Animals/zoo/facts/sounds/giraffe_3.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296691,
+        "name": "giraffe_2",
+        "percentEndX": 67.46667,
+        "percentEndY": 83.17256,
+        "percentStartX": 60.466663,
+        "percentStartY": 71.91854,
+        "tag": "Animals/zoo/facts/sounds/giraffe_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296690,
+        "name": "giraffe_1",
+        "percentEndX": 67.46667,
+        "percentEndY": 67.41694,
+        "percentStartX": 60.466663,
+        "percentStartY": 56.162918,
+        "tag": "Animals/zoo/facts/sounds/giraffe_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296959,
+        "name": "panda",
+        "percentEndX": 72.66667,
+        "percentEndY": 56.162918,
+        "percentStartX": 44.666664,
+        "percentStartY": 15.326902,
+        "tag": "Animals/zoo/voices/panda.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296836,
+        "name": "kangaroo",
+        "percentEndX": 46.733334,
+        "percentEndY": 100,
+        "percentStartX": 11.733333,
+        "percentStartY": 38.049305,
+        "tag": "Animals/zoo/voices/kangaroo.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296778,
+        "name": "hippo",
+        "percentEndX": 38.333332,
+        "percentEndY": 39.442657,
+        "percentStartX": 2.1333332,
+        "percentStartY": 0,
+        "tag": "Animals/zoo/voices/hippo.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296689,
+        "name": "giraffe",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 70.26666,
+        "percentStartY": 7.181136,
+        "tag": "Animals/zoo/voices/giraffe.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296641,
+        "name": "fact",
+        "percentEndX": 50,
+        "percentEndY": -272523264,
+        "percentStartX": 0,
+        "percentStartY": -272523296,
+        "tag": "Animals/zoo/zoo_interiors/01_plant.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_zoo.png",
+    "listInfoButton": [
+      {
+        "id": 2131297407,
+        "name": "zoo",
+        "percentEndX": 66.42857,
+        "percentEndY": 100,
+        "percentStartX": 41.428574,
+        "percentStartY": 33.333336,
+        "tag": "Animals/zoo/animals",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296897,
+        "name": "monkeys",
+        "percentEndX": 20.714287,
+        "percentEndY": 76.666664,
+        "percentStartX": 4.642857,
+        "percentStartY": 26.666668,
+        "tag": "zoomonkeys",
+        "typeAction": 2
+      },
+      {
+        "id": 2131296360,
+        "name": "birds",
+        "percentEndX": 59.464287,
+        "percentEndY": 26.666668,
+        "percentStartX": 34.464283,
+        "percentStartY": 0,
+        "tag": "zoobirds",
+        "typeAction": 2
+      },
+      {
+        "id": 2131296898,
+        "name": "monkeys1",
+        "percentEndX": 36.785713,
+        "percentEndY": 70,
+        "percentStartX": 20.714287,
+        "percentStartY": 43.333332,
+        "tag": "zoomonkeys",
+        "typeAction": 2
+      },
+      {
+        "id": 2131297002,
+        "name": "plant",
+        "percentEndX": 68.571434,
+        "percentEndY": 33.333336,
+        "percentStartX": 48.92857,
+        "percentStartY": 16.666668,
+        "tag": "zooplant",
+        "typeAction": 2
+      },
+      {
+        "id": 2131297051,
+        "name": "reptiles",
+        "percentEndX": 97.85714,
+        "percentEndY": 43.333332,
+        "percentStartX": 72.85714,
+        "percentStartY": 26.666668,
+        "tag": "zooreptiles",
+        "typeAction": 2
+      },
+      {
+        "id": 2131296878,
+        "name": "meat",
+        "percentEndX": 42.5,
+        "percentEndY": 47.666664,
+        "percentStartX": 28.214285,
+        "percentStartY": 21,
+        "tag": "zoomeat",
+        "typeAction": 2
+      },
+      {
+        "id": 2131296576,
+        "name": "dinosaur",
+        "percentEndX": 80,
+        "percentEndY": 16.666668,
+        "percentStartX": 55,
+        "percentStartY": 0,
+        "tag": "zoodinosaur",
+        "typeAction": 2
+      },
+      {
+        "id": 2131297374,
+        "name": "water",
+        "percentEndX": 97.14286,
+        "percentEndY": 73.333336,
+        "percentStartX": 68.571434,
+        "percentStartY": 43.333332,
+        "tag": "zoowater",
+        "typeAction": 2
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_nursery.png",
+    "listInfoButton": [
+      {
+        "id": 2131297003,
+        "name": "plant_cat1",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Outdoors/nursery/tools",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297004,
+        "name": "plant_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Outdoors/nursery/plants",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_farm_animals.png",
+    "listInfoButton": [
+      {
+        "id": 2131296511,
+        "name": "clothes_cat4",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50,
+        "percentStartY": 50,
+        "tag": "Animals/farm/animals",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296510,
+        "name": "clothes_cat3",
+        "percentEndX": 50,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Animals/farm/body",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296509,
+        "name": "clothes_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50,
+        "percentStartY": 0,
+        "tag": "Animals/farm/babies",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296508,
+        "name": "clothes_cat1",
+        "percentEndX": 50,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Animals/farm/families",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_school.png",
+    "listInfoButton": [
+      {
+        "id": 2131297357,
+        "name": "vehicle_cat5",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50,
+        "percentStartY": 50,
+        "tag": "School/addition",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297356,
+        "name": "vehicle_cat4",
+        "percentEndX": 50,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "School/numbers",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297355,
+        "name": "vehicle_cat3",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 66.66667,
+        "percentStartY": 0,
+        "tag": "School/shapes",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297354,
+        "name": "vehicle_cat2",
+        "percentEndX": 66.66667,
+        "percentEndY": 50,
+        "percentStartX": 33.333336,
+        "percentStartY": 0,
+        "tag": "School/letters",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297353,
+        "name": "vehicle_cat1",
+        "percentEndX": 33.333336,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "School/colors",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_medical_center.png",
+    "listInfoButton": [
+      {
+        "id": 2131296510,
+        "name": "clothes_cat3",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 49.45055,
+        "percentStartY": 50,
+        "tag": "pediatrician",
+        "typeAction": 2
+      },
+      {
+        "id": 2131296509,
+        "name": "clothes_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50.549454,
+        "percentStartY": 0,
+        "tag": "Health/equipment",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296511,
+        "name": "clothes_cat4",
+        "percentEndX": 49.45055,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Health/nurse",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296640,
+        "name": "feelings",
+        "percentEndX": 50.549454,
+        "percentEndY": 50,
+        "percentStartX": 25.274727,
+        "percentStartY": 0,
+        "tag": "Health/feelings",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297027,
+        "name": "psychologist",
+        "percentEndX": 25.274727,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Health/psychologist",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_things.png",
+    "listInfoButton": [
+      {
+        "id": 2131296743,
+        "name": "groceries_cat6",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 66.66667,
+        "percentStartY": 50,
+        "tag": "People/things/fun",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296742,
+        "name": "groceries_cat5",
+        "percentEndX": 66.66667,
+        "percentEndY": 100,
+        "percentStartX": 33.333336,
+        "percentStartY": 50,
+        "tag": "People/things/work",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296741,
+        "name": "groceries_cat4",
+        "percentEndX": 33.333336,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "People/things/easy",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296740,
+        "name": "groceries_cat3",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 66.66667,
+        "percentStartY": 0,
+        "tag": "People/things/bad",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296739,
+        "name": "groceries_cat2",
+        "percentEndX": 66.66667,
+        "percentEndY": 50,
+        "percentStartX": 33.333336,
+        "percentStartY": 0,
+        "tag": "People/things/good",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296738,
+        "name": "groceries_cat1",
+        "percentEndX": 33.333336,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "People/things/play",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_people.png",
+    "listInfoButton": [
+      {
+        "id": 2131296743,
+        "name": "groceries_cat6",
+        "percentEndX": 99.88901,
+        "percentEndY": 100,
+        "percentStartX": 66.592674,
+        "percentStartY": 50,
+        "tag": "People/people/men",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296742,
+        "name": "groceries_cat5",
+        "percentEndX": 66.592674,
+        "percentEndY": 100,
+        "percentStartX": 33.296337,
+        "percentStartY": 50,
+        "tag": "People/people/specialkids",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296741,
+        "name": "groceries_cat4",
+        "percentEndX": 33.296337,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "People/people/women",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296740,
+        "name": "groceries_cat3",
+        "percentEndX": 99.88901,
+        "percentEndY": 50,
+        "percentStartX": 66.592674,
+        "percentStartY": 0,
+        "tag": "People/people/girls",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296739,
+        "name": "groceries_cat2",
+        "percentEndX": 66.592674,
+        "percentEndY": 50,
+        "percentStartX": 33.296337,
+        "percentStartY": 0,
+        "tag": "People/people/family",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296738,
+        "name": "groceries_cat1",
+        "percentEndX": 33.296337,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "People/people/boys",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_body.png",
+    "listInfoButton": [
+      {
+        "id": 2131296838,
+        "name": "legs",
+        "percentEndX": 38.743885,
+        "percentEndY": 81.59898,
+        "percentStartX": 23.735725,
+        "percentStartY": 60.568527,
+        "tag": "Health/pediatrician/legs",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296314,
+        "name": "back",
+        "percentEndX": 83.27895,
+        "percentEndY": 61.928932,
+        "percentStartX": 57.585644,
+        "percentStartY": 28.553299,
+        "tag": "Health/pediatrician/back",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297342,
+        "name": "upperbody",
+        "percentEndX": 43.637848,
+        "percentEndY": 44.517765,
+        "percentStartX": 17.944536,
+        "percentStartY": 24.492386,
+        "tag": "Health/pediatrician/upper_body",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296875,
+        "name": "midbody",
+        "percentEndX": 38.743885,
+        "percentEndY": 60.568527,
+        "percentStartX": 23.735725,
+        "percentStartY": 44.517765,
+        "tag": "Health/pediatrician/midbody",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296762,
+        "name": "head",
+        "percentEndX": 40.04894,
+        "percentEndY": 26.015228,
+        "percentStartX": 20.799347,
+        "percentStartY": 5.964467,
+        "tag": "Health/pediatrician/head",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296753,
+        "name": "hand2",
+        "percentEndX": 46.411095,
+        "percentEndY": 54.568527,
+        "percentStartX": 35.72594,
+        "percentStartY": 44.543148,
+        "tag": "Health/pediatrician/hand",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296752,
+        "name": "hand1",
+        "percentEndX": 23.735725,
+        "percentEndY": 64.59391,
+        "percentStartX": 13.050571,
+        "percentStartY": 54.568527,
+        "tag": "Health/pediatrician/hand",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296664,
+        "name": "foot",
+        "percentEndX": 40.04894,
+        "percentEndY": 91.62437,
+        "percentStartX": 20.799347,
+        "percentStartY": 81.59898,
+        "tag": "Health/pediatrician/foot",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "building4a.png",
+    "listInfoButton": [
+      {
+        "id": 2131297019,
+        "name": "pond1",
+        "percentEndX": 24,
+        "percentEndY": 75,
+        "percentStartX": 14,
+        "percentStartY": 61.666668,
+        "tag": "xtra/08_big_pond_or_small_lake.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297018,
+        "name": "pond",
+        "percentEndX": 52,
+        "percentEndY": 81.666664,
+        "percentStartX": 42,
+        "percentStartY": 68.333336,
+        "tag": "xtra/08_big_pond_or_small_lake.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297103,
+        "name": "seagulls1",
+        "percentEndX": 62,
+        "percentEndY": 89,
+        "percentStartX": 52,
+        "percentStartY": 72.333336,
+        "tag": "xtra/16_one_bird_came_to_visit_the_other.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296725,
+        "name": "goosed",
+        "percentEndX": 38,
+        "percentEndY": 92.333336,
+        "percentStartX": 28,
+        "percentStartY": 75.666664,
+        "tag": "Animals/farm/animals/sounds/09goose.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296600,
+        "name": "ducks",
+        "percentEndX": 42.399998,
+        "percentEndY": 76.666664,
+        "percentStartX": 36.399998,
+        "percentStartY": 63.333332,
+        "tag": "Outdoors/park/birds/sounds/04ducks.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297401,
+        "name": "wrens",
+        "percentEndX": 78,
+        "percentEndY": 75,
+        "percentStartX": 63,
+        "percentStartY": 55,
+        "tag": "xtra/wren.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297059,
+        "name": "robin",
+        "percentEndX": 66.799995,
+        "percentEndY": 55,
+        "percentStartX": 58.8,
+        "percentStartY": 45,
+        "tag": "Outdoors/park/birds/sounds/07robin.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297251,
+        "name": "swan",
+        "percentEndX": 38,
+        "percentEndY": 68.333336,
+        "percentStartX": 24,
+        "percentStartY": 55,
+        "tag": "Outdoors/park/birds/sounds/03swan.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297317,
+        "name": "tree",
+        "percentEndX": 44,
+        "percentEndY": 50.333332,
+        "percentStartX": 24,
+        "percentStartY": 30.333334,
+        "tag": "Outdoors/nursery/plants/sounds/07tree.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297177,
+        "name": "sparrows",
+        "percentEndX": 75,
+        "percentEndY": 34.333332,
+        "percentStartX": 63,
+        "percentStartY": 14.333333,
+        "tag": "Outdoors/park/birds/sounds/06sparrows.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297102,
+        "name": "seagulls",
+        "percentEndX": 52,
+        "percentEndY": 68.333336,
+        "percentStartX": 42,
+        "percentStartY": 48.333332,
+        "tag": "Outdoors/beach/creatures/sounds/05seagulls.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297334,
+        "name": "trash_can",
+        "percentEndX": 87.81416,
+        "percentEndY": 59.263958,
+        "percentStartX": 80.57883,
+        "percentStartY": 43.27411,
+        "tag": "xtra/trash_can.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296997,
+        "name": "pirate_spyglass",
+        "percentEndX": 94,
+        "percentEndY": 63.333332,
+        "percentStartX": 78,
+        "percentStartY": 21.666666,
+        "tag": "People/people/men/sounds/08pirate _looking_through_a_spyglass.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296370,
+        "name": "bluejayd",
+        "percentEndX": 24,
+        "percentEndY": 89,
+        "percentStartX": 14,
+        "percentStartY": 75.666664,
+        "tag": "Outdoors/park/birds/sounds/08bluejay.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296760,
+        "name": "hawkd",
+        "percentEndX": 24,
+        "percentEndY": 55,
+        "percentStartX": 0,
+        "percentStartY": 21.666666,
+        "tag": "Outdoors/park/birds/sounds/01hawk.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296443,
+        "name": "butterfly4",
+        "percentEndX": 100,
+        "percentEndY": 91.66667,
+        "percentStartX": 86,
+        "percentStartY": 76.666664,
+        "tag": "xtra/invisible/04_was_that_a_burp_waiting_to_hide_inside_somebodys_open_mouth.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "building4b.png",
+    "listInfoButton": [
+      {
+        "id": 2131296330,
+        "name": "baseball",
+        "percentEndX": 100,
+        "percentEndY": 24.666668,
+        "percentStartX": 68.571434,
+        "percentStartY": 1.3333334,
+        "tag": "xtra/08baseball_backstop.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296970,
+        "name": "path2",
+        "percentEndX": 92.85714,
+        "percentEndY": 84.33333,
+        "percentStartX": 85.71429,
+        "percentStartY": 67.666664,
+        "tag": "Outdoors/places/sounds/07path.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296969,
+        "name": "path1",
+        "percentEndX": 7.1428576,
+        "percentEndY": 16.666668,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Outdoors/places/sounds/07path.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296968,
+        "name": "path",
+        "percentEndX": 78.85714,
+        "percentEndY": 51.666664,
+        "percentStartX": 71.71429,
+        "percentStartY": 35,
+        "tag": "Outdoors/places/sounds/07path.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296565,
+        "name": "dandelion6",
+        "percentEndX": 69.71429,
+        "percentEndY": 48,
+        "percentStartX": 62.57143,
+        "percentStartY": 38,
+        "tag": "Outdoors/park/landscape/sounds/08dandelion.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297317,
+        "name": "tree",
+        "percentEndX": 13.857142,
+        "percentEndY": 27.666668,
+        "percentStartX": 5.285714,
+        "percentStartY": 7.666667,
+        "tag": "Outdoors/park/landscape/sounds/01tree.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296470,
+        "name": "cat1",
+        "percentEndX": 11,
+        "percentEndY": 100,
+        "percentStartX": 3.857143,
+        "percentStartY": 83.666664,
+        "tag": "Animals/pets/sounds/11cat.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296564,
+        "name": "dandelion5",
+        "percentEndX": 35.57143,
+        "percentEndY": 51.666664,
+        "percentStartX": 28.428572,
+        "percentStartY": 41.666664,
+        "tag": "Outdoors/park/landscape/sounds/08dandelion.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297158,
+        "name": "sleepy_dog2",
+        "percentEndX": 62.57143,
+        "percentEndY": 68.333336,
+        "percentStartX": 55.42857,
+        "percentStartY": 58.333332,
+        "tag": "Outdoors/places/sounds/20sleepy_dog.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297153,
+        "name": "skunt",
+        "percentEndX": 28.428572,
+        "percentEndY": 55.666668,
+        "percentStartX": 19.857143,
+        "percentStartY": 35.666664,
+        "tag": "Outdoors/park/creatures/sounds/07skunk.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297039,
+        "name": "rabbita",
+        "percentEndX": 27.000002,
+        "percentEndY": 89,
+        "percentStartX": 19.857143,
+        "percentStartY": 62.333332,
+        "tag": "Animals/pets/sounds/15bunny.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296889,
+        "name": "mole",
+        "percentEndX": 78.85714,
+        "percentEndY": 84.33333,
+        "percentStartX": 70.28571,
+        "percentStartY": 67.666664,
+        "tag": "Outdoors/park/creatures/sounds/05mole.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296838,
+        "name": "lady_strollerz",
+        "percentEndX": 89.71428,
+        "percentEndY": 67.666664,
+        "percentStartX": 81.14285,
+        "percentStartY": 27.666668,
+        "tag": "People/people/women/sounds/21lady_with_stroller.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296697,
+        "name": "girl_jumpingd",
+        "percentEndX": 100,
+        "percentEndY": 55.333336,
+        "percentStartX": 97.14286,
+        "percentStartY": 28.666666,
+        "tag": "People/people/girls/sounds/18girl_jumping_rope.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296392,
+        "name": "boy_on_stick",
+        "percentEndX": 98.57143,
+        "percentEndY": 89,
+        "percentStartX": 92.85714,
+        "percentStartY": 55.666668,
+        "tag": "People/people/boys/sounds/12boy_on_a_pogo_stick.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297167,
+        "name": "snaild",
+        "percentEndX": 85.71429,
+        "percentEndY": 100,
+        "percentStartX": 75.71429,
+        "percentStartY": 84.33333,
+        "tag": "Outdoors/beach/creatures/sounds/10snail.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296863,
+        "name": "loitering_man",
+        "percentEndX": 55.42857,
+        "percentEndY": 68.333336,
+        "percentStartX": 49.714287,
+        "percentStartY": 28.333334,
+        "tag": "xtra/loitering_man.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296708,
+        "name": "girl_walking_dog",
+        "percentEndX": 62.57143,
+        "percentEndY": 38,
+        "percentStartX": 55.42857,
+        "percentStartY": 14.666666,
+        "tag": "People/people/girls/sounds/16girl_walking_a_poodle_on_a_leash.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296794,
+        "name": "iguana1d",
+        "percentEndX": 38.428574,
+        "percentEndY": 100,
+        "percentStartX": 28.428572,
+        "percentStartY": 83.33333,
+        "tag": "Animals/zoo/reptiles/sounds/02iguana_lizard.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297194,
+        "name": "squirreld",
+        "percentEndX": 48.42857,
+        "percentEndY": 58.333332,
+        "percentStartX": 42.714287,
+        "percentStartY": 48.333332,
+        "tag": "Outdoors/park/creatures/sounds/01squirrel.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297024,
+        "name": "possum",
+        "percentEndX": 51.285713,
+        "percentEndY": 95.666664,
+        "percentStartX": 42.714287,
+        "percentStartY": 75.666664,
+        "tag": "Outdoors/park/creatures/sounds/08possum.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297339,
+        "name": "turtle1",
+        "percentEndX": 42.714287,
+        "percentEndY": 75.666664,
+        "percentStartX": 35.57143,
+        "percentStartY": 62.333332,
+        "tag": "Outdoors/park/creatures/sounds/12tortoise.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296336,
+        "name": "bat",
+        "percentEndX": 28.428572,
+        "percentEndY": 16,
+        "percentStartX": 19.857143,
+        "percentStartY": 2.6666667,
+        "tag": "Outdoors/park/creatures/sounds/03bat.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297393,
+        "name": "woman_holding_nosed",
+        "percentEndX": 38.428574,
+        "percentEndY": 53.333336,
+        "percentStartX": 34.142857,
+        "percentStartY": 20,
+        "tag": "People/people/women/sounds/23woman_holding_her_nose.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296661,
+        "name": "flying_squirrel",
+        "percentEndX": 22.42857,
+        "percentEndY": 29.333332,
+        "percentStartX": 13.857142,
+        "percentStartY": 16,
+        "tag": "Outdoors/park/creatures/sounds/02flying_squirrel.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297314,
+        "name": "trash_can",
+        "percentEndX": 6.714286,
+        "percentEndY": 52.333332,
+        "percentStartX": 3.857143,
+        "percentStartY": 35.666664,
+        "tag": "xtra/trash_can.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297041,
+        "name": "turtle4",
+        "percentEndX": 15.857142,
+        "percentEndY": 46.333332,
+        "percentStartX": 9.714286,
+        "percentStartY": 38.666664,
+        "tag": "Animals/pets/sounds/06turtle.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297041,
+        "name": "raccoons",
+        "percentEndX": 13.857142,
+        "percentEndY": 58.333332,
+        "percentStartX": 6.714286,
+        "percentStartY": 30.666664,
+        "tag": "Outdoors/park/creatures/sounds/04raccoons.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296705,
+        "name": "girl_skating",
+        "percentEndX": 97.14286,
+        "percentEndY": 58.666664,
+        "percentStartX": 92.85714,
+        "percentStartY": 28.666666,
+        "tag": "People/people/girls/sounds/09girl_skating.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "building4c.png",
+    "listInfoButton": [
+      {
+        "id": 2131296566,
+        "name": "daughter",
+        "percentEndX": 37.75,
+        "percentEndY": 39.22222,
+        "percentStartX": 32.75,
+        "percentStartY": 25.88889,
+        "tag": "People/people/family/sounds/05daughter.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296639,
+        "name": "father",
+        "percentEndX": 37.75,
+        "percentEndY": 71,
+        "percentStartX": 32.75,
+        "percentStartY": 37.666668,
+        "tag": "People/people/family/sounds/03father.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296895,
+        "name": "monkey_bars1",
+        "percentEndX": 14.875001,
+        "percentEndY": 49.666668,
+        "percentStartX": 9.375,
+        "percentStartY": 36.333336,
+        "tag": "Outdoors/park/equipment/sounds/03monkey_bars.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297253,
+        "name": "swings1",
+        "percentEndX": 32.75,
+        "percentEndY": 51,
+        "percentStartX": 30.25,
+        "percentStartY": 24.333334,
+        "tag": "Outdoors/park/equipment/sounds/02swings.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297252,
+        "name": "swings",
+        "percentEndX": 41.5,
+        "percentEndY": 72.55556,
+        "percentStartX": 36.5,
+        "percentStartY": 39.22222,
+        "tag": "Outdoors/park/equipment/sounds/02swings.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296972,
+        "name": "path4",
+        "percentEndX": 58.125,
+        "percentEndY": 96,
+        "percentStartX": 53.125,
+        "percentStartY": 62.666668,
+        "tag": "Outdoors/places/sounds/07path.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296971,
+        "name": "path3",
+        "percentEndX": 15.000001,
+        "percentEndY": 36.333336,
+        "percentStartX": 7.5000005,
+        "percentStartY": 23,
+        "tag": "Outdoors/places/sounds/07path.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296402,
+        "name": "boy_with_jack",
+        "percentEndX": 24.875,
+        "percentEndY": 56.333332,
+        "percentStartX": 21.75,
+        "percentStartY": 36.333336,
+        "tag": "People/people/girls/sounds/17girl_with_a_jack-o-lantern_pumpkin.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296713,
+        "name": "girl_with_doll1",
+        "percentEndX": 17.5,
+        "percentEndY": 72.55556,
+        "percentStartX": 14.375,
+        "percentStartY": 52.555553,
+        "tag": "People/people/girls/sounds/13girl_with_a_doll.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296480,
+        "name": "centipede1",
+        "percentEndX": 66.25,
+        "percentEndY": 68.666664,
+        "percentStartX": 59.125,
+        "percentStartY": 52.333336,
+        "tag": "Outdoors/park/bugs/sounds/15centipede.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297318,
+        "name": "tree1",
+        "percentEndX": 53.125,
+        "percentEndY": 87,
+        "percentStartX": 43.125,
+        "percentStartY": 20.333334,
+        "tag": "Outdoors/park/landscape/sounds/01tree.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296692,
+        "name": "girl_cartwheel3",
+        "percentEndX": 32.75,
+        "percentEndY": 81.333336,
+        "percentStartX": 29,
+        "percentStartY": 58,
+        "tag": "People/people/girls/sounds/11girl_doing_a_cartwheel_with_a_fishbowl.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296704,
+        "name": "girl_running",
+        "percentEndX": 21.25,
+        "percentEndY": 79.333336,
+        "percentStartX": 17.5,
+        "percentStartY": 56,
+        "tag": "xtra/runner.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296902,
+        "name": "mosquito",
+        "percentEndX": 89.875,
+        "percentEndY": 89.666664,
+        "percentStartX": 86.75,
+        "percentStartY": 73,
+        "tag": "Outdoors/park/bugs/sounds/10mosquito.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296561,
+        "name": "dandelion2",
+        "percentEndX": 72.5,
+        "percentEndY": 94.333336,
+        "percentStartX": 69.375,
+        "percentStartY": 87.666664,
+        "tag": "Outdoors/park/landscape/sounds/08dandelion.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296784,
+        "name": "housefly",
+        "percentEndX": 64.374996,
+        "percentEndY": 83.523416,
+        "percentStartX": 59.249996,
+        "percentStartY": 68.333336,
+        "tag": "Outdoors/park/bugs/sounds/01housefly.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296885,
+        "name": "millipede",
+        "percentEndX": 79.75,
+        "percentEndY": 86,
+        "percentStartX": 74.625,
+        "percentStartY": 77.333336,
+        "tag": "Outdoors/park/bugs/sounds/16millipede.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297084,
+        "name": "sand1",
+        "percentEndX": 15.000001,
+        "percentEndY": 69.333336,
+        "percentStartX": 7.5000005,
+        "percentStartY": 62.666668,
+        "tag": "xtra/04_sandbox.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296595,
+        "name": "dragonfly",
+        "percentEndX": 82.375,
+        "percentEndY": 81,
+        "percentStartX": 79.25,
+        "percentStartY": 74.333336,
+        "tag": "Outdoors/park/bugs/sounds/04dragonfly.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296355,
+        "name": "benchd",
+        "percentEndX": 9.375,
+        "percentEndY": 51,
+        "percentStartX": 3.125,
+        "percentStartY": 37.666668,
+        "tag": "House/livingroom/sounds/11bench.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296732,
+        "name": "grasshopper",
+        "percentEndX": 72,
+        "percentEndY": 68.666664,
+        "percentStartX": 68.875,
+        "percentStartY": 60,
+        "tag": "Outdoors/park/bugs/sounds/11grasshopper.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296563,
+        "name": "dandelion4",
+        "percentEndX": 95.375,
+        "percentEndY": 67.666664,
+        "percentStartX": 92.25,
+        "percentStartY": 51,
+        "tag": "Outdoors/park/landscape/sounds/08dandelion.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296894,
+        "name": "monkey_bars",
+        "percentEndX": 28.124998,
+        "percentEndY": 81,
+        "percentStartX": 21.75,
+        "percentStartY": 61.333336,
+        "tag": "xtra/06parallel_bars.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296775,
+        "name": "hornet",
+        "percentEndX": 71,
+        "percentEndY": 84.33333,
+        "percentStartX": 67.875,
+        "percentStartY": 77.666664,
+        "tag": "Outdoors/park/bugs/sounds/09hornet.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296301,
+        "name": "ants",
+        "percentEndX": 97.625,
+        "percentEndY": 84.33333,
+        "percentStartX": 94.5,
+        "percentStartY": 67.666664,
+        "tag": "Outdoors/park/bugs/sounds/13ants.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297160,
+        "name": "slide",
+        "percentEndX": 23.25,
+        "percentEndY": 37,
+        "percentStartX": 19.5,
+        "percentStartY": 27.000002,
+        "tag": "People/things/play/sounds/10slide.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296344,
+        "name": "beagle1",
+        "percentEndX": 18.125,
+        "percentEndY": 43.666668,
+        "percentStartX": 15.000001,
+        "percentStartY": 37,
+        "tag": "Animals/dogs/sounds/02beagle.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296669,
+        "name": "frog",
+        "percentEndX": 18.125,
+        "percentEndY": 91,
+        "percentStartX": 11,
+        "percentStartY": 72.85556,
+        "tag": "Outdoors/park/equipment/sounds/06frog_pads.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296779,
+        "name": "house",
+        "percentEndX": 30.125002,
+        "percentEndY": 13.333334,
+        "percentStartX": 23.25,
+        "percentStartY": 3.3333335,
+        "tag": "xtra/HEADINGS/00house.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297373,
+        "name": "wasp",
+        "percentEndX": 73.5,
+        "percentEndY": 57.333336,
+        "percentStartX": 67.875,
+        "percentStartY": 46.666668,
+        "tag": "Outdoors/park/bugs/sounds/08wasp.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296872,
+        "name": "man_jogging",
+        "percentEndX": 58.749996,
+        "percentEndY": 43.666668,
+        "percentStartX": 53.125,
+        "percentStartY": 20.333334,
+        "tag": "xtra/runner.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296562,
+        "name": "dandelion3",
+        "percentEndX": 7.5000005,
+        "percentEndY": 94.333336,
+        "percentStartX": 3.125,
+        "percentStartY": 84.33333,
+        "tag": "Outdoors/park/landscape/sounds/08dandelion.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296861,
+        "name": "locust",
+        "percentEndX": 88.75,
+        "percentEndY": 34,
+        "percentStartX": 83.625,
+        "percentStartY": 17.333334,
+        "tag": "Outdoors/park/bugs/sounds/19cicada.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296444,
+        "name": "butterfly5",
+        "percentEndX": 4.125,
+        "percentEndY": 86,
+        "percentStartX": 0,
+        "percentStartY": 70.666664,
+        "tag": "xtra/invisible/05_if_fairies_were_hiding_here.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296472,
+        "name": "caterpillar",
+        "percentEndX": 82.75,
+        "percentEndY": 74.333336,
+        "percentStartX": 76.625,
+        "percentStartY": 67.666664,
+        "tag": "Outdoors/park/bugs/sounds/14caterpillar.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296836,
+        "name": "ladder",
+        "percentEndX": 29,
+        "percentEndY": 43.666668,
+        "percentStartX": 25.875,
+        "percentStartY": 23.666666,
+        "tag": "xtra/ladder.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296992,
+        "name": "picnic_tablee",
+        "percentEndX": 13.75,
+        "percentEndY": 13.333334,
+        "percentStartX": 7.5000005,
+        "percentStartY": 0,
+        "tag": "Outdoors/park/equipment/sounds/10picnic_table.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296515,
+        "name": "clown_balloons1d",
+        "percentEndX": 21.25,
+        "percentEndY": 33.333334,
+        "percentStartX": 16.875,
+        "percentStartY": 10.333334,
+        "tag": "People/job/performers/sounds/05clown_with_balloons.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296525,
+        "name": "08baseball_backstop",
+        "percentEndX": 5.5,
+        "percentEndY": 29,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "xtra/08baseball_backstop.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_park.png",
+    "listInfoButton": [
+      {
+        "id": 2131297357,
+        "name": "vehicle_cat5",
+        "percentEndX": 99.88901,
+        "percentEndY": 100,
+        "percentStartX": 49.944504,
+        "percentStartY": 50,
+        "tag": "Outdoors/park/creatures",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297356,
+        "name": "vehicle_cat4",
+        "percentEndX": 49.944504,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "Outdoors/park/equipment",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297355,
+        "name": "vehicle_cat3",
+        "percentEndX": 99.88901,
+        "percentEndY": 50,
+        "percentStartX": 66.592674,
+        "percentStartY": 0,
+        "tag": "Outdoors/park/bugs",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297354,
+        "name": "vehicle_cat2",
+        "percentEndX": 66.592674,
+        "percentEndY": 50,
+        "percentStartX": 33.296337,
+        "percentStartY": 0,
+        "tag": "Outdoors/park/landscape",
+        "typeAction": 1
+      },
+      {
+        "id": 2131297353,
+        "name": "vehicle_cat1",
+        "percentEndX": 33.296337,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "Outdoors/park/birds",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "building7a.png",
+    "listInfoButton": [
+      {
+        "id": 2131296718,
+        "name": "goldfish1",
+        "percentEndX": 76.25,
+        "percentEndY": 73.333336,
+        "percentStartX": 68.75,
+        "percentStartY": 53.333336,
+        "tag": "xtra/05_fishbowl.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296639,
+        "name": "father",
+        "percentEndX": 10.375,
+        "percentEndY": 100,
+        "percentStartX": 6.6249995,
+        "percentStartY": 33.333336,
+        "tag": "People/people/men/sounds/18father.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297006,
+        "name": "plumber1",
+        "percentEndX": 6.6249995,
+        "percentEndY": 100,
+        "percentStartX": 2.875,
+        "percentStartY": 36.666668,
+        "tag": "Construction/sounds/08plumber.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296699,
+        "name": "girl_lantern",
+        "percentEndX": 30.5,
+        "percentEndY": 90,
+        "percentStartX": 26.750002,
+        "percentStartY": 23.333334,
+        "tag": "xtra/15_yes_i_think_i_look_funny.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296598,
+        "name": "draws_wonderful_pictures",
+        "percentEndX": 7.25,
+        "percentEndY": 36.666668,
+        "percentStartX": 2.875,
+        "percentStartY": 10,
+        "tag": "People/people/specialkids/sounds/20draws_wonderful_pictures_.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296710,
+        "name": "girl_wearing_scarf",
+        "percentEndX": 74.625,
+        "percentEndY": 53.333336,
+        "percentStartX": 70.25,
+        "percentStartY": 10,
+        "tag": "People/people/girls/sounds/12girl_wearing_a_hijab_scarf.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296918,
+        "name": "navy_officer",
+        "percentEndX": 68.75,
+        "percentEndY": 93.333336,
+        "percentStartX": 65,
+        "percentStartY": 10,
+        "tag": "People/people/men/sounds/07navy_officer.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296903,
+        "name": "mother",
+        "percentEndX": 65,
+        "percentEndY": 73.333336,
+        "percentStartX": 60.000004,
+        "percentStartY": 6.666667,
+        "tag": "xtra/26_i_dont_have_anything_to_do.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297390,
+        "name": "woman_arms_crossed",
+        "percentEndX": 45.75,
+        "percentEndY": 76.666664,
+        "percentStartX": 41.375,
+        "percentStartY": 10,
+        "tag": "xtra/sister.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297394,
+        "name": "woman_kimono1",
+        "percentEndX": 35.5,
+        "percentEndY": 90,
+        "percentStartX": 30.5,
+        "percentStartY": 6.666667,
+        "tag": "People/people/women/sounds/08woman_wearing_a_kimono.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296687,
+        "name": "girl_and_woman_saris",
+        "percentEndX": 98.5,
+        "percentEndY": 83.33333,
+        "percentStartX": 88.5,
+        "percentStartY": 10,
+        "tag": "People/people/women/sounds/18girl_and_woman_wearing_saris.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296870,
+        "name": "man_arms_crossed",
+        "percentEndX": 20,
+        "percentEndY": 93.333336,
+        "percentStartX": 16.25,
+        "percentStartY": 10,
+        "tag": "xtra/man_standing_with_arms_crossed.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296706,
+        "name": "girl_standing_on_shoulder",
+        "percentEndX": 10,
+        "percentEndY": 33.333336,
+        "percentStartX": 5,
+        "percentStartY": 0,
+        "tag": "People/people/girls/sounds/03daughter.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296723,
+        "name": "good_at_arithmatic",
+        "percentEndX": 83.375,
+        "percentEndY": 76.666664,
+        "percentStartX": 79,
+        "percentStartY": 10,
+        "tag": "People/people/specialkids/sounds/01good_at_arithmetic_.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296306,
+        "name": "astronaut",
+        "percentEndX": 60.000004,
+        "percentEndY": 96.666664,
+        "percentStartX": 53.750004,
+        "percentStartY": 10,
+        "tag": "People/job/military/sounds/15_astronaut_in_an_EVA_suit.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296698,
+        "name": "girl_kimono",
+        "percentEndX": 39.875,
+        "percentEndY": 100,
+        "percentStartX": 35.5,
+        "percentStartY": 26.666668,
+        "tag": "People/people/girls/sounds/14girl_wearing_a_kimono.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296289,
+        "name": "airforce_office",
+        "percentEndX": 88.5,
+        "percentEndY": 26.666668,
+        "percentStartX": 84.125,
+        "percentStartY": 0,
+        "tag": "People/people/women/sounds/10air_force_officer_.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296876,
+        "name": "marine_officer",
+        "percentEndX": 16.25,
+        "percentEndY": 70,
+        "percentStartX": 10,
+        "percentStartY": 20,
+        "tag": "People/people/women/sounds/24marine_officer.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296304,
+        "name": "army_soldier",
+        "percentEndX": 23.75,
+        "percentEndY": 100,
+        "percentStartX": 20,
+        "percentStartY": 20,
+        "tag": "People/people/men/sounds/06army_soldier.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297256,
+        "name": "takes_wonderful_photographs",
+        "percentEndX": 79,
+        "percentEndY": 76.666664,
+        "percentStartX": 74.625,
+        "percentStartY": 10,
+        "tag": "People/people/specialkids/sounds/19takes_wonderful_photographs_.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297009,
+        "name": "plumber_scratching_head",
+        "percentEndX": 52.249996,
+        "percentEndY": 90,
+        "percentStartX": 47.25,
+        "percentStartY": 10,
+        "tag": "People/people/men/sounds/09plumber_scratching_his_head.mp3",
+        "typeAction": 0
+      }
+    ]
+  },
+  {
+    "imageLink": "interior_house.png",
+    "listInfoButton": [
+      {
+        "id": 2131296783,
+        "name": "house_cat5",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 50,
+        "percentStartY": 50,
+        "tag": "House/kitchen",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296782,
+        "name": "house_cat3",
+        "percentEndX": 50,
+        "percentEndY": 100,
+        "percentStartX": 0,
+        "percentStartY": 50,
+        "tag": "House/livingroom",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296781,
+        "name": "house_cat2",
+        "percentEndX": 100,
+        "percentEndY": 50,
+        "percentStartX": 50,
+        "percentStartY": 0,
+        "tag": "House/bedroom",
+        "typeAction": 1
+      },
+      {
+        "id": 2131296780,
+        "name": "house_cat1",
+        "percentEndX": 50,
+        "percentEndY": 50,
+        "percentStartX": 0,
+        "percentStartY": 0,
+        "tag": "House/bathroom",
+        "typeAction": 1
+      }
+    ]
+  },
+  {
+    "imageLink": "building11a.png",
+    "listInfoButton": [
+      {
+        "id": 2131296777,
+        "name": "high_school_graduate",
+        "percentEndX": 91.4037,
+        "percentEndY": 100,
+        "percentStartX": 84.27639,
+        "percentStartY": 81.90757,
+        "tag": "People/people/boys/sounds/22high_school_graduate.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296712,
+        "name": "girl_reading",
+        "percentEndX": 51.414577,
+        "percentEndY": 100,
+        "percentStartX": 45.70185,
+        "percentStartY": 84.46411,
+        "tag": "People/people/girls/sounds/08girl_reading_a_book.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296929,
+        "name": "naughty_student",
+        "percentEndX": 82.8618,
+        "percentEndY": 100,
+        "percentStartX": 71.43635,
+        "percentStartY": 80.6293,
+        "tag": "xtra/22_naughty_students.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296706,
+        "name": "girl_jumping1",
+        "percentEndX": 50,
+        "percentEndY": 67.15831,
+        "percentStartX": 45.70185,
+        "percentStartY": 47.78761,
+        "tag": "People/people/girls/sounds/18girl_jumping_rope.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296702,
+        "name": "girl_cartwheel1",
+        "percentEndX": 46.409138,
+        "percentEndY": 63.225174,
+        "percentStartX": 42.110992,
+        "percentStartY": 45.132744,
+        "tag": "xtra/girl_doing_a_cartwheel.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296445,
+        "name": "butterfly13",
+        "percentEndX": 97.714905,
+        "percentEndY": 20.943953,
+        "percentStartX": 89.8803,
+        "percentStartY": 3.6381512,
+        "tag": "xtra/invisible/13_is_an_angel_floating_nearby_that_nobody_can_see.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297284,
+        "name": "teachers",
+        "percentEndX": 16.430902,
+        "percentEndY": 30.973452,
+        "percentStartX": 11.425463,
+        "percentStartY": 1.2782694,
+        "tag": "xtra/teacher_2.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297179,
+        "name": "slideq",
+        "percentEndX": 65.01633,
+        "percentEndY": 76.40118,
+        "percentStartX": 49.891186,
+        "percentStartY": 35.889874,
+        "tag": "xtra/62_when_you_slide_on_a_slide_can_you_say_you_ride.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296341,
+        "name": "basketball_goal",
+        "percentEndX": 60.718174,
+        "percentEndY": 35.103245,
+        "percentStartX": 49.564743,
+        "percentStartY": 0,
+        "tag": "xtra/basketball_court.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296393,
+        "name": "boy_basketball1",
+        "percentEndX": 44.12405,
+        "percentEndY": 30.973452,
+        "percentStartX": 38.57454,
+        "percentStartY": 10.324484,
+        "tag": "People/people/boys/sounds/15boy_with_a_basketball.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296394,
+        "name": "boy_basketballq",
+        "percentEndX": 37.159954,
+        "percentEndY": 41.297935,
+        "percentStartX": 32.861805,
+        "percentStartY": 20.648968,
+        "tag": "xtra/15_he_wonders_how_to_make_it_dribble.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297087,
+        "name": "running_boy1",
+        "percentEndX": 27.149075,
+        "percentEndY": 54.17896,
+        "percentStartX": 22.850925,
+        "percentStartY": 33.52999,
+        "tag": "People/people/boys/sounds/04running_boy.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296876,
+        "name": "looking",
+        "percentEndX": 12.89445,
+        "percentEndY": 77.38447,
+        "percentStartX": 9.303591,
+        "percentStartY": 52.90069,
+        "tag": "xtra/he_cant_remember_what_it_was.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297285,
+        "name": "teachers1",
+        "percentEndX": 8.541893,
+        "percentEndY": 68.436584,
+        "percentStartX": 2.1218715,
+        "percentStartY": 37.463127,
+        "tag": "xtra/teacher_1.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296967,
+        "name": "parallel_bars",
+        "percentEndX": 17.138193,
+        "percentEndY": 67.15831,
+        "percentStartX": 12.132752,
+        "percentStartY": 46.509342,
+        "tag": "xtra/22_he_likes_to_play_on_parallel_bars.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297169,
+        "name": "skipping",
+        "percentEndX": 35.690968,
+        "percentEndY": 78.76106,
+        "percentStartX": 28.563658,
+        "percentStartY": 52.90069,
+        "tag": "xtra/skipping.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296680,
+        "name": "frog_pads",
+        "percentEndX": 38.57454,
+        "percentEndY": 91.64208,
+        "percentStartX": 20.021763,
+        "percentStartY": 60.668636,
+        "tag": "Outdoors/park/equipment/sounds/06frog_pads.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131297270,
+        "name": "swings",
+        "percentEndX": 45.70185,
+        "percentEndY": 80.03934,
+        "percentStartX": 24.265505,
+        "percentStartY": 36.184856,
+        "tag": "People/things/play/sounds/01swing.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296437,
+        "name": "bushes2",
+        "percentEndX": 100,
+        "percentEndY": 20.648968,
+        "percentStartX": 67.1382,
+        "percentStartY": 0,
+        "tag": "Outdoors/park/landscape/sounds/09bushes.mp3",
+        "typeAction": 0
+      },
+      {
+        "id": 2131296436,
+        "name": "bushes1",
+        "percentEndX": 100,
+        "percentEndY": 100,
+        "percentStartX": 77.14908,
+        "percentStartY": 0,
+        "tag": "Outdoors/park/landscape/sounds/09bushes.mp3",
+        "typeAction": 0
+      }
+    ]
+  }
+]

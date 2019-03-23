@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_building7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.gisela.worldworld.MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:id="@+id/horizontal_scroll">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_height="300dp"
+                android:layout_weight="1"
+                android:background="@drawable/building7a"
+                android:layout_width="800dp">
+
+                <Button
+        android:id="@+id/plumber_scratching_head"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/09plumber_scratching_his_head.mp3"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_width="40dp"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/woman_arms_crossed"
+        android:layout_toEndOf="@+id/woman_arms_crossed" />
+
+                <Button
+        android:id="@+id/takes_wonderful_photographs"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/specialkids/sounds/19takes_wonderful_photographs_.mp3"
+        android:layout_width="35dp"
+        android:layout_alignTop="@+id/girl_wearing_scarf"
+        android:layout_toRightOf="@+id/girl_wearing_scarf"
+        android:layout_toEndOf="@+id/girl_wearing_scarf"
+        android:layout_height="200dp" />
+
+                <Button
+        android:id="@+id/army_soldier"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/06army_soldier.mp3"
+        android:layout_width="30dp"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/man_arms_crossed"
+        android:layout_toEndOf="@+id/man_arms_crossed" />
+
+                <Button
+        android:id="@+id/marine_officer"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/24marine_officer.mp3"
+        android:layout_height="150dp"
+        android:layout_width="50dp"
+        android:layout_alignTop="@+id/army_soldier"
+        android:layout_toRightOf="@+id/girl_standing_on_shoulder"
+        android:layout_toEndOf="@+id/girl_standing_on_shoulder" />
+
+                <Button
+        android:id="@+id/airforce_office"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/10air_force_officer_.mp3"
+                    android:layout_width="35dp"
+        android:layout_height="100dp"
+                    android:layout_above="@+id/girl_kimono"
+                    android:layout_toLeftOf="@+id/girl_and_woman_saris"
+                    android:layout_toStartOf="@+id/girl_and_woman_saris" />
+
+                <Button
+                    android:id="@+id/girl_kimono"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/girls/sounds/14girl_wearing_a_kimono.mp3"
+                    android:layout_height="220dp"
+                    android:layout_width="35dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/woman_kimono1"
+                    android:layout_toEndOf="@+id/woman_kimono1" />
+
+                <Button
+        android:id="@+id/astronaut"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/job/military/sounds/05astronaut_in_an_EVA_suit.mp3"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_height="260dp"
+        android:layout_width="50dp"
+                    android:layout_alignTop="@+id/plumber_scratching_head"
+                    android:layout_toRightOf="@+id/plumber_scratching_head"
+                    android:layout_toEndOf="@+id/plumber_scratching_head" />
+
+                <Button
+        android:id="@+id/good_at_arithmatic"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/specialkids/sounds/01good_at_arithmetic_.mp3"
+                    android:layout_width="35dp"
+        android:layout_height="200dp"
+                    android:layout_alignBottom="@+id/takes_wonderful_photographs"
+                    android:layout_toRightOf="@+id/takes_wonderful_photographs"
+                    android:layout_toEndOf="@+id/takes_wonderful_photographs" />
+
+                <Button
+        android:id="@+id/girl_standing_on_shoulder"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/03daughter.mp3"
+        android:layout_height="100dp"
+        android:layout_width="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@+id/draws_wonderful_pictures"
+                    android:layout_alignStart="@+id/draws_wonderful_pictures"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp" />
+
+                <Button
+                    android:id="@+id/man_arms_crossed"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/man_standing_with_arms_crossed.mp3"
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:layout_alignTop="@+id/woman_arms_crossed"
+                    android:layout_toRightOf="@+id/marine_officer"
+                    android:layout_toEndOf="@+id/marine_officer" />
+
+                <Button
+                    android:id="@+id/girl_and_woman_saris"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/women/sounds/18girl_and_woman_wearing_saris.mp3"
+                    android:layout_height="220dp"
+                    android:layout_width="80dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_alignTop="@+id/good_at_arithmatic"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+        android:id="@+id/woman_kimono1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/08woman_wearing_a_kimono.mp3"
+                    android:layout_height="250dp"
+        android:layout_width="40dp"
+                    android:layout_alignBottom="@+id/plumber_scratching_head"
+                    android:layout_toRightOf="@+id/girl_lantern"
+                    android:layout_toEndOf="@+id/girl_lantern" />
+
+                <Button
+                    android:id="@+id/woman_arms_crossed"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/sister.mp3"
+                    android:layout_width="35dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_alignTop="@+id/plumber_scratching_head"
+                    android:layout_toRightOf="@+id/girl_kimono"
+                    android:layout_toEndOf="@+id/girl_kimono" />
+
+                <Button
+                    android:id="@+id/mother"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/26_i_dont_have_anything_to_do.mp3"
+                    android:layout_height="200dp"
+                    android:layout_width="40dp"
+                    android:layout_alignTop="@+id/woman_kimono1"
+                    android:layout_toRightOf="@+id/astronaut"
+                    android:layout_toEndOf="@+id/astronaut" />
+
+                <Button
+        android:id="@+id/navy_officer"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/07navy_officer.mp3"
+                    android:layout_width="30dp"
+                    android:layout_height="250dp"
+                    android:layout_alignTop="@+id/girl_wearing_scarf"
+                    android:layout_toRightOf="@+id/mother"
+                    android:layout_toEndOf="@+id/mother" />
+
+                <Button
+        android:id="@+id/girl_wearing_scarf"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/12girl_wearing_a_hijab_scarf.mp3"
+                    android:layout_width="35dp"
+        android:layout_height="130dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_alignTop="@+id/astronaut"
+                    android:layout_toRightOf="@+id/navy_officer"
+                    android:layout_toEndOf="@+id/navy_officer" />
+
+                <Button
+        android:id="@+id/draws_wonderful_pictures"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/specialkids/sounds/20draws_wonderful_pictures_.mp3"
+        android:layout_width="35dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+                    android:layout_alignTop="@+id/man_arms_crossed"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:id="@+id/girl_lantern"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/15_yes_i_think_i_look_funny.mp3"
+                    android:layout_height="200dp"
+                    android:layout_width="30dp"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginStart="54dp"
+                    android:layout_alignBottom="@+id/woman_kimono1"
+                    android:layout_toRightOf="@+id/man_arms_crossed"
+                    android:layout_toEndOf="@+id/man_arms_crossed" />
+
+                <Button
+                    android:id="@+id/plumber1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="Construction/sounds/08plumber.mp3"
+                    android:layout_height="200dp"
+                    android:layout_width="30dp"
+                    android:layout_below="@+id/draws_wonderful_pictures"
+                    android:layout_alignLeft="@+id/draws_wonderful_pictures"
+                    android:layout_alignStart="@+id/draws_wonderful_pictures" />
+
+                <Button
+                    android:id="@+id/father"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="People/people/men/sounds/18father.mp3"
+                    android:layout_height="200dp"
+                    android:layout_width="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@+id/plumber1"
+                    android:layout_toEndOf="@+id/plumber1" />
+
+                <Button
+                    android:id="@+id/goldfish1"
+                    android:background="@null"
+                    android:onClick="playSound"
+                    android:tag="xtra/05_fishbowl.mp3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/girl_wearing_scarf"
+                    android:layout_toRightOf="@+id/navy_officer"
+                    android:layout_toEndOf="@+id/navy_officer" />
+
+            </RelativeLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_width="150dp">
+
+        <ImageButton
+            android:id="@+id/interiors"
+            android:onClick="openInterior"
+            android:tag="@string/interiors"
+            android:background="@drawable/list"
+            android:layout_margin="5dp"
+            android:layout_height="40dp"
+            android:layout_width="40dp" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/back"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:onClick="goBack"
+            android:tag="@string/interiors"
+            android:background="@drawable/home"
+            android:layout_width="40dp"
+            android:layout_margin="5dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    </RelativeLayout>

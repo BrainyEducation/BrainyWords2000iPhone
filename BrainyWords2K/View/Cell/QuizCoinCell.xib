@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="QuizCoinCell" customModule="BrainyWords2k" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_Coin_Bag" translatesAutoresizingMaskIntoConstraints="NO" id="hom-aw-Fgd">
+                        <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="hom-aw-Fgd" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="5hi-n3-OCM"/>
+                <constraint firstItem="hom-aw-Fgd" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="Kmo-IS-Xfa"/>
+                <constraint firstItem="hom-aw-Fgd" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="MeW-hD-NeM"/>
+                <constraint firstItem="hom-aw-Fgd" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="pNT-7N-45w"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="81" height="81"/>
+            <connections>
+                <outlet property="imgView" destination="hom-aw-Fgd" id="00R-gL-TEa"/>
+            </connections>
+            <point key="canvasLocation" x="162.40000000000001" y="167.76611694152925"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_Coin_Bag" width="180" height="180"/>
+    </resources>
+</document>

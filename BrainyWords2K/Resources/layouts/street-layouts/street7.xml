@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/building6"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/stairs"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/12_stairs.mp3"
+        android:layout_below="@+id/door"
+        android:layout_alignRight="@+id/door"
+        android:layout_alignEnd="@+id/door" />
+
+    <Button
+        android:id="@+id/door"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginTop="17dp"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="house"/>
+
+    <Button
+        android:id="@+id/kitchen"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/HEADINGS/00kitchen.mp3"
+        android:layout_alignBaseline="@+id/stairs"
+        android:layout_alignBottom="@+id/stairs"
+        android:layout_toRightOf="@+id/stairs"
+        android:layout_toEndOf="@+id/stairs" />
+
+    <Button
+        android:id="@+id/kids_only"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignBaseline="@+id/door"
+        android:layout_alignBottom="@+id/door"
+        android:layout_alignEnd="@+id/kitchen"
+        android:layout_alignRight="@+id/kitchen"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/kids_only.mp3" />
+
+    <Button
+        android:id="@+id/balloons"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/who_let_the_balloons_go.mp3" />
+
+    <Button
+        android:id="@+id/soccer_goal_ball"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/team/sounds/02soccer_goal_and_ball.mp3"
+        android:layout_below="@+id/balloons"
+        android:layout_alignLeft="@+id/balloons"
+        android:layout_alignStart="@+id/balloons" />
+
+    <Button
+        android:id="@+id/dalmatian_puppy"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/12_a_dog_has_a_ball.mp3"
+        android:layout_below="@+id/soccer_goal_ball"
+        android:layout_alignRight="@+id/soccer_goal_ball"
+        android:layout_alignEnd="@+id/soccer_goal_ball" />
+
+    <Button
+        android:id="@+id/birthday_cake"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Grocery/bakery/sweets/sounds/02birthday_cake.mp3"
+        android:layout_below="@+id/kitchen"
+        android:layout_toLeftOf="@+id/kids_only"
+        android:layout_toStartOf="@+id/kids_only" />
+
+    <Button
+        android:id="@+id/birthday_cake1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Grocery/bakery/sweets/sounds/01cake.mp3"
+        android:layout_alignBottom="@+id/cement_truck"
+        android:layout_alignLeft="@+id/kitchen"
+        android:layout_alignStart="@+id/kitchen" />
+
+    <Button
+        android:id="@+id/bedroom"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/kitchen"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_toLeftOf="@+id/birthday_cake"
+        android:layout_toStartOf="@+id/birthday_cake"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/HEADINGS/00bedroom.mp3" />
+
+    <Button
+        android:id="@+id/bathroom"
+        android:layout_width="25dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/dalmatian_puppy"
+        android:layout_alignLeft="@+id/bedroom"
+        android:layout_alignStart="@+id/bedroom"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/HEADINGS/00bathroom.mp3" />
+
+    <Button
+        android:id="@+id/library"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/library.mp3"
+        android:layout_alignBaseline="@+id/bedroom"
+        android:layout_alignBottom="@+id/bedroom"
+        android:layout_toLeftOf="@+id/bedroom"
+        android:layout_toStartOf="@+id/bedroom" />
+
+    <Button
+        android:id="@+id/living_room"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/HEADINGS/00livingroom.mp3"
+        android:layout_alignBaseline="@+id/bathroom"
+        android:layout_alignBottom="@+id/bathroom"
+        android:layout_toLeftOf="@+id/bedroom"
+        android:layout_toStartOf="@+id/bedroom" />
+
+    <Button
+        android:id="@+id/lawn_mowerf"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/soccer_goal_ball"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/living_room"
+        android:layout_toStartOf="@+id/living_room"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/tools/sounds/07lawnmower.mp3" />
+
+    <Button
+        android:id="@+id/butterfly7"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/invisible/07_is_there_an_invisible_U_in_this_picture.mp3"
+        android:layout_alignTop="@+id/kids_only"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/picnic_table"
+        android:layout_width="35dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/stairs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/equipment/sounds/10picnic_table.mp3" />
+
+    <Button
+        android:id="@+id/astronaut_with_baby"
+        android:layout_width="25dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/02astronaut_with_a_backpack_baby.mp3"
+        android:layout_below="@+id/lawn_mowerf"
+        android:layout_alignRight="@+id/lawn_mowerf"
+        android:layout_alignEnd="@+id/lawn_mowerf" />
+
+    <Button
+        android:id="@+id/cement_truck"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/astronaut_with_baby"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/truck/sounds/11cement_truck_.mp3" />
+
+    <Button
+        android:id="@+id/iguana1"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/iguana_2.mp3"
+        android:layout_alignBaseline="@+id/cement_truck"
+        android:layout_alignBottom="@+id/cement_truck"
+        android:layout_toRightOf="@+id/cement_truck"
+        android:layout_toEndOf="@+id/cement_truck" />
+
+    <Button
+        android:id="@+id/tricyclef"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/toys/riding/sounds/02tricycle.mp3"
+        android:layout_below="@+id/birthday_cake"
+        android:layout_alignRight="@+id/birthday_cake"
+        android:layout_alignEnd="@+id/birthday_cake" />
+
+    <Button
+        android:id="@+id/turkey"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/turkey_wants_a_piece_of_strawberry_cake.mp3"
+        android:layout_below="@+id/cement_truck"
+        android:layout_alignLeft="@+id/lawn_mowerf"
+        android:layout_alignStart="@+id/lawn_mowerf" />
+
+    <Button
+        android:id="@+id/clown"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/12_hes_bringing_a_present_to_someone.mp3"
+        android:layout_below="@+id/birthday_cake1"
+        android:layout_alignLeft="@+id/birthday_cake1"
+        android:layout_alignStart="@+id/birthday_cake1" />
+
+    <Button
+        android:id="@+id/taxi"
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/birthday_cake1"
+        android:layout_toEndOf="@+id/birthday_cake1"
+        android:layout_toRightOf="@+id/birthday_cake1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/working/sounds/01taxi.mp3" />
+
+    <Button
+        android:id="@+id/taxi1"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/working/sounds/01taxi.mp3"
+        android:layout_below="@+id/clown"
+        android:layout_toLeftOf="@+id/taxi"
+        android:layout_toStartOf="@+id/taxi" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="300dp"
+    android:background="@drawable/building14b"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/06forest.mp3"
+        android:background="@null"
+        android:id="@+id/forest"
+        android:layout_marginTop="43dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/27_its_nice_to_get_a_kiss.mp3"
+        android:background="@null"
+        android:id="@+id/giraffes"
+        android:layout_height="60dp"
+        android:layout_alignTop="@+id/forest"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_width="20dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/29elephant.mp3"
+        android:background="@null"
+        android:id="@+id/elephant2"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/giraffes"
+        android:layout_alignBottom="@+id/giraffes"
+        android:layout_toRightOf="@+id/giraffes"
+        android:layout_toEndOf="@+id/giraffes" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/04moose_.mp3"
+        android:background="@null"
+        android:id="@+id/moose"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp"
+        android:layout_width="50dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/if_youll_give_me_one_nut_today.mp3"
+        android:background="@null"
+        android:id="@+id/squirrel"
+        android:layout_marginBottom="35dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/moose"
+        android:layout_toRightOf="@+id/moose"
+        android:layout_toEndOf="@+id/moose" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/squirrel.mp3"
+        android:background="@null"
+        android:id="@+id/squirrel1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/squirrel"
+        android:layout_alignBottom="@+id/squirrel"
+        android:layout_toRightOf="@+id/squirrel"
+        android:layout_toEndOf="@+id/squirrel" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/18haystack_.mp3"
+        android:background="@null"
+        android:id="@+id/haystack"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/giraffes"
+        android:layout_toRightOf="@+id/squirrel1"
+        android:layout_toEndOf="@+id/squirrel1" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/17barn.mp3"
+        android:background="@null"
+        android:id="@+id/barnyard"
+        android:layout_alignBaseline="@+id/haystack"
+        android:layout_alignBottom="@+id/haystack"
+        android:layout_toRightOf="@+id/haystack"
+        android:layout_toEndOf="@+id/haystack"
+        android:layout_width="30dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/16windmill.mp3"
+        android:background="@null"
+        android:id="@+id/windmill"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/haystack"
+        android:layout_toRightOf="@+id/barnyard"
+        android:layout_toEndOf="@+id/barnyard" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/invisible/18_can_you_see_an_invisible_hole_anywhere.mp3"
+        android:background="@null"
+        android:id="@+id/butterfly18"
+        android:layout_width="50dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/squirrel1"
+        android:layout_alignLeft="@+id/windmill"
+        android:layout_alignStart="@+id/windmill"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/beach/creatures/sounds/10snail.mp3"
+        android:background="@null"
+        android:id="@+id/snail"
+        android:layout_width="50dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/windmill"
+        android:layout_toRightOf="@+id/butterfly18"
+        android:layout_toEndOf="@+id/butterfly18" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/sand.mp3"
+        android:background="@null"
+        android:id="@+id/sand"
+        android:layout_alignTop="@+id/windmill"
+        android:layout_toRightOf="@+id/windmill"
+        android:layout_toEndOf="@+id/windmill"
+        android:layout_width="100dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/29_the_bubbles_will_pop_soon.mp3"
+        android:background="@null"
+        android:id="@+id/hawk"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/butterfly18"
+        android:layout_alignStart="@+id/butterfly18"
+        android:layout_width="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/he_will_let_go_of_one_balloon_then_another.mp3"
+        android:background="@null"
+        android:id="@+id/clawn_balloons1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/forest"
+        android:layout_alignRight="@+id/snail"
+        android:layout_alignEnd="@+id/snail" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/beach.mp3"
+        android:background="@null"
+        android:id="@+id/beach"
+        android:layout_above="@+id/squirrel1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/beach/creatures/sounds/09conch_shell_or_conk_shell.mp3"
+        android:background="@null"
+        android:id="@+id/conch_shell"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_below="@+id/sand"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/clam.mp3"
+        android:background="@null"
+        android:id="@+id/clam"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/sand"
+        android:layout_toEndOf="@+id/sand"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="19dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/beach/creatures/sounds/11crab_.mp3"
+        android:background="@null"
+        android:id="@+id/crab"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/sand"
+        android:layout_toEndOf="@+id/sand"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/beach/creatures/sounds/07oyster_and_pearl.mp3"
+        android:background="@null"
+        android:id="@+id/oyster_pearl"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_above="@+id/moose"
+        android:layout_alignLeft="@+id/crab"
+        android:layout_alignStart="@+id/crab" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/31_many_people_do_not_like_lightning_storms.mp3"
+        android:background="@null"
+        android:id="@+id/wolrus"
+        android:layout_height="40dp"
+        android:layout_width="50dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="-5dp"
+        android:layout_above="@+id/moose"
+        android:layout_alignLeft="@+id/crab"
+        android:layout_alignStart="@+id/crab"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/beach.mp3"
+        android:background="@null"
+        android:id="@+id/beach1"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="-90dp"
+        android:layout_above="@+id/moose"
+        android:layout_alignLeft="@+id/crab"
+        android:layout_alignStart="@+id/crab"
+        android:layout_marginBottom="-100dp"
+        android:layout_width="70dp"
+        android:layout_height="150dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/sea_foam.mp3"
+        android:background="@null"
+        android:id="@+id/sea_foam"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/sand"
+        android:layout_toRightOf="@+id/crab"
+        android:layout_toEndOf="@+id/crab"
+        android:layout_width="50dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/beach/creatures/sounds/03albatross.mp3"
+        android:background="@null"
+        android:id="@+id/albatross"
+        android:layout_width="60dp"
+        android:layout_above="@+id/sea_foam"
+        android:layout_toRightOf="@+id/wolrus"
+        android:layout_toEndOf="@+id/wolrus"
+        android:layout_height="60dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/mermaid_1.mp3"
+        android:background="@null"
+        android:id="@+id/mermaid"
+        android:layout_height="60dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginStart="91dp"
+        android:layout_width="40dp"
+        android:layout_alignTop="@+id/sea_foam"
+        android:layout_toRightOf="@+id/sea_foam"
+        android:layout_toEndOf="@+id/sea_foam" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/pretend/sounds/05merman.mp3"
+        android:background="@null"
+        android:id="@+id/merman"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/barnyard"
+        android:layout_alignBottom="@+id/barnyard"
+        android:layout_toRightOf="@+id/mermaid"
+        android:layout_toEndOf="@+id/mermaid"
+        android:layout_width="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/pretend/sounds/06bigfoot_sasquatch.mp3"
+        android:background="@null"
+        android:id="@+id/sasquatch"
+        android:layout_width="50dp"
+        android:layout_alignBottom="@+id/conch_shell"
+        android:layout_toRightOf="@+id/mermaid"
+        android:layout_toEndOf="@+id/mermaid"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/32_giant_cyclops_must_see_far.mp3"
+        android:background="@null"
+        android:id="@+id/cyclops"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/beach"
+        android:layout_toRightOf="@+id/sasquatch"
+        android:layout_toEndOf="@+id/sasquatch" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/pretend/sounds/03unicorn.mp3"
+        android:background="@null"
+        android:id="@+id/unicorn"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_alignTop="@+id/snail"
+        android:layout_toRightOf="@+id/cyclops"
+        android:layout_toEndOf="@+id/cyclops" />
+
+    <Button
+        android:id="@+id/palm_tree"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/forest"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/merman"
+        android:layout_toRightOf="@+id/merman"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/palm_tree.mp3" />
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Outdoors/places"
+        android:background="@null"
+        android:id="@+id/sign29"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/wolrus"
+        android:layout_toLeftOf="@+id/hawk"
+        android:layout_toStartOf="@+id/hawk" />
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Outdoors/weather"
+        android:background="@null"
+        android:id="@+id/sign30"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/hawk"
+        android:layout_alignBottom="@+id/hawk"
+        android:layout_alignRight="@+id/beach1"
+        android:layout_alignEnd="@+id/beach1"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"/>
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Outdoors/beach/creatures"
+        android:background="@null"
+        android:id="@+id/sign31"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/beach1"
+        android:layout_toLeftOf="@+id/beach1"
+        android:layout_toStartOf="@+id/beach1"
+        android:layout_marginRight="80dp" />
+
+    <Button
+        android:onClick="openStore"
+        android:tag="Animals/pretend"
+        android:background="@null"
+        android:id="@+id/sign32"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mermaid"
+        android:layout_toRightOf="@+id/cyclops"
+        android:layout_toEndOf="@+id/cyclops" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Outdoors/nursery/plants/sounds/07tree.mp3"
+        android:background="@null"
+        android:id="@+id/tree3"
+        android:layout_width="70dp"
+        android:layout_alignBottom="@+id/sand"
+        android:layout_toRightOf="@+id/elephant2"
+        android:layout_toEndOf="@+id/elephant2"
+        android:layout_height="120dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/ocean.mp3"
+        android:background="@null"
+        android:id="@+id/water1"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/merman"
+        android:layout_toRightOf="@+id/sea_foam"
+        android:layout_toEndOf="@+id/sea_foam"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/wild/sounds/26giraffe.mp3"
+        android:background="@null"
+        android:id="@+id/giraffes1"
+        android:layout_height="60dp"
+        android:layout_width="20dp"
+        android:layout_alignBaseline="@+id/giraffes"
+        android:layout_alignBottom="@+id/giraffes"
+        android:layout_toRightOf="@+id/giraffes"
+        android:layout_toEndOf="@+id/giraffes" />
+
+</RelativeLayout>

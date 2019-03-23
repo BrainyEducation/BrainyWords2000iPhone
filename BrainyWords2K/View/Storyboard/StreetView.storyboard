@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1e9-j5-23w">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ComicSans.ttf">
+            <string>ComicSansMS-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Street View Controller-->
+        <scene sceneID="xL5-La-Dp0">
+            <objects>
+                <viewController storyboardIdentifier="StreetViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="29f-Uy-3WY" customClass="StreetViewController" customModule="BrainyWords2k" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8GG-ZP-pqs">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hCD-TZ-zHK" userLabel="zoom">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="png-eA-Wkn">
+                                        <rect key="frame" x="0.0" y="300" width="667" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q55-4v-imJ">
+                                                <rect key="frame" x="22" y="11.5" width="52" height="52"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="52" id="gCe-F1-RQH"/>
+                                                    <constraint firstAttribute="width" secondItem="Q55-4v-imJ" secondAttribute="height" id="pQw-Gs-wdm"/>
+                                                </constraints>
+                                                <state key="normal" image="ic_Back"/>
+                                                <connections>
+                                                    <action selector="backAction" destination="29f-Uy-3WY" eventType="touchUpInside" id="Fld-pg-x0C"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Yd-iI-mxc">
+                                                <rect key="frame" x="303" y="21" width="61" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="ComicSansMS-Bold" family="Comic Sans MS" pointSize="24"/>
+                                                <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Q55-4v-imJ" firstAttribute="centerY" secondItem="png-eA-Wkn" secondAttribute="centerY" id="9NQ-On-U4T"/>
+                                            <constraint firstItem="5Yd-iI-mxc" firstAttribute="centerX" secondItem="png-eA-Wkn" secondAttribute="centerX" id="ZOv-kJ-Wkx"/>
+                                            <constraint firstItem="5Yd-iI-mxc" firstAttribute="centerY" secondItem="png-eA-Wkn" secondAttribute="centerY" id="aEb-RM-3EM"/>
+                                            <constraint firstItem="Q55-4v-imJ" firstAttribute="leading" secondItem="png-eA-Wkn" secondAttribute="leading" constant="22" id="ddS-Lh-rLZ"/>
+                                        </constraints>
+                                    </view>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPW-2E-qZQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="667" height="300"/>
+                                    </scrollView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GPW-2E-qZQ" firstAttribute="leading" secondItem="hCD-TZ-zHK" secondAttribute="leading" id="5j1-BG-OYa"/>
+                                    <constraint firstItem="png-eA-Wkn" firstAttribute="top" secondItem="GPW-2E-qZQ" secondAttribute="bottom" id="MD2-Ma-7PD"/>
+                                    <constraint firstItem="GPW-2E-qZQ" firstAttribute="top" secondItem="hCD-TZ-zHK" secondAttribute="top" id="Pnl-aF-3LD"/>
+                                    <constraint firstItem="png-eA-Wkn" firstAttribute="leading" secondItem="hCD-TZ-zHK" secondAttribute="leading" id="Q5c-YB-Szi"/>
+                                    <constraint firstAttribute="trailing" secondItem="png-eA-Wkn" secondAttribute="trailing" id="YL0-9O-3ho"/>
+                                    <constraint firstAttribute="trailing" secondItem="GPW-2E-qZQ" secondAttribute="trailing" id="aTH-Ly-DyQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="png-eA-Wkn" secondAttribute="bottom" id="xHi-U0-L1k"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="png-eA-Wkn" firstAttribute="height" secondItem="8GG-ZP-pqs" secondAttribute="height" multiplier="0.2" id="Fhl-p6-35z"/>
+                            <constraint firstItem="hCD-TZ-zHK" firstAttribute="top" secondItem="8GG-ZP-pqs" secondAttribute="top" id="I0P-8L-TnV"/>
+                            <constraint firstAttribute="trailing" secondItem="hCD-TZ-zHK" secondAttribute="trailing" id="J1q-VV-a2c"/>
+                            <constraint firstItem="hCD-TZ-zHK" firstAttribute="leading" secondItem="8GG-ZP-pqs" secondAttribute="leading" id="QJ1-sQ-2fo"/>
+                            <constraint firstItem="hCD-TZ-zHK" firstAttribute="bottom" secondItem="8GG-ZP-pqs" secondAttribute="bottom" id="vAS-Cw-lZL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mNK-14-jvG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hXv-Kh-dW0"/>
+                    <connections>
+                        <outlet property="bottomView" destination="png-eA-Wkn" id="16U-gX-1KN"/>
+                        <outlet property="lbTitle" destination="5Yd-iI-mxc" id="6N0-Fa-Nrj"/>
+                        <outlet property="streetView" destination="GPW-2E-qZQ" id="Z3v-hh-bHe"/>
+                        <outlet property="zoomView" destination="hCD-TZ-zHK" id="mKL-UJ-wsw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z0u-me-pGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2346.4767616191907" y="1533.5999999999999"/>
+        </scene>
+        <!--Street View Navigation Controller-->
+        <scene sceneID="OHW-mk-5gc">
+            <objects>
+                <navigationController storyboardIdentifier="StreetViewNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1e9-j5-23w" customClass="StreetViewNavigationController" customModule="BrainyWords2k" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HM8-dx-HkF">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="29f-Uy-3WY" kind="relationship" relationship="rootViewController" id="s5G-H8-Frz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ejz-Sm-wLL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="1534"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_Back" width="100" height="100"/>
+    </resources>
+</document>

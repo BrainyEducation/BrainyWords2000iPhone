@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:layout_weight="1"
+    android:background="@drawable/building4">
+
+    <Button
+        android:id="@+id/park1"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="park1"
+        android:layout_width="200dp"
+        android:layout_height="75dp" />
+
+    <Button
+        android:id="@+id/park2"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="park2"
+        android:layout_height="75dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginStart="162dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/park1"
+        android:layout_toEndOf="@+id/park1"
+        android:layout_width="280dp" />
+
+    <Button
+        android:id="@+id/park3"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="park3"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/park2"
+        android:layout_toEndOf="@+id/park2"
+        android:layout_width="320dp" />
+
+    <Button
+        android:id="@+id/hippo"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/zoo/facts/sounds/hippo_3.mp3"
+        android:layout_below="@+id/park1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/pineapple"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Grocery/fruits/sounds/10pineapple.mp3"
+        android:layout_alignTop="@+id/cranetruck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/recliner"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="House/livingroom/sounds/05recliner.mp3"
+        android:layout_below="@+id/hippo"
+        android:layout_toRightOf="@+id/park1"
+        android:layout_toEndOf="@+id/park1"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp" />
+
+    <Button
+        android:id="@+id/child_in_a_wagon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/child_with_a_sucker_in_a_wagon.mp3"
+        android:layout_below="@+id/park1"
+        android:layout_toRightOf="@+id/hippo"
+        android:layout_toEndOf="@+id/hippo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <Button
+        android:id="@+id/cranetruck"
+        android:layout_height="140dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/working/sounds/12crane_truck.mp3"
+        android:layout_below="@+id/hippo"
+        android:layout_toRightOf="@+id/pineapple"
+        android:layout_toEndOf="@+id/pineapple"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_width="180dp" />
+
+    <Button
+        android:id="@+id/boy_skateboarding"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/03boy_on_a_skateboard.mp3"
+        android:layout_alignBottom="@+id/park1"
+        android:layout_toRightOf="@+id/park1"
+        android:layout_toEndOf="@+id/park1" />
+
+    <Button
+        android:id="@+id/sleepy_dog1d"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/places/sounds/20sleepy_dog.mp3"
+        android:layout_below="@+id/recliner"
+        android:layout_alignRight="@+id/recliner"
+        android:layout_alignEnd="@+id/recliner" />
+
+    <Button
+        android:id="@+id/turtle"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/creatures/sounds/12tortoise.mp3"
+        android:layout_above="@+id/recliner"
+        android:layout_toRightOf="@+id/old_woman_walking"
+        android:layout_toEndOf="@+id/old_woman_walking" />
+
+    <Button
+        android:id="@+id/old_woman_walking"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/04elderly_woman_walking_with_a_cane.mp3"
+        android:layout_alignTop="@+id/boy_skateboarding"
+        android:layout_toRightOf="@+id/boy_skateboarding"
+        android:layout_toEndOf="@+id/boy_skateboarding"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/chef"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/10chef.mp3"
+        android:layout_below="@+id/boy_skateboarding"
+        android:layout_toRightOf="@+id/turtle"
+        android:layout_toEndOf="@+id/turtle" />
+
+    <Button
+        android:id="@+id/poodle"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/05poodle.mp3"
+        android:layout_below="@+id/chef"
+        android:layout_toRightOf="@+id/chef"
+        android:layout_toEndOf="@+id/chef" />
+
+    <Button
+        android:id="@+id/labrador_retriever"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/poodle"
+        android:layout_toEndOf="@+id/bloodhound1"
+        android:layout_toRightOf="@+id/bloodhound1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/08Labrador_retriever_.mp3" />
+
+    <Button
+        android:id="@+id/bloodhound1"
+        android:layout_width="70dp"
+        android:layout_height="33dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/11bloodhound.mp3"
+        android:layout_alignBaseline="@+id/cranetruck"
+        android:layout_alignBottom="@+id/cranetruck"
+        android:layout_toRightOf="@+id/turtle"
+        android:layout_toEndOf="@+id/turtle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/cat"
+        android:background="@null"
+        android:layout_width="30dp"
+        android:onClick="playSound"
+        android:tag="Animals/pets/sounds/11cat.mp3"
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="110dp"
+        android:layout_above="@+id/SUV"
+        android:layout_toRightOf="@+id/park2"
+        android:layout_toEndOf="@+id/park2"
+        android:layout_height="25dp" />
+
+    <Button
+        android:id="@+id/cartoonist"
+        android:layout_width="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/job/performers/sounds/08cartoonist.mp3"
+        android:layout_below="@+id/park2"
+        android:layout_alignLeft="@+id/labrador_retriever"
+        android:layout_alignStart="@+id/labrador_retriever"
+        android:layout_height="75dp" />
+
+    <Button
+        android:id="@+id/turtle1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/park/creatures/sounds/12tortoise.mp3"
+        android:layout_above="@+id/poodle"
+        android:layout_toRightOf="@+id/cartoonist"
+        android:layout_toEndOf="@+id/cartoonist" />
+
+    <Button
+        android:id="@+id/net"
+        android:layout_width="35dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/camping/sounds/03fishing_net.mp3"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/child_in_a_wagon"
+        android:layout_toRightOf="@+id/cat"
+        android:layout_toEndOf="@+id/cat" />
+
+    <Button
+        android:id="@+id/roster"
+        android:layout_width="35dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/farm/animals/sounds/06rooster.mp3"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/sleepy_dog1d"
+        android:layout_toRightOf="@+id/park3"
+        android:layout_toEndOf="@+id/park3" />
+
+    <Button
+        android:id="@+id/jeepz"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/passenger/sounds/05jeep.mp3"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/pineapple"
+        android:layout_toLeftOf="@+id/park3"
+        android:layout_toStartOf="@+id/park3" />
+
+    <Button
+        android:id="@+id/football_helmet"
+        android:layout_width="35dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/team/sounds/09football_helmet.mp3"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/turtle"
+        android:layout_alignBottom="@+id/turtle"
+        android:layout_alignLeft="@+id/jeepz"
+        android:layout_alignStart="@+id/jeepz" />
+
+    <Button
+        android:id="@+id/cocker_spanield"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/04cocker_spaniel.mp3"
+        android:layout_above="@+id/jeepz"
+        android:layout_toRightOf="@+id/football_helmet"
+        android:layout_toEndOf="@+id/football_helmet"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <Button
+        android:id="@+id/labrador_retrievera"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/08Labrador_retriever_.mp3"
+        android:layout_width="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBaseline="@+id/chef"
+        android:layout_alignBottom="@+id/chef"
+        android:layout_toRightOf="@+id/cocker_spanield"
+        android:layout_toEndOf="@+id/cocker_spanield"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/greyhound1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/06greyhound.mp3"
+        android:layout_width="60dp"
+        android:layout_alignBottom="@+id/turtle1"
+        android:layout_toRightOf="@+id/labrador_retrievera"
+        android:layout_toEndOf="@+id/labrador_retrievera"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/lady_stroller"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/21lady_with_stroller.mp3"
+        android:layout_below="@+id/park3"
+        android:layout_toRightOf="@+id/greyhound1"
+        android:layout_toEndOf="@+id/greyhound1"
+        android:layout_height="70dp"
+        android:layout_width="50dp" />
+
+    <Button
+        android:id="@+id/army_soldier1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/men/sounds/06army_soldier.mp3"
+        android:layout_height="70dp"
+        android:layout_width="50dp"
+        android:layout_below="@+id/park3"
+        android:layout_toRightOf="@+id/lady_stroller"
+        android:layout_toEndOf="@+id/lady_stroller" />
+
+    <Button
+        android:id="@+id/walking_business_woman"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/women/sounds/01walking_business_woman_.mp3"
+        android:layout_height="70dp"
+        android:layout_width="50dp"
+        android:layout_alignBaseline="@+id/cartoonist"
+        android:layout_alignBottom="@+id/cartoonist"
+        android:layout_toRightOf="@+id/net"
+        android:layout_toEndOf="@+id/net" />
+
+    <Button
+        android:id="@+id/butterfly6"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/invisible/06_can_you_see_a_hug_looking_for_someone_to_give_it.mp3"
+        android:layout_alignTop="@+id/labrador_retrievera"
+        android:layout_toRightOf="@+id/park3"
+        android:layout_toEndOf="@+id/park3"
+        android:layout_height="40dp"
+        android:layout_width="30dp" />
+
+    <Button
+        android:id="@+id/pizza_delivery_car"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/working/sounds/02pizza_delivery_car.mp3"
+        android:layout_height="50dp"
+        android:layout_below="@+id/jeepz"
+        android:layout_alignLeft="@+id/cocker_spanield"
+        android:layout_alignStart="@+id/cocker_spanield"
+        android:layout_width="160dp" />
+
+    <Button
+        android:id="@+id/pizza_delivery_car1"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/working/sounds/02pizza_delivery_car.mp3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/walking_business_woman"
+        android:layout_toRightOf="@+id/pizza_delivery_car"
+        android:layout_toEndOf="@+id/pizza_delivery_car" />
+
+    <Button
+        android:id="@+id/farm_tractor1"
+        android:onClick="playSound"
+        android:background="@null"
+        android:tag="Vehicles/working/sounds/05farm_tractor.mp3"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_below="@+id/cat"
+        android:layout_toLeftOf="@+id/roster"
+        android:layout_toStartOf="@+id/roster"
+        android:layout_marginTop="-10dp" />
+
+    <Button
+        android:id="@+id/SUV"
+        android:background="@null"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:onClick="playSound"
+        android:tag="Vehicles/passenger/sounds/04suv.mp3"
+        android:layout_below="@+id/pineapple"
+        android:layout_alignLeft="@+id/bloodhound1"
+        android:layout_alignStart="@+id/bloodhound1" />
+
+    <Button
+        android:id="@+id/sign8"
+        android:layout_width="130dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/SUV"
+        android:layout_toStartOf="@+id/SUV"
+        android:background="@null"
+        android:onClick="openInterior"
+        android:tag="park" />
+
+    <Button
+        android:id="@+id/little_boy_tractor"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/08_the_little_boy_said_he_wanted_to_ride_the_tractor.mp3"
+        android:layout_alignBottom="@+id/roster"
+        android:layout_alignLeft="@+id/farm_tractor1"
+        android:layout_alignStart="@+id/farm_tractor1"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+
+</RelativeLayout>

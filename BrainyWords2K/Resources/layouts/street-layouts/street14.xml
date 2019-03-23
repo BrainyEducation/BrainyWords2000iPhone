@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="300dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/building13"
+    android:layout_weight="1"
+    android:layout_width="350dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/10_the_clown_waves_and_says_look_at_me.mp3"
+        android:background="@null"
+        android:id="@+id/clown_balloons1"
+        android:layout_height="40dp"
+        android:layout_width="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/invisible/14_are_these_all_the_children_who_promised_not_to_be_naughty_tomorrow.mp3"
+        android:background="@null"
+        android:id="@+id/butterfly14"
+        android:layout_width="40dp"
+        android:layout_below="@+id/clown_balloons1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Health/equipment/sounds/05cast.mp3"
+        android:background="@null"
+        android:id="@+id/cast"
+        android:layout_width="40dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/butterfly14"
+        android:layout_toRightOf="@+id/clown_balloons1"
+        android:layout_toEndOf="@+id/clown_balloons1" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/pediatrician_doctor_and_child_patient.mp3"
+        android:background="@null"
+        android:id="@+id/pediatrician"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_height="35dp"
+        android:layout_width="50dp"
+        android:layout_alignTop="@+id/cast"
+        android:layout_toRightOf="@+id/cast"
+        android:layout_toEndOf="@+id/cast"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/nurse_and_child_patient.mp3"
+        android:background="@null"
+        android:id="@+id/child_patient"
+        android:layout_height="35dp"
+        android:layout_width="50dp"
+        android:layout_below="@+id/pediatrician"
+        android:layout_alignLeft="@+id/pediatrician"
+        android:layout_alignStart="@+id/pediatrician" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Health/equipment/sounds/03eye_chart.mp3"
+        android:background="@null"
+        android:id="@+id/eye_chart"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/child_patient"
+        android:layout_alignBottom="@+id/child_patient"
+        android:layout_toLeftOf="@+id/pediatrician"
+        android:layout_toStartOf="@+id/pediatrician"
+        android:layout_width="40dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/02beagle.mp3"
+        android:background="@null"
+        android:id="@+id/beagle"
+        android:layout_height="35dp"
+        android:layout_width="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/eye_chart"
+        android:layout_toStartOf="@+id/eye_chart"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/02toddler_in_a_diaper_with_a_bottle.mp3"
+        android:background="@null"
+        android:id="@+id/toddler_diaper"
+        android:layout_height="35dp"
+        android:layout_width="40dp"
+        android:layout_alignBottom="@+id/beagle"
+        android:layout_toRightOf="@+id/beagle"
+        android:layout_toEndOf="@+id/beagle"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/pooper_scooper.mp3"
+        android:background="@null"
+        android:id="@+id/pooper_scooper"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/child_patient"
+        android:layout_toRightOf="@+id/toddler_diaper"
+        android:layout_toEndOf="@+id/toddler_diaper" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/ram.mp3"
+        android:background="@null"
+        android:id="@+id/ram"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/toddler_diaper"
+        android:layout_alignLeft="@+id/child_patient"
+        android:layout_alignStart="@+id/child_patient" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/farm/animals/sounds/15ewe.mp3"
+        android:background="@null"
+        android:id="@+id/ewe"
+        android:layout_width="40dp"
+        android:layout_below="@+id/ram"
+        android:layout_alignRight="@+id/child_patient"
+        android:layout_alignEnd="@+id/child_patient"
+        android:layout_height="20dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/farm/babies/sounds/04lamb.mp3"
+        android:background="@null"
+        android:id="@+id/lamb"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/toddler_diaper"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/a_bag_of_golden_coins.mp3"
+        android:background="@null"
+        android:id="@+id/sack_coins"
+        android:layout_width="40dp"
+        android:layout_marginTop="19dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/beagle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/26_an_armored_car_carries_money_for_banks.mp3"
+        android:background="@null"
+        android:id="@+id/armored_car"
+        android:layout_height="80dp"
+        android:layout_width="200dp"
+        android:layout_below="@+id/sack_coins"
+        android:layout_alignLeft="@+id/beagle"
+        android:layout_alignStart="@+id/beagle" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/26_an_ambulance_will_help_people_get_to_the_hospital.mp3"
+        android:background="@null"
+        android:id="@+id/ambulance"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/beagle"
+        android:layout_toRightOf="@+id/lamb"
+        android:layout_toEndOf="@+id/lamb"
+        android:layout_width="150dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/26_what_did_the_doctor_say.mp3"
+        android:background="@null"
+        android:id="@+id/walking_cratches"
+        android:layout_width="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/butterfly14"
+        android:layout_alignLeft="@+id/ambulance"
+        android:layout_alignStart="@+id/ambulance" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/farm/babies/sounds/11duckling.mp3"
+        android:background="@null"
+        android:id="@+id/duckling"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_above="@+id/lamb"
+        android:layout_toRightOf="@+id/walking_cratches"
+        android:layout_toEndOf="@+id/walking_cratches" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/farm/animals/sounds/07duck_hen.mp3"
+        android:background="@null"
+        android:id="@+id/henduck"
+        android:layout_above="@+id/ewe"
+        android:layout_toRightOf="@+id/walking_cratches"
+        android:layout_toEndOf="@+id/walking_cratches"
+        android:layout_height="10dp"
+        android:layout_width="30dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="Animals/farm/animals/sounds/08drake_.mp3"
+        android:background="@null"
+        android:id="@+id/drake"
+        android:layout_width="30dp"
+        android:layout_above="@+id/henduck"
+        android:layout_toRightOf="@+id/duckling"
+        android:layout_toEndOf="@+id/duckling"
+        android:layout_height="20dp" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/invisible/15_is_that_an_invisible_friend_looking_for_a_friend.mp3"
+        android:background="@null"
+        android:id="@+id/butterfly15"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="playSound"
+        android:tag="xtra/man_wearing_a_turban_waving_at_you.mp3"
+        android:background="@null"
+        android:id="@+id/man_turban"
+        android:layout_height="60dp"
+        android:layout_width="35dp"
+        android:layout_alignBaseline="@+id/child_patient"
+        android:layout_alignBottom="@+id/child_patient"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:onClick="openInterior"
+        android:tag="health_center"
+        android:background="@null"
+        android:id="@+id/store_health_center"
+        android:layout_height="60dp"
+        android:layout_above="@+id/walking_cratches"
+        android:layout_alignLeft="@+id/walking_cratches"
+        android:layout_alignStart="@+id/walking_cratches"
+        android:layout_width="90dp" />
+
+    <Button
+        android:id="@+id/beagle_shadow"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/shadow.mp3"
+        android:layout_below="@+id/lamb"
+        android:layout_alignLeft="@+id/beagle"
+        android:layout_alignStart="@+id/beagle" />
+</RelativeLayout>

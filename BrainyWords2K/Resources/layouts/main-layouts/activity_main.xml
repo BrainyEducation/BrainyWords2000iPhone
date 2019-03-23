@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.gisela.worldworld.MainActivity">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:id="@+id/horizontal_scroll">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:baselineAligned="false"
+            android:id="@+id/street_scenes">
+
+            <include layout="@layout/street1_flat"/>
+            <include layout="@layout/street2_flat"/>
+            <include layout="@layout/street3_flat"/>
+            <include layout="@layout/street4"/>
+            <include layout="@layout/street5"/>
+            <include layout="@layout/street6_flat"/>
+            <include layout="@layout/street7"/>
+            <include layout="@layout/street8"/>
+            <include layout="@layout/street9"/>
+            <include layout="@layout/street10"/>
+            <include layout="@layout/street11"/>
+            <include layout="@layout/street12"/>
+            <include layout="@layout/street13"/>
+            <include layout="@layout/street14"/>
+            <include layout="@layout/street15"/>
+            <include layout="@layout/street16"/>
+            <include layout="@layout/street17"/>
+            <include layout="@layout/street1_flat"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="50dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/app_name"
+                android:id="@+id/BrainyWords"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+          <!--  <ImageButton
+              android:id="@+id/interiors"
+              android:onClick="openStore"
+              android:tag="@string/interiors"
+              android:background="@drawable/list"
+              android:layout_width="50dp"
+              android:layout_height="50dp" />-->
+
+      </LinearLayout>
+
+</RelativeLayout>
+

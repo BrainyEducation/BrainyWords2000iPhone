@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/coin1"
+            android:src="@drawable/gcoin"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/coin4"
+            android:layout_width="60dp"
+            android:src="@drawable/gcoin"
+            android:layout_below="@+id/coin5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/coin3"
+            android:layout_width="60dp"
+            android:src="@drawable/gcoin"
+            android:layout_below="@+id/coin4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/coin2"
+            android:layout_width="60dp"
+            android:src="@drawable/gcoin"
+            android:layout_below="@+id/coin1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/coin5"
+            android:layout_width="60dp"
+            android:src="@drawable/gcoin"
+            android:layout_below="@+id/coin2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="60dp" />
+
+        <ImageView
+            android:id="@+id/bigbag"
+            android:layout_width="60dp"
+            android:src="@drawable/bag"
+            android:layout_height="60dp"
+            android:layout_marginRight="230dp"
+            android:layout_marginEnd="230dp"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/coin2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

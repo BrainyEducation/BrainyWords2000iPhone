@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="300dp" android:layout_weight="1" android:layout_width="wrap_content">
+
+
+    <ImageView android:adjustViewBounds="true" android:layout_height="match_parent" android:layout_width="match_parent" android:scaleType="fitStart" android:src="@drawable/building2a" />
+
+    <Button android:background="@null" android:id="@+id/guitar" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="30dp" android:layout_marginLeft="25dp" android:layout_marginStart="25dp" android:layout_marginTop="53dp" android:layout_width="20dp" android:onClick="playSound" android:tag="xtra/06_a_guitar_can_make_music.mp3" />
+
+    <Button android:background="@null" android:id="@+id/butterfly" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="30dp" android:layout_marginLeft="60dp" android:layout_marginStart="60dp" android:layout_marginTop="0dp" android:layout_width="28dp" android:onClick="playSound" android:tag="xtra/invisible/01_do_you_think_he_has_a_favorite_picture_in_his_invislble_picture_book.mp3" />
+
+
+    <Button android:background="@null" android:id="@+id/woman_watching" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="70dp" android:layout_marginLeft="183dp" android:layout_marginStart="183dp" android:layout_marginTop="53dp" android:layout_width="25dp" android:onClick="playSound" android:tag="xtra/04_is_this_what_a_doughnut_hole_looks_like.mp3" />
+
+    <Button android:background="@null" android:id="@+id/safety_barrier" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="110dp" android:layout_marginLeft="277dp" android:layout_marginStart="277dp" android:layout_marginTop="-7dp" android:layout_width="60dp" android:onClick="playSound" android:tag="Construction/sounds/13safety_barrier.mp3" />
+
+
+    <Button android:background="@null" android:id="@+id/chimp" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="50dp" android:layout_marginLeft="177dp" android:layout_marginStart="177dp" android:layout_marginTop="164dp" android:layout_width="30dp" android:onClick="playSound" android:tag="xtra/chimp_1.mp3" />
+
+    <Button android:background="@null" android:id="@+id/tank_truck" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="120dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginTop="153dp" android:layout_width="160dp" android:onClick="playSound" android:tag="Vehicles/truck/sounds/10tank_truck_.mp3" />
+
+    <Button android:background="@null" android:id="@+id/carpenter_sawing" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="75dp" android:layout_marginLeft="418dp" android:layout_marginStart="418dp" android:layout_marginTop="126dp" android:layout_width="25dp" android:onClick="playSound" android:tag="xtra/zcarpenter_sawing.mp3" />
+
+    <Button android:background="@null" android:id="@+id/boxing_ballering" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="70dp" android:layout_marginLeft="82dp" android:layout_marginStart="80dp" android:layout_marginTop="83dp" android:layout_width="70dp" android:onClick="playSound" android:tag="xtra/04_our_little_girl_is_tough.mp3" />
+
+    <Button android:background="@null" android:id="@+id/woman_watching1" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="50dp" android:layout_marginLeft="247dp" android:layout_marginStart="247dp" android:layout_marginTop="53dp" android:layout_width="30dp" android:onClick="playSound" android:tag="xtra/04_she_watched_very_closely.mp3" />
+
+    <Button android:background="@null" android:id="@+id/bucketb" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="35dp" android:layout_marginLeft="299dp" android:layout_marginStart="299dp" android:layout_marginTop="179dp" android:layout_width="20dp" android:onClick="playSound" android:tag="House/housewares/sounds/10bucket.mp3" />
+
+    <Button android:background="@null" android:id="@+id/laborer_shoveling" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="40dp" android:layout_marginLeft="412dp" android:layout_marginStart="412dp" android:layout_marginTop="0dp" android:layout_width="25dp" android:onClick="playSound" android:tag="xtra/laborer_shoveling.mp3" />
+
+    <Button android:background="@null" android:id="@+id/carpenter_chiseling" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="80dp" android:layout_marginLeft="346dp" android:layout_marginStart="372dp" android:layout_marginTop="134dp" android:layout_width="25dp" android:onClick="playSound" android:tag="People/job/workers/sounds/15carpenters.mp3" />
+
+    <Button android:background="@null" android:id="@+id/traffic_conesb" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="35dp" android:layout_marginLeft="380dp" android:layout_marginStart="380dp" android:layout_marginTop="200dp" android:layout_width="130dp" android:onClick="playSound" android:tag="Construction/sounds/14traffic_cones.mp3" />
+
+    <Button android:background="@null" android:id="@+id/traffic_cones1b" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="30dp" android:layout_marginLeft="650dp" android:layout_marginStart="650dp" android:layout_marginTop="200dp" android:layout_width="140dp" android:onClick="playSound" android:tag="Construction/sounds/14traffic_cones.mp3" />
+
+    <Button android:background="@null" android:id="@+id/giraffesb" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="110dp" android:layout_marginLeft="471dp" android:layout_marginStart="471dp" android:layout_marginTop="40dp" android:layout_width="60dp" android:onClick="playSound" android:tag="Animals/zoo/facts/sounds/giraffe_1.mp3" />
+
+    <Button android:background="@null" android:id="@+id/motorcycleb" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="70dp" android:layout_marginLeft="548dp" android:layout_marginStart="548dp" android:layout_marginTop="202dp" android:layout_width="90dp" android:onClick="playSound" android:tag="Vehicles/fun/sounds/05motorcycle.mp3" />
+
+    <Button android:background="@null" android:id="@+id/roller" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="70dp" android:layout_marginLeft="603dp" android:layout_marginStart="603dp" android:layout_marginTop="0dp" android:layout_width="120dp" android:onClick="playSound" android:tag="Vehicles/working/sounds/11roller.mp3" />
+
+    <Button android:background="@null" android:id="@+id/dump_truck" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="100dp" android:layout_marginLeft="626dp" android:layout_marginStart="626dp" android:layout_marginTop="100dp" android:layout_width="90dp" android:onClick="playSound" android:tag="Vehicles/truck/sounds/09dump_truck.mp3" />
+
+    <Button android:background="@null" android:id="@+id/sleepydog" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="20dp" android:layout_marginLeft="754dp" android:layout_marginStart="754dp" android:layout_marginTop="109dp" android:layout_width="20dp" android:onClick="playSound" android:tag="Outdoors/places/sounds/20sleepy_dog.mp3" />
+
+    <Button android:background="@null" android:id="@+id/sign4" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="50dp" android:layout_marginLeft="346dp" android:layout_marginStart="346dp" android:layout_marginTop="0dp" android:layout_width="60dp" android:onClick="openStore" android:tag="Construction" />
+
+    <Button android:background="@null" android:id="@+id/girl_reading1" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="50dp" android:layout_marginLeft="45dp" android:layout_marginStart="45dp" android:layout_marginTop="45dp" android:layout_width="28dp" android:onClick="playSound" android:tag="xtra/someone_reading_an_invisible_book.mp3" />
+
+    <Button android:background="@null" android:id="@+id/tree4" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="70dp" android:layout_marginLeft="91dp" android:layout_marginStart="91dp" android:layout_marginTop="3dp" android:layout_width="80dp" android:onClick="playSound" android:tag="Outdoors/park/landscape/sounds/01tree.mp3" />
+
+    <Button android:background="@null" android:id="@+id/giraffesc" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="100dp" android:layout_marginLeft="537dp" android:layout_marginStart="537dp" android:layout_marginTop="40dp" android:layout_width="40dp" android:onClick="playSound" android:tag="xtra/giraffe_2.mp3" />
+
+    <Button android:background="@null" android:id="@+id/carpenter_chiseling1" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="75dp" android:layout_marginLeft="413dp" android:layout_marginStart="413dp" android:layout_marginTop="120dp" android:layout_width="25dp" android:onClick="playSound" android:tag="xtra/carpenter_chiseling_with_a_chisel.mp3" />
+
+    <Button
+        android:id="@+id/bed1"
+        android:layout_width="77dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="801dp"
+        android:layout_marginStart="801dp"
+        android:layout_marginTop="94dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/01bed.mp3" />
+
+    <Button
+        android:id="@+id/bed2"
+        android:layout_width="54dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="746dp"
+        android:layout_marginStart="746dp"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/01bed.mp3" />
+
+</RelativeLayout>

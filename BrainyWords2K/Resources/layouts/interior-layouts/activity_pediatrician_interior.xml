@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_house_interior"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.gisela.worldworld.Interior"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="300dp">
+
+    <ImageView
+        android:background="@drawable/interior_body"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="280dp" />
+
+        <Button
+        android:onClick="openCategory"
+        android:background="@null"
+        android:tag="@string/pediatrician_foot"
+        android:id="@+id/foot"
+            android:layout_height="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="97dp"
+            android:layout_marginStart="97dp"
+            android:layout_width="90dp" />
+
+        <ImageView
+            android:background="@drawable/interior_body_back_"
+            android:layout_height="600dp"
+            android:layout_width="280dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/foot"
+            android:layout_toEndOf="@+id/foot" />
+
+        <Button
+            android:onClick="openCategory"
+            android:background="@null"
+            android:tag="@string/pediatrician_hand"
+            android:id="@+id/hand1"
+            android:layout_height="30dp"
+            android:layout_marginBottom="51dp"
+            android:layout_width="50dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginStart="61dp"
+            android:layout_above="@+id/foot"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:onClick="openCategory"
+            android:background="@null"
+            android:tag="@string/pediatrician_hand"
+            android:id="@+id/hand2"
+            android:layout_height="30dp"
+            android:layout_width="50dp"
+            android:layout_above="@+id/hand1"
+            android:layout_toRightOf="@+id/hand1"
+            android:layout_toEndOf="@+id/hand1"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp" />
+
+        <Button
+            android:onClick="openCategory"
+            android:background="@null"
+            android:tag="@string/pediatrician_head"
+            android:id="@+id/head"
+            android:layout_marginTop="18dp"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/foot"
+            android:layout_alignStart="@+id/foot" />
+
+        <Button
+            android:id="@+id/midbody"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/hand1"
+            android:layout_toEndOf="@+id/hand1"
+            android:layout_toRightOf="@+id/hand1"
+            android:background="@null"
+            android:onClick="openCategory"
+            android:tag="@string/pediatrician_midbody" />
+
+        <Button
+            android:onClick="openCategory"
+            android:background="@null"
+            android:tag="@string/pediatrician_upperbody"
+            android:id="@+id/upperbody"
+            android:layout_height="30dp"
+            android:layout_width="120dp"
+            android:layout_above="@+id/midbody"
+            android:layout_alignRight="@+id/hand2"
+            android:layout_alignEnd="@+id/hand2"
+            android:layout_marginRight="13dp"
+            android:layout_marginEnd="13dp" />
+
+        <Button
+            android:onClick="openCategory"
+            android:background="@null"
+            android:tag="@string/pediatrician_back"
+            android:id="@+id/back"
+            android:layout_width="120dp"
+            android:layout_alignTop="@+id/upperbody"
+            android:layout_toRightOf="@+id/upperbody"
+            android:layout_toEndOf="@+id/upperbody"
+            android:layout_marginLeft="52dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="12dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/legs"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:onClick="openCategory"
+            android:tag="@string/pediatrician_legs"
+            android:layout_below="@+id/midbody"
+            android:layout_toRightOf="@+id/hand1"
+            android:layout_toEndOf="@+id/hand1" />
+
+
+    </RelativeLayout>
+</LinearLayout>
+
+

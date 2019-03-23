@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - Crashlytics (3.10.7):
+    - Fabric (~> 1.7.11)
+  - Fabric (1.7.11)
+  - IQKeyboardManagerSwift (6.1.1)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - ObjectMapper (3.3.0)
+  - SnapKit (4.0.0)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftValidator (4.0.0)
+  - SwiftyExtension (1.2.1)
+  - SwiftyJSON (4.1.0)
+  - SwiftyUserDefaults (3.0.1)
+  - SWXMLHash (4.7.1)
+  - ViewDeck (3.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - Crashlytics
+  - Fabric
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - SnapKit
+  - SwiftKeychainWrapper
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `swift-3`)
+  - SwiftyExtension
+  - SwiftyJSON
+  - SwiftyUserDefaults
+  - SWXMLHash
+  - ViewDeck
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Crashlytics
+    - Fabric
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - SnapKit
+    - SwiftKeychainWrapper
+    - SwiftyExtension
+    - SwiftyJSON
+    - SwiftyUserDefaults
+    - SWXMLHash
+    - ViewDeck
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: swift-3
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: fe336620d5e578e015520a10cec432fe7c4000bf
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  Crashlytics: ccaac42660eb9351b9960c0d66106b0bcf99f4fa
+  Fabric: f233c9492b3bbc1f04e3882986740f7988a58edb
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  SwiftyExtension: 2adeaa34eba897a8d1dd2b06826a2807217edcfb
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  SWXMLHash: 661b67bc94a01fe71a6ad4ca690cf2cafa5d1d6f
+  ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
+
+PODFILE CHECKSUM: 3fa20ce7519fff9b66daf936266c2537642d4dee
+
+COCOAPODS: 1.5.3

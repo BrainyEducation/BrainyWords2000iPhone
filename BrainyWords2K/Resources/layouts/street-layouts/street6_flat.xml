@@ -1,0 +1,548 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/building5" android:layout_height="300dp" android:layout_weight="1" android:layout_width="wrap_content">
+
+    <Button
+        android:id="@+id/restaurant"
+        android:layout_width="64dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="263dp"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="11dp"
+        android:background="@null"
+        android:onClick="openStore"
+        android:tag="@string/restaurant" />
+
+
+    <Button android:background="@null" android:id="@+id/clothingstore" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="100dp" android:layout_marginLeft="920dp" android:layout_marginStart="920dp" android:layout_marginTop="0dp" android:layout_width="75dp" android:onClick="openInterior" android:tag="clothes" />
+
+    <Button android:background="@null" android:id="@+id/sportsstore" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="100dp" android:layout_marginLeft="534dp" android:layout_marginStart="534dp" android:layout_marginTop="0dp" android:layout_width="75dp" android:onClick="openInterior" android:tag="sports" />
+
+    <Button
+        android:id="@+id/hamburger"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/restaurant/sounds/03hamburger.mp3" />
+
+    <Button
+        android:id="@+id/sleepy_dog1"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="87dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/its_best_to_let_a_sleeping_dog_lie.mp3" />
+
+    <Button
+        android:id="@+id/candy"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="87dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/restaurant/sounds/21candy.mp3" />
+
+    <Button
+        android:id="@+id/icecream_cone"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/restaurant/sounds/20ice_cream.mp3" />
+
+    <Button
+        android:id="@+id/semitruck"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="111dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/truck/sounds/05semi_or_diesel_truck.mp3" />
+
+    <Button
+        android:id="@+id/schoolbus"
+        android:layout_width="380dp"
+        android:layout_height="121dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="151dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/09_the_school_bus_brings_the_kids_to_school.mp3" />
+
+    <Button
+        android:id="@+id/policewoman"
+        android:layout_width="20dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="177dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/09_no_i_do_not_want_pickles_in_my.mp3" />
+
+    <Button android:background="@null" android:id="@+id/streetlight1" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="40dp" android:layout_marginLeft="259dp" android:layout_marginStart="259dp" android:layout_marginTop="0dp" android:layout_width="70dp" android:onClick="playSound" android:tag="xtra/01light.mp3" />
+
+    <Button
+        android:id="@+id/crossing_guard"
+        android:layout_width="36dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="367dp"
+        android:layout_marginStart="367dp"
+        android:layout_marginTop="96dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/09_the_crossing_guard_tells_you_to_stop.mp3" />
+
+    <Button
+        android:id="@+id/girl_with_doll"
+        android:layout_width="18dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="403dp"
+        android:layout_marginStart="403dp"
+        android:layout_marginTop="96dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/girls/sounds/13girl_with_a_doll.mp3" />
+
+    <Button
+        android:id="@+id/standingwoman"
+        android:layout_width="20dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="421dp"
+        android:layout_marginStart="421dp"
+        android:layout_marginTop="71dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/21_she_wants_her_friend_to_phone_her.mp3" />
+
+    <Button
+        android:id="@+id/benche"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="381dp"
+        android:layout_marginStart="381dp"
+        android:layout_marginTop="71dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="House/livingroom/sounds/11bench.mp3" />
+
+    <Button
+        android:id="@+id/canoe"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="377dp"
+        android:layout_marginStart="377dp"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Outdoors/beach/gear/sounds/05canoe.mp3" />
+
+    <Button
+        android:id="@+id/baseball_glove"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="455dp"
+        android:layout_marginStart="455dp"
+        android:layout_marginTop="46dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/team/sounds/05baseball_glove.mp3" />
+
+    <Button
+        android:id="@+id/tent"
+        android:layout_width="46dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="493dp"
+        android:layout_marginStart="493dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/camping/sounds/01tent.mp3" />
+
+    <Button android:background="@null" android:id="@+id/movingtruck" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="80dp" android:layout_marginLeft="459dp" android:layout_marginStart="459dp" android:layout_marginTop="87dp" android:layout_width="146dp" android:onClick="playSound" android:tag="Vehicles/truck/sounds/14moving_truck.mp3" />
+
+    <Button android:background="@null" android:id="@+id/seal" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" android:layout_alignParentTop="true" android:layout_height="50dp" android:layout_marginLeft="609dp" android:layout_marginStart="609dp" android:layout_marginTop="101dp" android:layout_width="40dp" android:onClick="playSound" android:tag="xtra/seal_1.mp3" />
+
+    <Button
+        android:id="@+id/basketball"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="609dp"
+        android:layout_marginStart="609dp"
+        android:layout_marginTop="46dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/team/sounds/01basketball.mp3" />
+
+    <Button
+        android:id="@+id/clowne"
+        android:layout_width="36dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="667dp"
+        android:layout_marginStart="667dp"
+        android:layout_marginTop="100dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/is_the_sad_clown_waving_to_the_police_car.mp3" />
+
+    <Button
+        android:id="@+id/RV"
+        android:layout_width="236dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="523dp"
+        android:layout_marginStart="523dp"
+        android:layout_marginTop="171dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/fun/sounds/08RV_truck.mp3" />
+
+
+    <Button
+        android:id="@+id/runnerman"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="673dp"
+        android:layout_marginStart="673dp"
+        android:layout_marginTop="46dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/runner.mp3" />
+
+    <Button
+        android:id="@+id/shirt"
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="679dp"
+        android:layout_marginStart="679dp"
+        android:layout_marginTop="9dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Clothing/clothes/sounds/04striped_shirt.mp3" />
+
+    <Button
+        android:id="@+id/skirt"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="705dp"
+        android:layout_marginStart="705dp"
+        android:layout_marginTop="46dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Clothing/clothes/sounds/17pleated_skirt.mp3" />
+
+    <Button
+        android:id="@+id/boy_carrying_present"
+        android:layout_width="26dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="733dp"
+        android:layout_marginStart="733dp"
+        android:layout_marginTop="71dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="People/people/boys/sounds/17boy_carrying_a_present.mp3" />
+
+    <Button
+        android:id="@+id/policecar"
+        android:layout_width="50dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="721dp"
+        android:layout_marginStart="721dp"
+        android:layout_marginTop="132dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/public/sounds/06police_car.mp3" />
+
+    <Button
+        android:id="@+id/policecar1"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="754dp"
+        android:layout_marginStart="754dp"
+        android:layout_marginTop="167dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/public/sounds/06police_car.mp3" />
+
+    <Button
+        android:id="@+id/saint_bernard"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="775dp"
+        android:layout_marginStart="775dp"
+        android:layout_marginTop="137dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/13Saint_Bernard.mp3" />
+
+    <Button
+        android:id="@+id/fashion_show"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="749dp"
+        android:layout_marginStart="749dp"
+        android:layout_marginTop="31dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/00Fashion_Show_.mp3" />
+
+    <Button
+        android:id="@+id/pursee"
+        android:layout_width="28dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="829dp"
+        android:layout_marginStart="829dp"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Clothing/accessories/sounds/01purse.mp3" />
+
+    <Button
+        android:id="@+id/sunglasses"
+        android:layout_width="32dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="865dp"
+        android:layout_marginStart="865dp"
+        android:layout_marginTop="24dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Clothing/accessories/sounds/08sunglasses.mp3" />
+
+    <Button
+        android:id="@+id/golf_cart1"
+        android:layout_width="60dp"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="801dp"
+        android:layout_marginStart="801dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/fun/sounds/02golfcart.mp3" />
+
+    <Button
+        android:id="@+id/cocker_spaniel"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="865dp"
+        android:layout_marginStart="865dp"
+        android:layout_marginTop="73dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/04cocker_spaniel.mp3" />
+
+    <Button
+        android:id="@+id/bench1"
+        android:layout_width="28dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="862dp"
+        android:layout_marginStart="862dp"
+        android:layout_marginTop="64dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="House/livingroom/sounds/11bench.mp3" />
+
+    <Button
+        android:id="@+id/chihuahua"
+        android:layout_width="18dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="910dp"
+        android:layout_marginStart="910dp"
+        android:layout_marginTop="68dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Animals/dogs/sounds/01Chihuahua_.mp3" />
+
+    <Button
+        android:id="@+id/iguana1e"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="912dp"
+        android:layout_marginStart="912dp"
+        android:layout_marginTop="115dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/11_an_ice_cream_truck_is_my_favorite_truck_1.mp3" />
+
+    <Button
+        android:id="@+id/icecream_truck"
+        android:layout_width="185dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="814dp"
+        android:layout_marginStart="814dp"
+        android:layout_marginTop="151dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Vehicles/truck/sounds/01ice_cream_truck.mp3" />
+
+    <Button
+        android:id="@+id/library_lady"
+        android:layout_width="26dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="985dp"
+        android:layout_marginStart="985dp"
+        android:layout_marginTop="42dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/the_library_ladys_hamster_likes_to_hear_nursery_rhymes.mp3" />
+
+    <Button
+        android:id="@+id/soccer_ball1"
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="476dp"
+        android:layout_marginStart="476dp"
+        android:layout_marginTop="11dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/soccer_ball.mp3" />
+
+    <Button
+        android:id="@+id/football"
+        android:layout_width="26dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="433dp"
+        android:layout_marginStart="433dp"
+        android:layout_marginTop="11dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="Mall/sports/team/sounds/08football_.mp3" />
+
+    <Button
+        android:id="@+id/boy_beanie_cap"
+        android:layout_width="22dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="881dp"
+        android:layout_marginStart="881dp"
+        android:layout_marginTop="34dp"
+        android:background="@null"
+        android:onClick="playSound"
+        android:tag="xtra/he_cant_remember_what_it_was.mp3" />
+
+
+</RelativeLayout>
